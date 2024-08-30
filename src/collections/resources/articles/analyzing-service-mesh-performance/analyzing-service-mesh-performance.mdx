@@ -19,7 +19,7 @@ import SMP from "./smp-light-text_2.webp";
 import cover from "./ieee_bridge_issue3_2021.webp";
 import EWtraffic from "./figure-1.webp"
 import Workload from "./figure-2.webp"
-import Archictures from "./Meshery Architecture - Clients.webp"
+import Archictures from "./Meshplay Architecture - Clients.webp"
 import Code from "./code-snippet.webp"
 import NetworkFunction from "./Comparison of different modes of delivery of service mesh network functions.webp"
 import { ResourcesWrapper } from "../../Resources.style.js";
@@ -93,10 +93,10 @@ Read on as we identify how to surmount each of these challenges.
 <p>
 As the software defined networking layer of microservices, service mesh encompasses multiple aspects of critical functions of the applications, 
 such as circuit breaking, health checks, and packet operations. Analyzing the permutations of these configurations is an impossible task without 
-a suitable test harness. A service mesh management plane can be such a tool. As the multi-mesh manager, <a href="https://meshery.io">Meshery </a> 
+a suitable test harness. A service mesh management plane can be such a tool. As the multi-mesh manager, <a href="https://meshplay.khulnasoft.com">Meshplay </a> 
 is capable of provisioning 10 different service meshes, workloads atop the meshes, generating load using <a href="https://getnighthawk.dev">Nighthawk</a>, 
 and analyzing that load. No other tool capable of performing these tasks 
-end-to-end exists. Meshery is a Cloud Native Computing Foundation project originally created by Layer5.
+end-to-end exists. Meshplay is a Cloud Native Computing Foundation project originally created by KhulnaSoft.
 </p>
 
 <h3>How are you measuring?</h3>
@@ -320,7 +320,7 @@ Here is an example of deployment with Kubernetes as the orchestrator using Calic
 while the host infrastructure has OVS-DPDK for switching, which can be extended for VMs to leverage SR-IOV. 
 To understand impact of infrastructure elements and networking elements of microservice software stack, 
 performance impact of a service mesh and its set of data plane proxies with fortio as load generator could be 
-understood by running the Meshery in two different environments outside the Kubernetes cluster.
+understood by running the Meshplay in two different environments outside the Kubernetes cluster.
 </p>
 
 <ol>
@@ -331,10 +331,10 @@ understood by running the Meshery in two different environments outside the Kube
 <h3>Automating Performance Measurements</h3>
 
 <p>
-Meshery is ideal tooling in that it provides lifecycle management of a large number of service meshes and sample 
+Meshplay is ideal tooling in that it provides lifecycle management of a large number of service meshes and sample 
 applications which need to be provisioned, configured, and deprovisioned in the process of analyzing service mesh performance. 
-Meshery is capable of generating load, baselining, and comparing performance results. The canonical implementation of this 
-specification is implemented in Meshery.
+Meshplay is capable of generating load, baselining, and comparing performance results. The canonical implementation of this 
+specification is implemented in Meshplay.
 </p>
 
 <div className="center" >
@@ -343,7 +343,7 @@ specification is implemented in Meshery.
 </a>
 </div>
 
-<p><i>Figure 4 - Meshery’s load generators can be deployed in the same cluster under test or outside of the cluster under test.</i></p>
+<p><i>Figure 4 - Meshplay’s load generators can be deployed in the same cluster under test or outside of the cluster under test.</i></p>
 
 <h4>Pipelining performance characterization</h4>
 
@@ -351,14 +351,14 @@ specification is implemented in Meshery.
 Acknowledging the living nature of user deployments, integration of automated performance testing into continuous integration 
 systems helps users deploy new versions of their applications or new configurations of their infrastructure 
 (including service mesh configuration) with the assurity  afforded through the act of dry-running the service mesh and application 
-configuration before production deployment. The Meshery and Service Mesh Performance GitHub Action offers the ability to adaptively 
+configuration before production deployment. The Meshplay and Service Mesh Performance GitHub Action offers the ability to adaptively 
 analyze application performance as a gate in your continuous delivery pipeline. In this way, the Service Mesh Performance 
 specification facilitates a measurement index that can be referenced when rolling out new versions of a service with this 
 advanced canary technique.
 </p>
 
 <p>
-Through Meshery, techniques to mirror non-idempotent requests without fear of impacting the current version of your application 
+Through Meshplay, techniques to mirror non-idempotent requests without fear of impacting the current version of your application 
 allowing replay of user requests. And use of intelligent network functions, embedded in WebAssembly (WASM) programs, to 
 facilitate real user request reenactments to help you extract the most value out of your pipeline.
 </p>
@@ -440,7 +440,7 @@ such that similar measurements performed using different systems and tools may d
 </p>
 
 <p>
-As a quick survey of load generators by way of those included in Meshery, we find upon close inspection 
+As a quick survey of load generators by way of those included in Meshplay, we find upon close inspection 
 their differences are noteworthy and justify their use under different circumstances.
 </p>
 
@@ -449,14 +449,14 @@ Written in C, wrk2 supports ignoring coordinated omission. wrk2 lets you test a 
 Users express load generation profiles in terms of RPS. wrk2 shows you what you normally may not see in benchmark 
 results, but what every 1,000th user might see. To see these outliers, you need to run the longer (time) performance 
 tests.  Wrk2 tests the scenario where there's a string of services comprising microservices. wrk2 requires you to 
-specify the desired RPS, while wrk does not. Wrk2 is focused on driving the maximum RPS. Meshery’s fork of wrk2 
-enables testing of multiple endpoints and enables the variable rate of load generation. In the future, Meshery 
+specify the desired RPS, while wrk does not. Wrk2 is focused on driving the maximum RPS. Meshplay’s fork of wrk2 
+enables testing of multiple endpoints and enables the variable rate of load generation. In the future, Meshplay 
 will offer the ability to assign a weight to each endpoint for the load to be generated by wrk2.
 </p>
 
 <p>
 Written in Golang, fortio is extremely fast and usable for testing basic response times on a per request level. 
-Fortio produces results in JSON on a per request basis and easy to integrate into other Golang-based tooling like Meshery.
+Fortio produces results in JSON on a per request basis and easy to integrate into other Golang-based tooling like Meshplay.
 </p>
 
 <p>

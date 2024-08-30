@@ -46,12 +46,12 @@ const CareerPageWrapper = styled.div`
         }
     }
 
-    .layer5-logo {
+    .khulnasoft-logo {
         width: 15rem;
         margin: auto;
 
         svg {
-            .layer5-colorMode_svg__colorMode1 {
+            .khulnasoft-colorMode_svg__colorMode1 {
               fill: ${props => props.theme.whiteToGreen3C494F};
               transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
             }
@@ -59,19 +59,19 @@ const CareerPageWrapper = styled.div`
     }
 
     @media screen and (max-width: 1200px) and (min-width: 768px) {
-        .layer5-logo {
+        .khulnasoft-logo {
             margin-top: 8%;
         }
     }
 
     @media screen and (max-width: 900px) {
-        .layer5-logo {
+        .khulnasoft-logo {
             width: 13.5rem;
         }
     }
 
     @media screen and (max-width: 767px) {
-        .layer5-logo {
+        .khulnasoft-logo {
                 margin: 0 auto 1.5rem;
         }
     }

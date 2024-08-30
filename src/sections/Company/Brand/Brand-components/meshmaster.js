@@ -28,10 +28,10 @@ const MeshMasterBrand = () => {
           <p>
             The MeshMaster mark includes the Meshmaster name & logo, and any
             word, phrase, image, or other designation that identifies the
-            source or origin of any Layer5 projects. Please don’t modify the
+            source or origin of any KhulnaSoft projects. Please don’t modify the
             marks or use them in a confusing way, including suggesting
-            sponsorship or endorsement by Layer5, or in a way that confuses
-            Layer5 with another brand (including your own).
+            sponsorship or endorsement by KhulnaSoft, or in a way that confuses
+            KhulnaSoft with another brand (including your own).
           </p>
         </Col>
       </Row>

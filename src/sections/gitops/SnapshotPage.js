@@ -22,7 +22,7 @@ const SnapshotPage = () => {
             <Description>
                Verify your workload designs and Kubernetes cluster configurations prior to accepting and merging pull requests.
             </Description>
-            <Button primary className="learn-more-btn" title="INSTALL" url="https://meshery.layer5.io/connect/github/new"/>
+            <Button primary className="learn-more-btn" title="INSTALL" url="https://meshplay.khulnasoft.com/connect/github/new"/>
           </TextColumn>
           <ColumnContainer>
             <MeshMapStack className="stack-logo" />
@@ -45,7 +45,7 @@ const SnapshotPage = () => {
       <ContentContainerWrapper>
         <ContentRow>
           <TextColumn >
-            <Heading>Using Meshery's Snapshot GitHub Action</Heading>
+            <Heading>Using Meshplay's Snapshot GitHub Action</Heading>
             <SquarePoint>MeshMap Snapshot GitHub Action is available in the GitHub Marketplace.</SquarePoint>
             <SquarePoint>Connect MeshMap to your GitHub repo and see changes pull request-to-pull request.</SquarePoint>
             <SquarePoint>You can configure this action to trigger with each of your releases, on every pull request.</SquarePoint>

@@ -9,7 +9,7 @@ export const content = [
   { id: 7, link: "/community/handbook/mentorship-programs", text: "Mentorship Programs" },
   { id: 8, link: "/community/handbook/writing-program", text: "Writing Program" },
   { id: 9, link: "/community/handbook/designer", text: "UX Contributors" },
-  { id: 10, link: "/community/handbook/learn-layer5", text: "Learning" },
+  { id: 10, link: "/community/handbook/learn-khulnasoft", text: "Learning" },
   { id: 11, link: "/community/handbook/connect-with-us", text: "Connect with us" },
   { id: 12, link: "/community/handbook/code-of-conduct", text: "Code of Conduct" },
   { id: 13, link: "/community/handbook/security-vulnerabilities", text: "Security Vulnerabilities" },

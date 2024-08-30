@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import meshery_visualizer from "./images/meshery_visualizer.svg";
-import meshery_designer from "./images/meshery_designer.svg";
+import meshplay_visualizer from "./images/meshplay_visualizer.svg";
+import meshplay_designer from "./images/meshplay_designer.svg";
 import CatalogsLight from "../../assets/images/catalog/catalog-light.svg";
 import CatalogsDark from "../../assets/images/catalog/catalog-dark.svg";
 import { Container, Row, Col } from "../../reusecore/Layout";
@@ -152,8 +152,8 @@ const Feature = () => {
         <Row className="catalog">
           <Col md={6} className="diagram-image">
             <div className="image-wrapper">
-              <img src={meshery_designer} className="kubernetes-image" />
-              {/* <StaticImage src={meshery_designer} alt="Meshery Designer" loading="lazy" /> */}
+              <img src={meshplay_designer} className="kubernetes-image" />
+              {/* <StaticImage src={meshplay_designer} alt="Meshplay Designer" loading="lazy" /> */}
             </div>
           </Col>
           <Col md={6} className="catalog-detail">
@@ -176,7 +176,7 @@ const Feature = () => {
           </Col>
           <Col md={6} className="diagram-image">
             <div className="image-wrapper">
-              <img src={meshery_visualizer} className="kubernetes-image" />
+              <img src={meshplay_visualizer} className="kubernetes-image" />
             </div>
           </Col>
         </Row>

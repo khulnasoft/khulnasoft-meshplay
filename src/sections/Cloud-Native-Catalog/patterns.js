@@ -257,7 +257,7 @@ const CatalogWrapper = styled.div`
 const Catalog = () => {
   return (
     <CatalogWrapper>
-      <a href="https://meshery.io/catalog">
+      <a href="https://meshplay.khulnasoft.com/catalog">
         <div className="catalog-wrapper">
           <Container className="catalog-container">
             <div className="container">

@@ -6,7 +6,7 @@ import Button from "../../reusecore/Button";
 
 import SpecsWrapper from "./specs.style";
 
-const HowMesheryWorksSpecs = ({ title, desc, btnUrl }) => {
+const HowMeshplayWorksSpecs = ({ title, desc, btnUrl }) => {
   return (
     <SpecsWrapper>
       <div className="management-plane">
@@ -33,4 +33,4 @@ const HowMesheryWorksSpecs = ({ title, desc, btnUrl }) => {
   );
 };
 
-export default HowMesheryWorksSpecs;
+export default HowMeshplayWorksSpecs;

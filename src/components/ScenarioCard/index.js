@@ -59,12 +59,12 @@ const Card = ({ title, info, link, cover, content, subId, ID, toggleActive }) =>
 
             <div className={content && subId === ID ? "active" : "text-contents"}>
               <div className="sub-content">
-              Sign into the&nbsp;<a className="ak" href="https://playground.meshery.io">Meshery Playground</a>&nbsp;(free account) to continue your lab.
+              Sign into the&nbsp;<a className="ak" href="https://playground.meshplay.khulnasoft.com">Meshplay Playground</a>&nbsp;(free account) to continue your lab.
                 {/*
                 <div id="katacoda-scenario"
                   data-katacoda-id={`${courseLink}/${embed}`}
                   data-katacoda-startscenariobuttontext="Start Scenario"
-                  data-katacoda-ctaurl="https://layer5.io/"
+                  data-katacoda-ctaurl="https://khulnasoft.com/"
                   data-katacoda-color="#3C494F"
                   data-katacoda-secondary="#00b39f"
                   data-katacoda-background="#fff"

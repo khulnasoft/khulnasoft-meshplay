@@ -13,5 +13,5 @@ const CommunityRepository = () => {
 };
 export default CommunityRepository;
 export const Head = () => {
-  return <SEO title="Repository Overview" description="A brief introduction to all of the Github repositories of Layer5 organization." />;
+  return <SEO title="Repository Overview" description="A brief introduction to all of the Github repositories of KhulnaSoft organization." />;
 };

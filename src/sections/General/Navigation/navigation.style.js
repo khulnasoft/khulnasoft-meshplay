@@ -16,7 +16,7 @@ const NavigationWrap = styled.header`
       max-width: 850px;
     }
   }
-  .meshery-cta {
+  .meshplay-cta {
     position: relative;
     display: flex;
     align-items: center;
@@ -465,7 +465,7 @@ const NavigationWrap = styled.header`
 
     svg {
       width: 155px;
-      .layer5-colorMode_svg__colorMode1 {
+      .khulnasoft-colorMode_svg__colorMode1 {
         transition: fill 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
         fill: ${(props) => props.theme.whiteToGreen3C494F};
       }

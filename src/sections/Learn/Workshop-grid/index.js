@@ -118,7 +118,7 @@ const WorkshopsPage = () => {
             </Row>
             <Row className="rqst-workshop">
               <img src={WorkshopImage} alt="WorkshopImage" className="bottom-image" />
-              <Button primary url="mailto:support@layer5.io" external={true}>
+              <Button primary url="mailto:support@khulnasoft.com" external={true}>
                                 Request A Workshop
               </Button>
             </Row>

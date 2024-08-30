@@ -13,11 +13,11 @@ To use this CTA simply use
           <span
             dangerouslySetInnerHTML={{
               __html:
-                'While waiting for your copy to arrive, take a free <a href="https://layer5.io/learn/learning-paths">learning path</a>.',
+                'While waiting for your copy to arrive, take a free <a href="https://khulnasoft.com/learn/learning-paths">learning path</a>.',
             }}
           />
         }
       />
 ```
 
-![image](https://github.com/layer5io/layer5/assets/74408634/27299307-456f-4764-b309-58b91d578870)
+![image](https://github.com/khulnasoft/khulnasoft/assets/74408634/27299307-456f-4764-b309-58b91d578870)

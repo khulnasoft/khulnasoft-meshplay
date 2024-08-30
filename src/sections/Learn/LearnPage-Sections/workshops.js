@@ -243,7 +243,7 @@ const WorkshopsSection = () => {
       <div className="workshop-section-wrapper">
         <Col xs={12} md={3} className="workshops-col">
           <h1>Workshops</h1>
-          <p>Register for the service mesh workshops given by the experts at Layer5 and learn how to <i>mesh</i></p>
+          <p>Register for the service mesh workshops given by the experts at KhulnaSoft and learn how to <i>mesh</i></p>
           <div className="see-more-button">
             <Button primary title="Checkout all workshops" url="/learn/service-mesh-workshops" />
           </div>

@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Request Routing and Canary Testing"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 5
@@ -84,7 +84,7 @@ version: v2
 
 ```
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 1. Click the (+) icon on the `Apply Service Mesh Configuration` card and select `Bookinfo subsets` from the list.
@@ -105,7 +105,7 @@ kubectl get destinationrules -o yaml
 
 As part of the bookinfo sample app, there are multiple versions of reviews service. When we load the `/productpage` in the browser multiple times we have seen the reviews service round robin between v1, v2 or v3. As the first exercise, let us first restrict traffic to just V1 of all the services.
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
@@ -151,7 +151,7 @@ Now when we reload the `/productpage` several times, we will ONLY be viewing the
 Let's replace our first rules with a new set. Enable the `ratings` service for a
 user `jason` by routing `productpage` traffic to `reviews` v2:
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
@@ -200,7 +200,7 @@ Now if we login as your `jason`, you will be able to see data from `reviews` v2.
 
 To start canary testing, let's begin by transferring 50% of the traffic from reviews:v1 to reviews:v3 with the following command:
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
@@ -243,7 +243,7 @@ Now, if we reload the `/productpage` in your browser several times, you should n
 
 When version v3 of the reviews microservice is considered stable, we can route 100% of the traffic to reviews:v3:
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.

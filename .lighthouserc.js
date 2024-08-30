@@ -7,7 +7,7 @@ module.exports = {
           "http://localhost/404/index.html",
           "http://localhost",
           "http://localhost/company/about/index.html",
-          "http://localhost/cloud-native-management/meshery/index.html",
+          "http://localhost/cloud-native-management/meshplay/index.html",
           "http://localhost/cloud-native-management/meshmap/index.html",
           "http://localhost/learn/learning-paths/index.html",
           "http://localhost/learn/service-mesh-books/index.html",

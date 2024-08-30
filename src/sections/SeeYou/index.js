@@ -14,7 +14,7 @@ const SeeYou = () => {
     <SeeYouWrapper>
       <Container className={"see-you"} id={"see-you-canvas"}>
         <div className={"headings"}>
-          <span className={"use-heading"}><h2>See you in <span className={"highlighted-text"}>Meshery</span></h2></span>
+          <span className={"use-heading"}><h2>See you in <span className={"highlighted-text"}>Meshplay</span></h2></span>
         Take the work out of teamwork.
         </div>
         <div >
@@ -37,7 +37,7 @@ const SeeYou = () => {
         </div>
 
         <div>
-          <Button primary className={"playground-button"} title={"Try Playground"} external={true} url={"https://playground.meshery.io"} />
+          <Button primary className={"playground-button"} title={"Try Playground"} external={true} url={"https://playground.meshplay.khulnasoft.com"} />
         </div>
         {/*</div>*/}
       </Container>

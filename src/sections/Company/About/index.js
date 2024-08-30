@@ -4,15 +4,15 @@ import { Container, Row, Col } from "../../../reusecore/Layout";
 import SectionTitle from "../../../reusecore/SectionTitle";
 import Button from "../../../reusecore/Button";
 import AboutSectionWrapper from "./about.style";
-import Statement from "../Layer5-statement";
+import Statement from "../KhulnaSoft-statement";
 
-import collabMap from "./images/layer5-collaboration-map.svg";
+import collabMap from "./images/khulnasoft-collaboration-map.svg";
 import location from "./images/location.svg";
 import WhoWeAre from "../WhoWeAre";
-import FiveIcon from "../../../assets/images/layer5/5 icon/svg/light/5-light-bg.svg";
+import FiveIcon from "../../../assets/images/khulnasoft/5 icon/svg/light/5-light-bg.svg";
 import { Link } from "gatsby";
-import Layer5Projects from "./images/layer5-projects.png";
-import communityStat from "./images/layer5-community-stats.png";
+import KhulnaSoftProjects from "./images/khulnasoft-projects.png";
+import communityStat from "./images/khulnasoft-community-stats.png";
 
 const About = () => {
   const Community_meetup = "./images/Community_meetup.webp";
@@ -25,21 +25,21 @@ const About = () => {
             <Row Vcenter={true} className="row-img-cont-1">
               <Col xs={12} sm={6}>
                 <div className="head-images">
-                  <img src={FiveIcon} alt="About Layer5" />
+                  <img src={FiveIcon} alt="About KhulnaSoft" />
                 </div>
               </Col>
               <Col xs={12} sm={6}>
                 <div className="about-text text-one">
                   <h1>About Us</h1>
                   <p>
-                    At Layer5, we champion <i>developer-defined</i> infrastructure, giving engineers the power to reshape application delivery. We empower operators in reimagining how they manage modern infrastructure: collaboratively.
+                    At KhulnaSoft, we champion <i>developer-defined</i> infrastructure, giving engineers the power to reshape application delivery. We empower operators in reimagining how they manage modern infrastructure: collaboratively.
                   </p>
                   <div className="head-images-mobile">
-                    <img src={FiveIcon} alt="About Layer5" />
+                    <img src={FiveIcon} alt="About KhulnaSoft" />
                   </div>
                   <p className="section-title">We are enablers.</p>
                   <p>
-                    We believe innovation is furthered by collaboration and that collaboration is enabled by infrastructure. Layer5 encourages organizations to view their infrastructure through a fresh lens, constantly asking, "What
+                    We believe innovation is furthered by collaboration and that collaboration is enabled by infrastructure. KhulnaSoft encourages organizations to view their infrastructure through a fresh lens, constantly asking, "What
                     have you done for me lately?" Our suite of multi-cluster, multi-cloud infrastructure management products, with open source projects at their core, form the bedrock of our offerings.
 
                     Our cloud native application and infrastructure management
@@ -52,16 +52,16 @@ const About = () => {
             </Row>
             <img
               loading="lazy"
-              src={Layer5Projects}
-              alt="About Layer5 Projects"
+              src={KhulnaSoftProjects}
+              alt="About KhulnaSoft Projects"
               className="About-projects"
             />
             <Row Vcenter={true} className="row-img-cont-2">
               <Col xs={12} sm={6}>
                 <img
                   loading="lazy"
-                  src={Layer5Projects}
-                  alt="About Layer5 Projects"
+                  src={KhulnaSoftProjects}
+                  alt="About KhulnaSoft Projects"
                   className="About-projects-mobile"
                 />
                 <div className="about-text text-two">
@@ -75,7 +75,7 @@ const About = () => {
                   <div className="head-images-2-mobile">
                     <img
                       src={communityStat}
-                      alt="Layer5 Community Stat"
+                      alt="KhulnaSoft Community Stat"
                       loading="lazy"
                     />
                   </div>
@@ -89,7 +89,7 @@ const About = () => {
                 <div className="head-images-2">
                   <img
                     src={communityStat}
-                    alt="Layer5 Community Stat"
+                    alt="KhulnaSoft Community Stat"
                     loading="lazy"
                   />
                 </div>
@@ -111,7 +111,7 @@ const About = () => {
                     loading="lazy"
                   />
                   <figcaption className="caption">
-                    Layer5 community members at Open Source Africa Community
+                    KhulnaSoft community members at Open Source Africa Community
                     conference, March 2022.
                   </figcaption>
                 </div>
@@ -120,7 +120,7 @@ const About = () => {
                 <div className="about-text text-one">
                   <h1>Community First</h1>
                   <p className="indent">
-                    Layer5 is powered by a growing community of collaborators
+                    KhulnaSoft is powered by a growing community of collaborators
                     representing industry leading, cloud native, open source
                     software.
                   </p>
@@ -132,7 +132,7 @@ const About = () => {
                     diverse talent.
                   </p>
                   <Link className="mute" to="/careers">
-                    Learn how Layer5 works
+                    Learn how KhulnaSoft works
                   </Link>
                 </div>
               </Col>
@@ -160,7 +160,7 @@ const About = () => {
                 height="100%"
                 width="100%"
                 src={collabMap}
-                alt="Layer5 Collaborators from around the globe"
+                alt="KhulnaSoft Collaborators from around the globe"
                 loading="lazy"
               />
             </SectionTitle>
@@ -180,14 +180,14 @@ const About = () => {
                       <img
                         src={location}
                         className="location"
-                        alt="Layer5 locations"
+                        alt="KhulnaSoft locations"
                         loading="lazy"
                       />
                     </a>
                     <div className="loc">
                       <p className="country">USA</p>
                       <p className="address">
-                        Layer5, Inc., Corporate Headquarters
+                        KhulnaSoft, Inc., Corporate Headquarters
                         <br />
                         701 Brazos Street, Suite 1600
                         <br />
@@ -202,14 +202,14 @@ const About = () => {
                       <img
                         src={location}
                         className="location"
-                        alt="Layer5 locations"
+                        alt="KhulnaSoft locations"
                         loading="lazy"
                       />
                     </a>
                     <div className="loc">
                       <p className="country">Scotland</p>
                       <p className="address">
-                        Layer5, Inc., Engineering
+                        KhulnaSoft, Inc., Engineering
                         <br />
                         3 Queen Street
                         <br />

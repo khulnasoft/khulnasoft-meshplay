@@ -18,7 +18,7 @@ const Conduct = () => {
               <h2>Purpose</h2>
             </div>
             <div>
-              This website privacy statement ("Privacy Statement") provides information regarding how Layer5, Inc. ("Layer5" or "we") collects, uses and transfers personally identifiable information ("Personal Data") from you through Layer5's publicly accessible website (layer5.io) (the "Website" or "Site").
+              This website privacy statement ("Privacy Statement") provides information regarding how KhulnaSoft, Inc. ("KhulnaSoft" or "we") collects, uses and transfers personally identifiable information ("Personal Data") from you through KhulnaSoft's publicly accessible website (khulnasoft.com) (the "Website" or "Site").
             </div>
             <br />
             <div>
@@ -26,7 +26,7 @@ const Conduct = () => {
             </div>
             <br />
             <div>
-              If Layer5 decides to make changes to this Privacy Statement, Layer5 will post the changes on this website so that you will know what Personal Data we collect, and how we use it. We therefore encourage you to periodically look for updates to this Privacy Statement.
+              If KhulnaSoft decides to make changes to this Privacy Statement, KhulnaSoft will post the changes on this website so that you will know what Personal Data we collect, and how we use it. We therefore encourage you to periodically look for updates to this Privacy Statement.
             </div>
           </Col>
         </Row>
@@ -48,7 +48,7 @@ const Conduct = () => {
               We may use cookies and automatically collected information to: (i) personalize our Sites, such as remembering your information so that you will not have to re-enter it during your use of, or the next time you use, our Website; (ii) provide customized advertisements, content, and information; (iii) monitor and analyze the effectiveness of our Website and third-party marketing activities; (iv) monitor aggregate site usage metrics such as total number of visitors and pages viewed; and (v) track your entries, submissions, and status in any promotions or other activities offered through our Website.
             </p>
             <p>
-              Our Site is a general audience website and not directed to children under the age of 13. Layer5 does not knowingly collect Personal Data or other personal information from children under the age of 13 without obtaining parental consent.
+              Our Site is a general audience website and not directed to children under the age of 13. KhulnaSoft does not knowingly collect Personal Data or other personal information from children under the age of 13 without obtaining parental consent.
             </p>
           </Col>
         </Row>
@@ -76,7 +76,7 @@ const Conduct = () => {
               <h2>Reporting and Enforcement</h2>
             </div>
             <p>
-              Unless you have opted out from receiving commercial communications from Layer5, we also may share contact information (that we collect through various marketing efforts) with trusted business partners, such as system integrators, distributors and referral partners. We may share personal information for legal, protection, and safety purposes; to comply with laws; to respond to lawful requests and legal processes; to protect our rights and property including but not limited to enforcing our agreements, policies, and terms of service. We may also share information in an emergency.
+              Unless you have opted out from receiving commercial communications from KhulnaSoft, we also may share contact information (that we collect through various marketing efforts) with trusted business partners, such as system integrators, distributors and referral partners. We may share personal information for legal, protection, and safety purposes; to comply with laws; to respond to lawful requests and legal processes; to protect our rights and property including but not limited to enforcing our agreements, policies, and terms of service. We may also share information in an emergency.
             </p>
             <p>We may share or transfer your information in connection with a prospective or actual sale, merger, transfer or other reorganization of all or parts of our business. Also, we reserve the right to fully use and disclose any information that is not in personally identifiable form (such as statistics and survey results that do not identify you individually by name). We may also share aggregated and/or anonymized data with others for their own uses. We may also share any information that you voluntarily choose to include in a publicly accessible area of the Sites will be available to anyone who has access to that content, including other users.
 
@@ -89,7 +89,7 @@ const Conduct = () => {
               <h2>Information choices and changes</h2>
             </div>
             <p>
-              In connection with promotions or other projects, we may ask you specifically whether you have objections against a certain kind of data use or sharing. If you opt-out under such circumstances, we will respect your decision. To opt out of receiving commercial communications from Layer5 or please click on the "opt-out" link in the communication or, please contact us at privacy@layer5.io Please note that our affiliates and other data recipients have their own data privacy policies, which may differ from ours and you would have to contact them separately with respect to opt-out requests.
+              In connection with promotions or other projects, we may ask you specifically whether you have objections against a certain kind of data use or sharing. If you opt-out under such circumstances, we will respect your decision. To opt out of receiving commercial communications from KhulnaSoft or please click on the "opt-out" link in the communication or, please contact us at privacy@khulnasoft.com Please note that our affiliates and other data recipients have their own data privacy policies, which may differ from ours and you would have to contact them separately with respect to opt-out requests.
 
 
             </p>
@@ -101,7 +101,7 @@ const Conduct = () => {
             <p>You may send requests about personal information to our Contact Information below. You can request to change contact choices, opt-out of our sharing with others, and update your personal information.
             </p>
             <p>
-              If personal information you have submitted through the site is no longer accurate, current, or complete, and you wish to update it, please send an e-mail to privacy@layer5.io. Upon appropriate request we will usually update or amend your information, but we reserve the right to use information obtained previously to verify your identity or take other actions that we believe are appropriate.
+              If personal information you have submitted through the site is no longer accurate, current, or complete, and you wish to update it, please send an e-mail to privacy@khulnasoft.com. Upon appropriate request we will usually update or amend your information, but we reserve the right to use information obtained previously to verify your identity or take other actions that we believe are appropriate.
             </p>
           </Col>
         </Row>
@@ -113,10 +113,10 @@ const Conduct = () => {
             <p>We welcome your comments or questions about this privacy policy. You may also contact us as follows:
             </p>
             <p className="address">
-              Layer5, Inc<br />
+              KhulnaSoft, Inc<br />
               1000 Congress Avenue<br />
               Austin, Texas 78735<br />
-              Email Address: legal@layer5.io<br />
+              Email Address: legal@khulnasoft.com<br />
               Telephone number: 512-810-8200
             </p>
             <p>

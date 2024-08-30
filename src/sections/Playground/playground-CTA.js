@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import Button from "../../reusecore/Button";
 import { Container } from "../../reusecore/Layout";
-import MesheryTitle from "./images/meshery-title.svg";
+import MeshplayTitle from "./images/meshplay-title.svg";
 import playgroundbgCTA from "./images/playground-bg-CTA.png";
 import smalldots from "./images/small-dots.png";
-import MesheryIcon from "../../assets/images/meshery/icon-only/meshery-logo.webp";
+import MeshplayIcon from "../../assets/images/meshplay/icon-only/meshplay-logo.webp";
 
 const DockerExtensionCTAWrapper = styled.div`
 p {
@@ -70,13 +70,13 @@ p {
       border-radius: 5%; 
     }
   
-    .meshery-title {
+    .meshplay-title {
       height: 5rem;
       margin-right: 4rem;
       padding: 2rem 0 0 4rem;
       
     }
-    .meshery-icon {
+    .meshplay-icon {
       position: relative;
       &::before {
         content: "";  
@@ -85,7 +85,7 @@ p {
         bottom: -4rem;
         width: 8rem; 
         height: 8rem;
-        background-image: url(${MesheryIcon});
+        background-image: url(${MeshplayIcon});
         background-repeat: no-repeat;
         background-size: contain;
       }
@@ -97,12 +97,12 @@ p {
       margin: 1rem 0;
     }
     @media screen and (max-width:1200px) {
-      .meshery-icon {
+      .meshplay-icon {
         &::before {
         right: -3rem;
       }
       }
-      .meshery-title{
+      .meshplay-title{
         padding-right: 2rem;
       }
     }
@@ -121,7 +121,7 @@ p {
       .playground{
         font-size: 3rem;
       }
-      .meshery-title {
+      .meshplay-title {
         height: 4rem;
         margin-right: 2rem;
         padding: 2rem 1rem 0 4rem;
@@ -138,7 +138,7 @@ const DockerExtensionCTA = () => {
         <div className="playground-callout">
           <div className="dots-icon"/>
           <div className="card-left">
-            <img className="meshery-title" src={MesheryTitle} alt="Meshery Title" loading="lazy" />
+            <img className="meshplay-title" src={MeshplayTitle} alt="Meshplay Title" loading="lazy" />
             <div className="playground">Playground</div>
           </div>
           <div className="line"></div>
@@ -147,11 +147,11 @@ const DockerExtensionCTA = () => {
               <h4>Connect to live clusters<br />Discover, validate, and visualize<br />Kubernetes infrastructure with ease.</h4>
             </div>
             <p></p>
-            <Button primary url="https://play.meshery.io/" external={true}>
+            <Button primary url="https://play.meshplay.khulnasoft.com/" external={true}>
               Try Playground now!
             </Button>
           </div>
-          <div className="meshery-icon"/>
+          <div className="meshplay-icon"/>
         </div>
       </Container>
     </DockerExtensionCTAWrapper>

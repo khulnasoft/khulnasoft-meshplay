@@ -97,5 +97,5 @@ const Blog = (props) => {
 };
 export default Blog;
 export const Head = () => {
-  return <SEO title="Blog" description="The latest news and announcements about Layer5, our products, and our ecosystem, as well as voices from across our community." />;
+  return <SEO title="Blog" description="The latest news and announcements about KhulnaSoft, our products, and our ecosystem, as well as voices from across our community." />;
 };

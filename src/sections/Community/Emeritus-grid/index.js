@@ -36,9 +36,9 @@ const Emeritus = () => {
   return (
     <EmeritusWrapper>
       <div className="emeritus-text">
-        <h2>Layer5 MeshMate Emeritus</h2>
+        <h2>KhulnaSoft MeshMate Emeritus</h2>
         <p>
-           Once a MeshMate, always a MeshMate. We thank and salute our previous MeshMates. Each has served the Layer5 community selflessly.
+           Once a MeshMate, always a MeshMate. We thank and salute our previous MeshMates. Each has served the KhulnaSoft community selflessly.
         </p>
       </div>
       <Row>

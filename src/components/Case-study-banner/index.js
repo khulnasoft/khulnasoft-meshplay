@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import MesheryLogo from "../../assets/images/meshery/icon-only/meshery-logo-light.svg";
+import MeshplayLogo from "../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
 import SpireLogo from "../../collections/integrations/spire/icons/color/spire-color.svg";
-import MesheryAndSpire from "../../collections/resources/case-study/hpes-adoption-of-meshery-and-meshmap/meshery-and-hpe.svg";
+import MeshplayAndSpire from "../../collections/resources/case-study/hpes-adoption-of-meshplay-and-meshmap/meshplay-and-hpe.svg";
 
 
 const BannerWrapper = styled.div`
@@ -186,7 +186,7 @@ const BannerWrapper = styled.div`
     width: 80%;
   }
 
-  .meshery-and-spire {
+  .meshplay-and-spire {
     margin-top: 5%;
   width: 80%;
   border: 1px solid #fff;
@@ -208,22 +208,22 @@ const CaseStudyBanner = () => {
 
   return (
     <>
-      <a href="/resources/case-study/hpes-adoption-of-meshery-and-meshmap">
+      <a href="/resources/case-study/hpes-adoption-of-meshplay-and-meshmap">
         <BannerWrapper>
           <div className="small-screen">
             <div className="small-screen-desc">
-              <h2>Discover how HPE uses Meshery to manage SPIRE</h2>
+              <h2>Discover how HPE uses Meshplay to manage SPIRE</h2>
             </div>
-            <div className="meshery-and-spire">
-              <img src={MesheryAndSpire} alt="meshery-and-spire" />
+            <div className="meshplay-and-spire">
+              <img src={MeshplayAndSpire} alt="meshplay-and-spire" />
             </div>
           </div>
           <div className="large-screen">
             <div className={`left-img ${hover ? "scale-on-hover" : ""}`} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-              <img src={MesheryLogo} alt="meshery-logo" />
+              <img src={MeshplayLogo} alt="meshplay-logo" />
             </div>
             <div className={`desc ${hover ? "desc-hover" : ""}`} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-              <h2>Discover how HPE uses Meshery to manage SPIRE</h2>
+              <h2>Discover how HPE uses Meshplay to manage SPIRE</h2>
               <div className="ribbon">
                 <span>Case Study</span>
               </div>

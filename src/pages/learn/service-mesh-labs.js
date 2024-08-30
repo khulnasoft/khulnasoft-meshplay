@@ -19,5 +19,5 @@ const ServiceMeshLabsPage = (props) => {
 };
 export default ServiceMeshLabsPage;
 export const Head = () => {
-  return <SEO title="Interactive DevOps, GitOps, and Cloud Native Labs" description="Learn to manage Kubernetes, Prometheus, Meshery and all CNCF projects with experts from Layer5. Try an interactive cloud native lab." />;
+  return <SEO title="Interactive DevOps, GitOps, and Cloud Native Labs" description="Learn to manage Kubernetes, Prometheus, Meshplay and all CNCF projects with experts from KhulnaSoft. Try an interactive cloud native lab." />;
 };

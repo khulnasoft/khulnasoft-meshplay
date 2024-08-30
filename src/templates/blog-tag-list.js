@@ -84,7 +84,7 @@ export default BlogListPage;
 export const Head = () => {
   return  <SEO
     title="Blog"
-    description="The latest news and announcements about Layer5, our products, and our ecosystem, as well as voices from across our community."
-    canonical="https://layer5.io/blog"
+    description="The latest news and announcements about KhulnaSoft, our products, and our ecosystem, as well as voices from across our community."
+    canonical="https://khulnasoft.com/blog"
   />;
 };

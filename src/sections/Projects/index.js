@@ -8,8 +8,8 @@ import VintageBox from "../../reusecore/VintageBox";
 
 import projectImage1 from "../../assets/images/app/projects/landscape.webp";
 import projectImage2 from "../../assets/images/app/projects/smp.webp";
-import projectImage3 from "../../assets/images/app/projects/meshery-logo-light.webp";
-import projectImage4 from "../../assets/images/app/projects/meshery-logo-light.webp";
+import projectImage3 from "../../assets/images/app/projects/meshplay-logo-light.webp";
+import projectImage4 from "../../assets/images/app/projects/meshplay-logo-light.webp";
 import Icon from "../../assets/images/app/projects/arrow.svg";
 
 import ProjectItemWrapper from "./projectSection.style";
@@ -41,11 +41,11 @@ const Projects = () => {
               </div>
               <div className="project__block right">
                 <div className="project__block__inner">
-                  <img src={projectImage3} alt="Layer5 open source projects" />
-                  <h3>Meshery</h3>
+                  <img src={projectImage3} alt="KhulnaSoft open source projects" />
+                  <h3>Meshplay</h3>
                   <p>Cloud Native Management</p>
                   <Link to="#">
-                    <img src={Icon} alt="Meshery, the cloud native management plane" />
+                    <img src={Icon} alt="Meshplay, the cloud native management plane" />
                   </Link>
                 </div>
                 <div className="project__block__inner">
@@ -53,7 +53,7 @@ const Projects = () => {
                   <h3>Image Hub</h3>
                   <p>WebAssembly Filters</p>
                   <Link to="/projects/image-hub">
-                    <img src={Icon} alt="Layer5 Image Hub" />
+                    <img src={Icon} alt="KhulnaSoft Image Hub" />
                   </Link>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Projects = () => {
               </h2>
             </SectionTitle>
             <p className="project-text">
-              Layer5 projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services.
+              KhulnaSoft projects establish industry standards and enable service developers, owners, and operators with repeatable patterns and best practices for managing all aspects of distributed services.
             </p>
             <VintageBox
               right={true}

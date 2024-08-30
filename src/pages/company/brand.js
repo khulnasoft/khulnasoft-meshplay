@@ -16,5 +16,5 @@ const BrandPage = () => {
 };
 export default BrandPage;
 export const Head = () => {
-  return <SEO title="Brand Kits" description="Layer5 brand kits with logos, color schemes, and approved usage of Meshery, Image Hub, and other Layer5 projects" />;
+  return <SEO title="Brand Kits" description="KhulnaSoft brand kits with logos, color schemes, and approved usage of Meshplay, Image Hub, and other KhulnaSoft projects" />;
 };

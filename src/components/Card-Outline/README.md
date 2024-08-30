@@ -9,8 +9,8 @@ The **CardOutline** component is used to display a Card with title, description,
         img={Jobs_Icon}
         alt="Job"
         title="Careers"
-        content="I'm interested in career opportunities at Layer5"
+        content="I'm interested in career opportunities at KhulnaSoft"
       />
 ```
 
-![image](https://github.com/meshery/meshery/assets/74408634/1ee5c3bf-91ea-49ba-8733-1ca023473682)
+![image](https://github.com/meshplay/meshplay/assets/74408634/1ee5c3bf-91ea-49ba-8733-1ca023473682)

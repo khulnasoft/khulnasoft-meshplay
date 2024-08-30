@@ -58,7 +58,7 @@ const ProgramsGrid = ({ hide_path, sub_section }) => {
 
   return (
     <ProgramsPageWrapper>
-      <PageHeader title="Open Source Internship Programs" subtitle="Build Your Career at Layer5" path={path} />
+      <PageHeader title="Open Source Internship Programs" subtitle="Build Your Career at KhulnaSoft" path={path} />
       <div className={sub_section ? "sub-header_wrapper" : "programs-page-wrapper"}>
         <Container>
           <div className="program-grid-wrapper">
@@ -67,7 +67,7 @@ const ProgramsGrid = ({ hide_path, sub_section }) => {
                 <Col key={id} className="programs-col">
                   <Link
                     to={
-                      frontmatter.program === "Layer5"
+                      frontmatter.program === "KhulnaSoft"
                         ? fields.slug
                         : `/programs/${frontmatter.programSlug}`
                     }
@@ -88,7 +88,7 @@ const ProgramsGrid = ({ hide_path, sub_section }) => {
             </Row>
           </div>
           <p>
-          Layer5 is driven by its people, who are the stewards of our culture and principles. Join us on the journey to enabling the world's most innovative companies make the transition to cloud native and multi-cloud through engineering-empowered automation.
+          KhulnaSoft is driven by its people, who are the stewards of our culture and principles. Join us on the journey to enabling the world's most innovative companies make the transition to cloud native and multi-cloud through engineering-empowered automation.
           </p>
 
         </Container>

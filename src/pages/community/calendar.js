@@ -58,7 +58,7 @@ const CalendarPage = () => {
 export default CalendarPage;
 export const Head = () => {
   return <SEO
-    title="Layer5 Events Calendar"
-    description="Join any or all of the Layer5 community meetings."
+    title="KhulnaSoft Events Calendar"
+    description="Join any or all of the KhulnaSoft community meetings."
   />;
 };

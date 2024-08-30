@@ -13,7 +13,7 @@ import {
   SistentThemeProvider,
   TextField,
   Typography,
-} from "@layer5/sistent";
+} from "@khulnasoft/sistent";
 import TabButton from "../../../../../reusecore/Button";
 import { useLocation } from "@reach/router";
 import { navigate } from "gatsby";

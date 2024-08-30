@@ -2,14 +2,14 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Layer5 - Expect more from your infrastructure",
+    title: "KhulnaSoft - Expect more from your infrastructure",
     description:
       "Expect more from your infrastructure. Cloud native, open source software for your cloud native infrastructure and applications. Allowing developers to focus on business logic, not infrastructure concerns. Empowering operators to confidently run modern infrastructure.",
-    author: "Layer5 Authors",
-    permalink: "https://layer5.io",
-    siteUrl: "https://layer5.io",
-    image: "/images/layer5-gradient.webp",
-    twitterUsername: "@layer5",
+    author: "KhulnaSoft Authors",
+    permalink: "https://khulnasoft.com",
+    siteUrl: "https://khulnasoft.com",
+    image: "/images/khulnasoft-gradient.webp",
+    twitterUsername: "@khulnasoft",
   },
   flags: {
     FAST_DEV: true,
@@ -143,7 +143,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Layer5 Technical Posts",
+            title: "KhulnaSoft Technical Posts",
           },
           {
             serialize: ({ query: { site, allPosts } }) => {
@@ -191,7 +191,7 @@ module.exports = {
               }
             `,
             output: "/news/feed.xml",
-            title: "Layer5 News",
+            title: "KhulnaSoft News",
           },
           {
             serialize: ({ query: { site, allPosts } }) => {
@@ -242,7 +242,7 @@ module.exports = {
               }
             `,
             output: "/resources/feed.xml",
-            title: "Layer5 Resources",
+            title: "KhulnaSoft Resources",
           },
           {
             serialize: ({ query: { site, allPosts } }) => {
@@ -291,7 +291,7 @@ module.exports = {
               }
             `,
             output: "/rss-contributors.xml",
-            title: "Layer5 Contributor Feed",
+            title: "KhulnaSoft Contributor Feed",
           },
           {
             serialize: ({ query: { site, allPosts } }) => {
@@ -338,7 +338,7 @@ module.exports = {
               }
             `,
             output: "/blog/feed.xml",
-            title: "Layer5 Blog"
+            title: "KhulnaSoft Blog"
           },
           {
             serialize: ({ query: { site, allPosts } }) => {
@@ -385,7 +385,7 @@ module.exports = {
               }
             `,
             output: "/events/feed.xml",
-            title: "Layer5 Events"
+            title: "KhulnaSoft Events"
           },
         ],
       },
@@ -517,7 +517,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "integration-images",
-        path: `${__dirname}/src/sections/Meshery/Meshery-platforms/supported-icons`,
+        path: `${__dirname}/src/sections/Meshplay/Meshplay-platforms/supported-icons`,
       },
     },
     "gatsby-plugin-image",
@@ -556,8 +556,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://layer5.io",
-        sitemap: "https://layer5.io/sitemap/sitemap-index.xml",
+        host: "https://khulnasoft.com",
+        sitemap: "https://khulnasoft.com/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       }
     },

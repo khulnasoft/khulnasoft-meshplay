@@ -47,7 +47,7 @@ const LearnServiceMeshCTA = () => {
       <Container>
         <Row className="section-wrapper" Vcenter>
           <Col className="content" sm={12} md={6} lg={6}>
-            <h2>Learn Meshery with interactive labs</h2>
+            <h2>Learn Meshplay with interactive labs</h2>
             <Button secondary title="Let's Learn" url="/learn/service-mesh-labs" />
           </Col>
           <Col className="image" sm={12} md={6} lg={6}>

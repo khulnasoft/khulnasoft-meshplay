@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "../../reusecore/Button";
 import { ReactComponent as CloseIcon } from "./closeIcon.svg";
-import popupImageSmall from "./power-of-meshery-small.png";
+import popupImageSmall from "./power-of-meshplay-small.png";
 import CornerPopupWrapper from "./popup.style";
 
 const CornerPopup = () => {
@@ -25,10 +25,10 @@ const CornerPopup = () => {
             <div className="close-btn" onClick={() => setShowPopup(false)}>
               <CloseIcon />
             </div>
-            <a href="https://play.meshery.io/">
+            <a href="https://play.meshplay.khulnasoft.com/">
               <img className="popup-image" src={popupImageSmall} />
             </a>
-            <Button primary className="explore-playground-button" title="Access Playground" url="https://play.meshery.io/" />
+            <Button primary className="explore-playground-button" title="Access Playground" url="https://play.meshplay.khulnasoft.com/" />
           </div>
         </div>
       </div>

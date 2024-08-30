@@ -83,7 +83,7 @@ export const non_functional = [{
   primary_lang: "Go",
   announce_date: "May 2017",
   ga_1_date: "July 2018",
-  commercial: "AspenMesh, Layer5",
+  commercial: "AspenMesh, KhulnaSoft",
   category: "Service Mesh",
   timeline_order: 5,
   icon: Istio

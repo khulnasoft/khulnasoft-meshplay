@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 
 import SEO from "../components/seo";
 
-import IndividualIntegrations from "../sections/Meshery/Meshery-integrations/Individual-Integrations";
+import IndividualIntegrations from "../sections/Meshplay/Meshplay-integrations/Individual-Integrations";
 
 
 export const query = graphql`

@@ -17,7 +17,7 @@ const Table = ({ columns, data }) => {
   return (
     <TableWrapper>
       <h1 className="meetings-table-title">
-        <a href="#meetings">Layer5 Meetings</a>
+        <a href="#meetings">KhulnaSoft Meetings</a>
       </h1>
       <h3 className="meetings-table-subtitle">
         Everyone is welcome to join. Engage!

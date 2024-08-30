@@ -10,8 +10,8 @@ const frontmatter = {
     date: "2024-01-14",
     author: "John Doe",
     type: "Blog Post",
-    thumbnail: "./meshery-contrib-stats.webp",
-    darkthumbnail: "./meshery-contrib-stats.webp",
+    thumbnail: "./meshplay-contrib-stats.webp",
+    darkthumbnail: "./meshplay-contrib-stats.webp",
     eurl: "https://external-link.com"
   };
 

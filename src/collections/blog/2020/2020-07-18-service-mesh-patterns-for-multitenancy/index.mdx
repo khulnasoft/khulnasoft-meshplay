@@ -20,7 +20,7 @@ redirect_from:
 ---
 
 import { BlogWrapper } from "../../Blog.style.js";
-import listioLayer5 from "./layer5-and-istio.webp";
+import listioKhulnaSoft from "./khulnasoft-and-istio.webp";
 import img1 from "./image1.webp";
 import img2 from "./image2.webp";
 import img3 from "./image3.webp";
@@ -28,10 +28,10 @@ import img4 from "./image4.webp";
 
 <BlogWrapper>
 
-<img src={listioLayer5} className="image-left" alt="Layer5 and Istio" />
+<img src={listioKhulnaSoft} className="image-left" alt="KhulnaSoft and Istio" />
 
 Recently, I started learning on Service Mesh and it was a very interesting journey as I explored the Service Mesh
-landscape starting with [Layer5 tutorials](https://github.com/layer5io/istio-service-mesh-workshop) and by exploring
+landscape starting with [KhulnaSoft tutorials](https://github.com/khulnasoft/istio-service-mesh-workshop) and by exploring
 the blogs at [Istio.io](https://istio.io/).
 
 Our organization decided to use the features of Istio for securing, managing and automating microservices. However, we have to support a multi-tenant environment and that became a challenge due to lack of sufficient documentation and clarity. To give a little bit of background on the problem, we have a single cluster with multiple tenants in different namespaces sharing the same cluster . We do not want to provide each tenant their own separate Kubernetes Cluster because that would be additional provisioning overhead, management overhead and also additional resource overhead on the platform.

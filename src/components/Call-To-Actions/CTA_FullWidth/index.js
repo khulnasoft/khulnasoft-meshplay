@@ -93,9 +93,9 @@ const CTA_FullWidthWrapper = styled.div`
     }
 `;
 
-const defaultHeading = "Layer5 Community";
-const defaultContent = "Join the Layer5 community and explore the world of cloud native!";
-const defaultURL = "https://slack.layer5.io";
+const defaultHeading = "KhulnaSoft Community";
+const defaultContent = "Join the KhulnaSoft community and explore the world of cloud native!";
+const defaultURL = "https://slack.khulnasoft.com";
 
 const CTA_FullWidth = ({ alt, button_text, category, content, external_link, image, url, heading, ...props }) => {
   return (

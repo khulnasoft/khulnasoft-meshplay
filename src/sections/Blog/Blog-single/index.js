@@ -103,7 +103,7 @@ const BlogSingle = ({ data }) => {
 
   const authorInformation = authors.nodes.filter((author) => author.frontmatter.name === frontmatter.author)[0];
 
-  const shareQuote = `Check out this post from layer5 "${frontmatter.title}"`;
+  const shareQuote = `Check out this post from khulnasoft "${frontmatter.title}"`;
 
   return (
     <BlogPageWrapper>

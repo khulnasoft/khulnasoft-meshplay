@@ -154,7 +154,7 @@ const SistentTypography = () => {
             typeface for font pairing.
           </p>
           <p>
-            Layer5 has successfully been able to implement a font pairing of
+            KhulnaSoft has successfully been able to implement a font pairing of
             Qanelas Soft for all heading and subheading text and Open Sans for
             all body, paragraph, and content text needs.
           </p>

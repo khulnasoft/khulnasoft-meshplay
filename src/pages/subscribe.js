@@ -13,5 +13,5 @@ const SubscribeSection = () => {
 };
 export default SubscribeSection;
 export const Head = () => {
-  return <SEO title="Subscribe" description="Subscribe to Layer5 Mailing List" />;
+  return <SEO title="Subscribe" description="Subscribe to KhulnaSoft Mailing List" />;
 };

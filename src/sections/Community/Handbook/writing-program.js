@@ -26,19 +26,19 @@ const Writers = () => {
   return (
     <HandbookWrapper>
       <div className="page-header-section">
-        <h1>Write with Layer5!</h1>
+        <h1>Write with KhulnaSoft!</h1>
       </div>
       <TOC />
       <div className="page-section">
         <Container>
           <div className="content writing_program">
-            <h2 className="heading-top">What is Layer5 Writing Program?</h2>
+            <h2 className="heading-top">What is KhulnaSoft Writing Program?</h2>
             <p>
-              The Layer5 Writing Program is a way to demonstrate your expertise,
+              The KhulnaSoft Writing Program is a way to demonstrate your expertise,
               give back to the community, and help us produce great content. We
               collaborate with authors and technologists from around the world
               to produce high quality articles, blog posts, tutorials and other
-              cloud native resources on Meshery, Kubernetes, service meshes,
+              cloud native resources on Meshplay, Kubernetes, service meshes,
               Docker and related technologies.
             </p>
             <h2>Why should you participate?</h2>
@@ -209,7 +209,7 @@ const Writers = () => {
               Do you want to document your recent effort in implementing a new
               feature? Do you want to share a solution for a problem you were
               struggling with? Do you want to share information about a recent
-              technology you find intriguing? Want to host an event with Layer5?
+              technology you find intriguing? Want to host an event with KhulnaSoft?
               Want to deliver a talk, a workshop, or a tutorial? Just let us
               know.
             </p>
@@ -271,7 +271,7 @@ const Writers = () => {
                 <Col sm={12} md={6} lg={4}>
                   <Link
                     className="project-card"
-                    to="/cloud-native-management/meshery"
+                    to="/cloud-native-management/meshplay"
                   >
                     <div className="content_type">
                       <img src={videos} alt="Videos" />
@@ -288,7 +288,7 @@ const Writers = () => {
             <div className="process">
               <div className="item">
                 <p>
-                  If you’re interested in the Layer5 Writing Program, please
+                  If you’re interested in the KhulnaSoft Writing Program, please
                   submit your information (and proposed topic, if you have one)
                   to get started.{" "}
                   <i>
@@ -301,7 +301,7 @@ const Writers = () => {
                   primary
                   className="open-modal-btn"
                   onClick={openModal}
-                  title="Layer5 Content Form"
+                  title="KhulnaSoft Content Form"
                 />
                 <Modal
                   isOpen={modalIsOpen}
@@ -320,7 +320,7 @@ const Writers = () => {
                     <GrFormClose />
                   </Button>
                   <h2 className="modal-heading">
-                    Layer5 Content Registration Form
+                    KhulnaSoft Content Registration Form
                   </h2>
                   <div className="content-form">
                     <ContentForm />
@@ -342,8 +342,8 @@ const Writers = () => {
               Here are some suggested topics to get you started. If you have an
               idea that isn't listed here or if you have any question, please
               let us know on our{" "}
-              <a href="https://discuss.layer5.io/">Discuss Forum</a> /{" "}
-              <a href="https://layer5io.slack.com/">Slack Channel</a>.
+              <a href="https://discuss.khulnasoft.com/">Discuss Forum</a> /{" "}
+              <a href="https://khulnasoft.slack.com/">Slack Channel</a>.
             </p>
             <ul>
               <li>
@@ -353,11 +353,11 @@ const Writers = () => {
                 <ul>
                   <li>
                     <p>
-                      Distributed Tracing in Context of Meshery's Architecture.
+                      Distributed Tracing in Context of Meshplay's Architecture.
                     </p>
                   </li>
                   <li>
-                    <p>One-stop Cloud Native Market Place - Meshery Catalog.</p>
+                    <p>One-stop Cloud Native Market Place - Meshplay Catalog.</p>
                   </li>
                   <li>
                     <p>Interpreting your Cloud Native Performance - SMP.</p>
@@ -379,7 +379,7 @@ const Writers = () => {
                   </li>
                   <li>
                     <p>
-                      Enhancing Microservices Observability with Meshery and
+                      Enhancing Microservices Observability with Meshplay and
                       Prometheus.
                     </p>
                   </li>
@@ -398,7 +398,7 @@ const Writers = () => {
                   </li>
                   <li>
                     <p>
-                      A Deep Dive into Meshery's Contribution to Cloud Native
+                      A Deep Dive into Meshplay's Contribution to Cloud Native
                       Ecosystem.
                     </p>
                   </li>
@@ -426,7 +426,7 @@ const Writers = () => {
                   <li>
                     <p>
                       Collaborative Open Source Development: Inside the
-                      Community of Layer5.
+                      Community of KhulnaSoft.
                     </p>
                   </li>
                 </ul>
@@ -469,9 +469,9 @@ const Writers = () => {
                 </p>
                 <p>
                   For those comfortable with local website development,
-                  contribute directly to the community website. <a href="https://github.com/layer5io/layer5/blob/master/CONTRIBUTING.md">Set up your
+                  contribute directly to the community website. <a href="https://github.com/khulnasoft/khulnasoft/blob/master/CONTRIBUTING.md">Set up your
                   local environment</a>, create a blog post adhering to specified
-                  guidelines, and submit it via a Pull Request on <a href="https://github.com/layer5io/layer5/">GitHub</a>.
+                  guidelines, and submit it via a Pull Request on <a href="https://github.com/khulnasoft/khulnasoft/">GitHub</a>.
                   Reviewers will provide feedback, and you'll refine your post
                   collaboratively. Upon completion, maintainers will
                   merge your blog post into the website repository, celebrating
@@ -483,23 +483,23 @@ const Writers = () => {
             <h3>Additional Resources</h3>
             <ul>
               <li>
-                <a href="https://github.com/layer5io/layer5/blob/master/CONTRIBUTING.md#adding-a-blog-post">
-                  Contributing to Layer5 Blogs
+                <a href="https://github.com/khulnasoft/khulnasoft/blob/master/CONTRIBUTING.md#adding-a-blog-post">
+                  Contributing to KhulnaSoft Blogs
                 </a>
               </li>
               <li>
-                <a href="https://github.com/layer5io/layer5/blob/master/CONTRIBUTING.md#adding-a-resource">
-                  Contributing to Layer5 Resources
+                <a href="https://github.com/khulnasoft/khulnasoft/blob/master/CONTRIBUTING.md#adding-a-resource">
+                  Contributing to KhulnaSoft Resources
                 </a>
               </li>
               <li>
-                <a href="https://github.com/layer5io/layer5/labels/area%2Fblog">
+                <a href="https://github.com/khulnasoft/khulnasoft/labels/area%2Fblog">
                   View open Writing Program issues
                 </a>
               </li>
               <li>
                 Join the{" "}
-                <a href="https://discuss.layer5.io/">Layer5 Discussion Forum</a>
+                <a href="https://discuss.khulnasoft.com/">KhulnaSoft Discussion Forum</a>
               </li>
               <li>
                 Explore our <Link to="/resources">Resource Library</Link>

@@ -50,7 +50,7 @@ const SEO = ({ canonical, description,image, schemaMarkup, title,children }) => 
       <meta name="og:url" content={seo.url} />
       <meta name="url" property="og:url" content={seo.url} />
       <meta name="og:type" content="website" />
-      <meta name="author" content="Layer5, Inc."></meta>
+      <meta name="author" content="KhulnaSoft, Inc."></meta>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />

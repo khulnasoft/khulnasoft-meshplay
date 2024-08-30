@@ -7,7 +7,7 @@ import { FiDownloadCloud } from "@react-icons/all-files/fi/FiDownloadCloud";
 import ProjectItemWrapper from "./projectSection.style.js";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Layer5Wrapper = styled.section`
+const KhulnaSoftWrapper = styled.section`
   @media (max-width: 575px) {
     .brandHeader {
       padding: 3rem 0;
@@ -23,7 +23,7 @@ const Catalog = () => {
   const CatalogIcon5 = "../../../../assets/images/catalog-icon/catalog5.svg";
 
   return (
-    <Layer5Wrapper>
+    <KhulnaSoftWrapper>
       <div className="post-content">
         <Row className="brand-section">
           <Col xs={12} sm={6}>
@@ -40,9 +40,9 @@ const Catalog = () => {
             <p>
               The Catalog mark includes the Catalog name & logo, and any word,
               phrase, image, or other designation that identifies the source or
-              origin of any Layer5 projects. Please don’t modify the marks or
+              origin of any KhulnaSoft projects. Please don’t modify the marks or
               use them in a confusing way, including suggesting sponsorship or
-              endorsement by Layer5, or in a way that confuses Layer5 with
+              endorsement by KhulnaSoft, or in a way that confuses KhulnaSoft with
               another brand (including your own).
             </p>
           </Col>
@@ -69,7 +69,7 @@ const Catalog = () => {
                   <StaticImage
                     loading="lazy"
                     src={CatalogIcon2}
-                    alt="Meshery Logo"
+                    alt="Meshplay Logo"
                   />
                 </div>
               </Col>
@@ -157,7 +157,7 @@ const Catalog = () => {
           </Row>
         </Row>
       </div>
-    </Layer5Wrapper>
+    </KhulnaSoftWrapper>
   );
 };
 

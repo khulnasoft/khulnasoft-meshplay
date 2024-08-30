@@ -12,7 +12,7 @@ const Projects = () => {
 
   const projectImage2_light = "../../../assets/images/service-mesh-performance/icon/smp-light.svg";
   const projectImage2_dark = "../../../assets/images/app/projects/smp.webp";
-  const projectImage3 = "../../../assets/images/app/projects/meshery-logo-light.webp";
+  const projectImage3 = "../../../assets/images/app/projects/meshplay-logo-light.webp";
   const projectImage4 = "../../../assets/images/app/projects/nighthawk-logo.webp";
   const meshmapLogo = "../../../assets/images/meshmap/icon-only/meshmap-icon.svg";
   if (!didLoad){
@@ -48,10 +48,10 @@ const Projects = () => {
               </Link>
             </Col>
             <Col sm={12} md={6} lg={3}>
-              <Link className="project-card" to="/cloud-native-management/meshery">
+              <Link className="project-card" to="/cloud-native-management/meshplay">
                 <div className="project__block__inner">
-                  <StaticImage loading="lazy" src={projectImage3} alt="Meshery Logo" width={80} height={80} imgStyle={{ width: "40px", height: "40px" }} />
-                  <p>Meshery</p>
+                  <StaticImage loading="lazy" src={projectImage3} alt="Meshplay Logo" width={80} height={80} imgStyle={{ width: "40px", height: "40px" }} />
+                  <p>Meshplay</p>
                   <h3>Cloud Native Management and Governance</h3>
                 </div>
               </Link>
@@ -83,9 +83,9 @@ const Projects = () => {
             <Col sm={12} md={6} lg={3}>
               <Link className="project-card" to="/cloud-native-management/catalog">
                 <div className="project__block__inner">
-                  {/* <StaticImage src={catalogLogo} alt="Meshery Catalog" height={40} /> */}
+                  {/* <StaticImage src={catalogLogo} alt="Meshplay Catalog" height={40} /> */}
                   <CatalogLogo height="40px" width="auto" style={{ margin: "10px auto", minHeight: "40px" }} />
-                  <p>Meshery Catalog</p>
+                  <p>Meshplay Catalog</p>
                   <h3>Patterns and Templates</h3>
                 </div>
               </Link>
@@ -100,10 +100,10 @@ const Projects = () => {
             <div className="description">
               <div className="button">
                 <Button secondary className="banner-btn" title="All Projects" url="/projects">
-                  <StaticImage loading="lazy" src={projectsIcon} alt="All Layer5 Projects" height={18} />&nbsp;
+                  <StaticImage loading="lazy" src={projectsIcon} alt="All KhulnaSoft Projects" height={18} />&nbsp;
                 </Button>
               </div>
-              <p><span>We are enablers.</span> At Layer5, we believe collaboration enables innovation, and infrastructure enables collaboration. We help organizations look at their infrastructure differently, asking it "what have you done for me lately?". Our suite of multi-mesh, multi-cloud infrastructure management products — all with open source projects at their core — underpin each of our offerings.
+              <p><span>We are enablers.</span> At KhulnaSoft, we believe collaboration enables innovation, and infrastructure enables collaboration. We help organizations look at their infrastructure differently, asking it "what have you done for me lately?". Our suite of multi-mesh, multi-cloud infrastructure management products — all with open source projects at their core — underpin each of our offerings.
               </p>
             </div>
           </Col>

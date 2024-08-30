@@ -5,11 +5,11 @@ import TOC from "../../../components/handbook-navigation/index";
 import { Link } from "gatsby";
 import CommunityLogo from "../../../assets/images/community/community-green.svg";
 import PatternsLogo from "../../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
-import LandscapeGreen from "../../../assets/images/landscape/layer5_landscape_green.svg";
-import ImageHubLogo from "../../../assets/images/image-hub/layer5-image-hub.svg";
-import DockerExtension from "../../../assets/images/docker-extension/docker-extension-meshery-logo.svg";
-import MesheryLogo from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
-import MesheryOperator from "../../../assets/images/meshery-operator/meshery-operator-dark.svg";
+import LandscapeGreen from "../../../assets/images/landscape/khulnasoft_landscape_green.svg";
+import ImageHubLogo from "../../../assets/images/image-hub/khulnasoft-image-hub.svg";
+import DockerExtension from "../../../assets/images/docker-extension/docker-extension-meshplay-logo.svg";
+import MeshplayLogo from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
+import MeshplayOperator from "../../../assets/images/meshplay-operator/meshplay-operator-dark.svg";
 import ServiceMeshPerformance from "../../../assets/images/service-mesh-performance/stacked/smp-dark-text.svg";
 import NightHawkLogo from "../../../assets/images/nighthawk/icon-only/SVG/nighthawk-logo.svg";
 import TocPagination from "../../../components/handbook-navigation/TocPagination";
@@ -17,7 +17,7 @@ import IntraPage from "../../../components/handbook-navigation/intra-page";
 import uiuxrLogo from "../../../assets/images/uiuxr/uiuxr.svg";
 import writersLogo from "../../../assets/images/writer-program/writer-program-badge.svg";
 import meshmapLogo from "../../../assets/images/meshmap/icon-only/meshmap-icon.svg";
-import MesheryCatalogLogo from "../../../assets/images/meshery/meshery-catalog.svg";
+import MeshplayCatalogLogo from "../../../assets/images/meshplay/meshplay-catalog.svg";
 import DocsLogo from "../../../assets/images/docs/docs.svg";
 import ApplicationPioneerLogo from "../../../assets/images/application-pioneer/application-pioneer.svg";
 import BringABuddyLogo from "../../../assets/images/bring-a-buddy/bring-a-buddy.svg";
@@ -75,13 +75,13 @@ const RecognitionPage = () => {
               <h2 id="communityGuidelines">Your Efforts Do Not Go Unnoticed or Unappreciated</h2>
             </a>
             <p>
-              As an open source-first community, we very much appreciate the engagement of individuals within the Layer5 community. We wouldn't be here without you. Our success is a collective one.Consequently, we are quite intentional about defining and encouraging the journey for each individual community member. No small part of their journey is that of recognizing their accomplishments and publicly celebrating their accolades. We do so in a number of ways.
+              As an open source-first community, we very much appreciate the engagement of individuals within the KhulnaSoft community. We wouldn't be here without you. Our success is a collective one.Consequently, we are quite intentional about defining and encouraging the journey for each individual community member. No small part of their journey is that of recognizing their accomplishments and publicly celebrating their accolades. We do so in a number of ways.
             </p>
             <a id="Membership">
               <h3>Membership to the Github organizations</h3>
             </a>
             <p>
-              Membership to the Github organizations is a significant milestone for contributors who have shown persistent commitment and dedication to Layer5 projects. It is not solely about writing code but rather the consistency of engagement and alignment of mentality. Those who have been actively involved in the community for several months, making updates, helping others, attending meetings, and demonstrating a willingness to learn and share their knowledge, are the ones who are likely to receive an invite. Such individuals demonstrate a genuine desire to improve themselves, others, and the projects they are working on. Depending on the number of contributions made across the five GitHub organizations of Layer5, contributors can expect to receive an invitation to any or all of these organizations. We value and appreciate the hard work and dedication of our contributors, and we are delighted to reward their efforts with access to our Github organizations. Our <Link to="https://layer5.io/community/community-managers">Community Managers</Link> and <Link to="https://layer5.io/community/meshmates"> MeshMates</Link> recognize potential contributors on a weekly basis and typically invite individuals after 6 to 8 weeks of continuous, active participation.
+              Membership to the Github organizations is a significant milestone for contributors who have shown persistent commitment and dedication to KhulnaSoft projects. It is not solely about writing code but rather the consistency of engagement and alignment of mentality. Those who have been actively involved in the community for several months, making updates, helping others, attending meetings, and demonstrating a willingness to learn and share their knowledge, are the ones who are likely to receive an invite. Such individuals demonstrate a genuine desire to improve themselves, others, and the projects they are working on. Depending on the number of contributions made across the five GitHub organizations of KhulnaSoft, contributors can expect to receive an invitation to any or all of these organizations. We value and appreciate the hard work and dedication of our contributors, and we are delighted to reward their efforts with access to our Github organizations. Our <Link to="https://khulnasoft.com/community/community-managers">Community Managers</Link> and <Link to="https://khulnasoft.com/community/meshmates"> MeshMates</Link> recognize potential contributors on a weekly basis and typically invite individuals after 6 to 8 weeks of continuous, active participation.
             </p>
             <a id="Community_member_profile">
               <h3>
@@ -89,11 +89,11 @@ const RecognitionPage = () => {
               </h3>
             </a>
             <p>
-              Once a contributor joins the Layer5 community by filling in the
+              Once a contributor joins the KhulnaSoft community by filling in the
               community member form, they are automatically classified as
-              members of Layer5. Although, you earn a member profile after
+              members of KhulnaSoft. Although, you earn a member profile after
               consistent contributions to the community for and projects. You
-              can find out more about the Members profile on the Layer5 website.
+              can find out more about the Members profile on the KhulnaSoft website.
             </p>
             <p>Member profiles carry a number of specific designations, depending upon how a community member is participating. One of those designations is that of whether the member is actively particpating or has gone dormant. We define "active" and "inactive" members in the following way:</p>
             <ul>
@@ -111,11 +111,11 @@ const RecognitionPage = () => {
               <p><b>Activity badges:</b></p>
               <li>
                 <img src={DesignPioneerLogo} style={badgeStyle} />
-                <b>Design Pioneer</b> - awarded to the Layer5 cloud users when they create their first design.
+                <b>Design Pioneer</b> - awarded to the KhulnaSoft cloud users when they create their first design.
               </li>
               <li>
                 <img src={ApplicationPioneerLogo} style={badgeStyle} />
-                <b>Application Pioneer</b> - awarded to the Layer5 cloud users when they create their first application.
+                <b>Application Pioneer</b> - awarded to the KhulnaSoft cloud users when they create their first application.
               </li>
               <li>
                 <img src={SharingIsCaringLogo} style={badgeStyle} />
@@ -143,7 +143,7 @@ const RecognitionPage = () => {
               </li>
               <li>
                 <img src={BringABuddyLogo} style={badgeStyle} />
-                <b>Bring a Buddy</b> - awarded to the users who invite someone to Layer5 cloud.
+                <b>Bring a Buddy</b> - awarded to the users who invite someone to KhulnaSoft cloud.
               </li>
               <li>
                 <img src={CodeCleanupCrewLogo} style={badgeStyle} />
@@ -167,7 +167,7 @@ const RecognitionPage = () => {
               </li>
               <li>
                 <img src={ContinuousContributorLogo} style={badgeStyle} />
-                <b>Continuous Contributor</b> - awarded to the community members who make consistent and impactful contributions for a long period of time in Layer5 projects in recognition and appreciation of their efforts.
+                <b>Continuous Contributor</b> - awarded to the community members who make consistent and impactful contributions for a long period of time in KhulnaSoft projects in recognition and appreciation of their efforts.
               </li>
               <p><b>Projects:</b></p>
               <li>
@@ -184,15 +184,15 @@ const RecognitionPage = () => {
               </li>
               <li>
                 <img src={CommunityLogo} style={badgeStyle} />
-                <b>Community</b> - awarded to the community members who repeatedly engage in welcoming, encouraging, and supporting other Layer5 community members. Community members who earn this badge occasionally graduate to undertaking the Community Manager role.
+                <b>Community</b> - awarded to the community members who repeatedly engage in welcoming, encouraging, and supporting other KhulnaSoft community members. Community members who earn this badge occasionally graduate to undertaking the Community Manager role.
               </li>
               <li>
-                <img src={MesheryLogo} style={badgeStyle} />
-                <b>Meshery</b> - awarded to the community members who make consistent and impactful contributions to the Meshery project. Community members who earn this badge occasionally become a project maintainer.
+                <img src={MeshplayLogo} style={badgeStyle} />
+                <b>Meshplay</b> - awarded to the community members who make consistent and impactful contributions to the Meshplay project. Community members who earn this badge occasionally become a project maintainer.
               </li>
               <li>
-                <img src={MesheryOperator} style={badgeStyle} />
-                <b>Meshery Operator</b> - awarded to the community members who make consistent and impactful contributions to Meshery Operator of the Meshery project in recognition and appreciation of their efforts.
+                <img src={MeshplayOperator} style={badgeStyle} />
+                <b>Meshplay Operator</b> - awarded to the community members who make consistent and impactful contributions to Meshplay Operator of the Meshplay project in recognition and appreciation of their efforts.
               </li>
               <li>
                 <img src={PatternsLogo} style={badgeStyle} />
@@ -200,7 +200,7 @@ const RecognitionPage = () => {
               </li>
               <li>
                 <img src={LandscapeGreen} style={badgeStyle} />
-                <b>Landscape</b> - awarded to the community members who make consistent and impactful contributions to the layer5.io website.
+                <b>Landscape</b> - awarded to the community members who make consistent and impactful contributions to the khulnasoft.com website.
               </li>
               <li>
                 <img src={writersLogo} style={badgeStyle} />
@@ -212,30 +212,30 @@ const RecognitionPage = () => {
               </li>
               <li>
                 <img src={uiuxrLogo} style={badgeStyle} />
-                <b>UI/UX</b> - awarded to the community members who create or improve designs for visual aspects or user flow for any of the websites, flyers, promotions, Meshery UI, and so on in recognition and appreciation of their efforts.
+                <b>UI/UX</b> - awarded to the community members who create or improve designs for visual aspects or user flow for any of the websites, flyers, promotions, Meshplay UI, and so on in recognition and appreciation of their efforts.
               </li>
               <li>
-                <img src={MesheryCatalogLogo} style={badgeStyle} />
-                <b>Meshery Catalog</b> - awarded to the community members who make consistent and impactful contributions to the <a href="https://meshery.io/catalog">Meshery Catalog</a> of Meshery project in recognition and appreciation of their efforts.
+                <img src={MeshplayCatalogLogo} style={badgeStyle} />
+                <b>Meshplay Catalog</b> - awarded to the community members who make consistent and impactful contributions to the <a href="https://meshplay.khulnasoft.com/catalog">Meshplay Catalog</a> of Meshplay project in recognition and appreciation of their efforts.
               </li>
               <li>
                 <img src={DockerExtension} style={badgeStyle} />
-                <b>Docker Extension</b> - awarded to the community members who make consistent and impactful contributions to the Docker Extension of meshery project in recognition and appreciation of their efforts.
+                <b>Docker Extension</b> - awarded to the community members who make consistent and impactful contributions to the Docker Extension of meshplay project in recognition and appreciation of their efforts.
               </li>
               <li>
                 <img src={DocsLogo} style={badgeStyle} />
-                <b>Docs</b> - awarded to the community members who make consistent and impactful contributions to the <a href="https://docs.meshery.io/">Meshery docs</a> in recognition and appreciation of their efforts.
+                <b>Docs</b> - awarded to the community members who make consistent and impactful contributions to the <a href="https://docs.meshplay.khulnasoft.com/">Meshplay docs</a> in recognition and appreciation of their efforts.
               </li>
             </ul>
             <a id="how-to-earn-badges">
               <h3>How can I Earn Badges?</h3>
             </a>
             <p>
-              Earning Layer5 badges is both rewarding and straightforward.  As you continue to contribute to our projects, your accomplishments will be recognized with badges that reflect your dedication and expertise.
-              Each badge is tied to specific activities. Here are some ways you can earn Layer5 Badges:
+              Earning KhulnaSoft badges is both rewarding and straightforward.  As you continue to contribute to our projects, your accomplishments will be recognized with badges that reflect your dedication and expertise.
+              Each badge is tied to specific activities. Here are some ways you can earn KhulnaSoft Badges:
             </p>
             <p>
-              For users, badges for activities such as using our projects, talking about the projects, sharing your successes and what you like about them. For contributors, badges include activities such as submitting code, reviewing Pull Requests, assisting with documentation, participating in community events, and more. As you accumulate contributions in various areas, you'll begin to unlock badges that showcase your multifaceted involvement. These badges will be prominently displayed on your <a href="https://meshery.layer5.io">Layer5 Cloud</a> profile, visually representing your journey. Not only does this serve as a source of personal pride, but it also helps others in the community recognize your expertise and dedication.
+              For users, badges for activities such as using our projects, talking about the projects, sharing your successes and what you like about them. For contributors, badges include activities such as submitting code, reviewing Pull Requests, assisting with documentation, participating in community events, and more. As you accumulate contributions in various areas, you'll begin to unlock badges that showcase your multifaceted involvement. These badges will be prominently displayed on your <a href="https://meshplay.khulnasoft.com">KhulnaSoft Cloud</a> profile, visually representing your journey. Not only does this serve as a source of personal pride, but it also helps others in the community recognize your expertise and dedication.
               <ul>
                 <li>
                   Activity Badges are the badges that are assigned when a user completes a task like sharing a design, creating a design for the first time, etc.
@@ -252,13 +252,13 @@ const RecognitionPage = () => {
               <h3>How can I Share My Badge On My Profile?</h3>
             </a>
             <p>
-              To share your badges on other social profiles, utilize the provided embedded code and direct share functionality. Access your badges from the Layer5 Cloud profile badges section, and then use it to post your achievements on social media platforms seamlessly. This enables you to showcase your Layer5 contributions and milestones to a wider audience:
+              To share your badges on other social profiles, utilize the provided embedded code and direct share functionality. Access your badges from the KhulnaSoft Cloud profile badges section, and then use it to post your achievements on social media platforms seamlessly. This enables you to showcase your KhulnaSoft contributions and milestones to a wider audience:
             </p>
             <p>To display badge on your GitHub profile, follow below steps: </p>
             <ul>
               <li>
                 Visit your{" "}
-                <a href="https://meshery.layer5.io">Layer5 Cloud</a>{" "}
+                <a href="https://meshplay.khulnasoft.com">KhulnaSoft Cloud</a>{" "}
                 Profile to see the badges
               </li>
               <li>Click on the badge, which you wanted to display</li>
@@ -271,7 +271,7 @@ const RecognitionPage = () => {
               <h3>Recognition on Social Media Platforms</h3>
             </a>
             <p>
-              We highly encourage you to share your engagement and contributions to the Layer5 community on social media like LinkedIn and Twitter. We support every contribution by liking your posts and retweeting them. Your contributions and engagement in different ways are what make us a successful and collaborative open-source community. We love celebrating your every accomplishment with Layer5 publicly and encourage you in every way we can.
+              We highly encourage you to share your engagement and contributions to the KhulnaSoft community on social media like LinkedIn and Twitter. We support every contribution by liking your posts and retweeting them. Your contributions and engagement in different ways are what make us a successful and collaborative open-source community. We love celebrating your every accomplishment with KhulnaSoft publicly and encourage you in every way we can.
             </p>
           </div>
           <TocPagination />

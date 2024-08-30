@@ -34,7 +34,7 @@ const WhoWeAre = () => {
         </Col>
         <Col xs={12} sm={6} md={6} lg={3} className="col">
           <div className="item">
-            <img src={checkCircle} alt="Meshery" />
+            <img src={checkCircle} alt="Meshplay" />
             <p>CNCF TOC Contributors</p>
           </div>
         </Col>
@@ -74,8 +74,8 @@ const WhoWeAre = () => {
         </Col>
         <Col xs={12} sm={6} md={6} lg={3} className="col">
           <div className="item">
-            <img src={checkCircle} alt="Meshery Creators" />
-            <p>Meshery Creators</p>
+            <img src={checkCircle} alt="Meshplay Creators" />
+            <p>Meshplay Creators</p>
           </div>
         </Col>
       </Row>

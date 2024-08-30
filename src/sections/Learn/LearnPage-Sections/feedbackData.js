@@ -6,12 +6,12 @@ export const feedbackData = [
     studnt_name: "Ryan Anders",
   },
   {
-    feedback: "I am much more confident than before. The service mesh training from Layer5 is what I needed to kickstart our use of Linkerd.",
+    feedback: "I am much more confident than before. The service mesh training from KhulnaSoft is what I needed to kickstart our use of Linkerd.",
     workshop: "Introduction to Service Mesh with Linkerd",
     studnt_name: "Raul Perez",
   },
   {
-    feedback: "Meshery made understanding how Linkerd and Istio are different and where their strengths lie much easier. We're going to use Meshery in our CI process now.",
+    feedback: "Meshplay made understanding how Linkerd and Istio are different and where their strengths lie much easier. We're going to use Meshplay in our CI process now.",
     workshop: "O'Reilly Training: Introduction to Linkerd",
     studnt_name: "Abel Kahn",
   },

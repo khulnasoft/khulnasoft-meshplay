@@ -16,24 +16,24 @@ const SecurityVulnerabilitiesPage = () => {
           <div className="content">
             <h2>Issue and PR Labels and Templates, Bots</h2><br/>
             <h3><strong>Overview</strong></h3><br />
-            <p>The Layer5 GitHub Process emphasizes consistent pull requests and issue labels to streamline continuous integration and reduce overhead across the growing repository collection.</p>
-            <p>The number of repositories under the “Layer5io” organization is growing. In order to ensure consistency across the repositories and to decrease the time it takes for a continuous integration (GitHub Actions) to execute, consistent use of pull request and issue labels will aid in the reduction of overhead.</p>
+            <p>The KhulnaSoft GitHub Process emphasizes consistent pull requests and issue labels to streamline continuous integration and reduce overhead across the growing repository collection.</p>
+            <p>The number of repositories under the “KhulnaSoft” organization is growing. In order to ensure consistency across the repositories and to decrease the time it takes for a continuous integration (GitHub Actions) to execute, consistent use of pull request and issue labels will aid in the reduction of overhead.</p>
 
             <h3>Issue and Pull Request Templates</h3>
-            <p>Layer5 uses issue and pull request templates. See the `.github` folder in any repo for examples.</p>
+            <p>KhulnaSoft uses issue and pull request templates. See the `.github` folder in any repo for examples.</p>
 
             <h3>Template Repositories</h3>
-            <p>Layer5 uses the following repository templates:</p>
+            <p>KhulnaSoft uses the following repository templates:</p>
             <ul>
-              <li>layer5-repo-template</li>
-              <li>meshery-adapter-template</li>
+              <li>khulnasoft-repo-template</li>
+              <li>meshplay-adapter-template</li>
             </ul>
 
             <h3>Branch Protection</h3>
-            <p>Layer5 protects the <b>master</b> branch by requiring reviews from at least one approver.</p>
+            <p>KhulnaSoft protects the <b>master</b> branch by requiring reviews from at least one approver.</p>
 
             <h3>Organization Secrets</h3>
-            <p>Layer5 has the following org-wide secrets available:</p>
+            <p>KhulnaSoft has the following org-wide secrets available:</p>
 
             <table>
               <thead>
@@ -49,11 +49,11 @@ const SecurityVulnerabilitiesPage = () => {
                 </tr>
                 <tr>
                   <td>DOCKER_PASSWORD</td>
-                  <td>Belongs to user “mesheryci”</td>
+                  <td>Belongs to user “meshplayci”</td>
                 </tr>
                 <tr>
                   <td>DOCKER_USERNAME</td>
-                  <td>“mesheryci”</td>
+                  <td>“meshplayci”</td>
                 </tr>
                 <tr>
                   <td>NETLIFY_AUTH_TOKEN</td>
@@ -89,7 +89,7 @@ const SecurityVulnerabilitiesPage = () => {
                 </tr>
                 <tr>
                   <td>PROVIDER_TOKEN</td>
-                  <td>Infinite Meshery Cloud token</td>
+                  <td>Infinite Meshplay Cloud token</td>
                 </tr>
                 <tr>
                   <td>NPM_TOKEN</td>
@@ -97,7 +97,7 @@ const SecurityVulnerabilitiesPage = () => {
                 </tr>
                 <tr>
                   <td>INTEGRATION_SPREADSHEET_CRED</td>
-                  <td>Base64 encoded cred for accessing integration spreadsheet on behalf of user  <a href="mailto: no-reply@layer5.io">no-reply@layer5.io</a></td>
+                  <td>Base64 encoded cred for accessing integration spreadsheet on behalf of user  <a href="mailto: no-reply@khulnasoft.com">no-reply@khulnasoft.com</a></td>
                 </tr>
                 <tr>
                   <td>PLAYGROUND_CONFIG</td>
@@ -180,8 +180,8 @@ const SecurityVulnerabilitiesPage = () => {
                   <td>#3a0485</td>
                 </tr>
                 <tr>
-                  <td>component/mesheryctl</td>
-                  <td>Meshery CLI related</td>
+                  <td>component/meshplayctl</td>
+                  <td>Meshplay CLI related</td>
                   <td>#3a0486</td>
                 </tr>
                 <tr>
@@ -205,8 +205,8 @@ const SecurityVulnerabilitiesPage = () => {
                   <td>#3a0487</td>
                 </tr>
                 <tr>
-                  <td>component/meshery-perf</td>
-                  <td>Meshery-perf related</td>
+                  <td>component/meshplay-perf</td>
+                  <td>Meshplay-perf related</td>
                   <td>#3a0488</td>
                 </tr>
                 <tr>
@@ -424,14 +424,14 @@ const SecurityVulnerabilitiesPage = () => {
 
             <p>Improving the build times through conditional logic that will skip sections of the ci.yml, unless these labels are present:</p>
             <ul>
-              <li><b>docs</b> -  build the Jekyll site for Meshery documentation</li>
-              <li><b>component/mesheryctl</b> - build the Meshery CLI</li>
-              <li><b>area/ui</b> -  build the Meshery UI</li>
-              <li><b>component/meshery-server</b> - Assumed that Meshery Server should always be build, but this is not the case.</li>
+              <li><b>docs</b> -  build the Jekyll site for Meshplay documentation</li>
+              <li><b>component/meshplayctl</b> - build the Meshplay CLI</li>
+              <li><b>area/ui</b> -  build the Meshplay UI</li>
+              <li><b>component/meshplay-server</b> - Assumed that Meshplay Server should always be build, but this is not the case.</li>
             </ul>
 
             <h3>Bots</h3>
-            <p>Layer5 uses the following bots:</p>
+            <p>KhulnaSoft uses the following bots:</p>
             <ul>
               <li>Triage bot</li>
               <li>Stale bot</li>

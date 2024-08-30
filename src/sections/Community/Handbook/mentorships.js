@@ -64,7 +64,7 @@ const ConductWrapper = styled.div`
         transition: fill 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
       }
 
-      .layer5-colorMode_svg__colorMode1 {
+      .khulnasoft-colorMode_svg__colorMode1 {
         fill: ${props => props.theme.whiteToGreen3C494F};
         transition: fill 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
       }

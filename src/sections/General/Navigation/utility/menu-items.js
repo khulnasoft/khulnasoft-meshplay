@@ -84,8 +84,8 @@ const Data = {
       path: "/products",
       subItems: [
         {
-          name: "Meshery",
-          path: "/cloud-native-management/meshery",
+          name: "Meshplay",
+          path: "/cloud-native-management/meshplay",
           sepLine: true
         },
         {
@@ -103,7 +103,7 @@ const Data = {
         },
         {
           name: "Docker Extension",
-          path: "/docker-extension-meshery",
+          path: "/docker-extension-meshplay",
         },
         {
           name: "Playground",
@@ -125,7 +125,7 @@ const Data = {
         // },
       ],
       // div1: {
-      //   src: meshery,
+      //   src: meshplay,
       //   descr: "How I schooled my seniors"
       // },
       // div2: {
@@ -135,7 +135,7 @@ const Data = {
     },
     {
       name: "Integrations",
-      path: "/cloud-native-management/meshery/integrations"
+      path: "/cloud-native-management/meshplay/integrations"
     },
     // {
     //   name: "Learn",
@@ -148,7 +148,7 @@ const Data = {
     //     },
     //     {
     //       name: "Forum",
-    //       path: "https://discuss.layer5.io",
+    //       path: "https://discuss.khulnasoft.com",
     //       sepLine: true,
     //       externalLink: true
     //     },
@@ -171,7 +171,7 @@ const Data = {
     //   actionItems: [
     // {
     //   actionName: "Join the discussion",
-    //   actionLink: "https://discuss.layer5.io",
+    //   actionLink: "https://discuss.khulnasoft.com",
     // },
     //     // {
     //     //   actionName: "Free service mesh training",
@@ -179,7 +179,7 @@ const Data = {
     //     // }
     //   ],
     //   // div1: {
-    //   //   src: meshery,
+    //   //   src: meshplay,
     //   //   descr: "How I schooled my seniors"
     //   // },
     //   // div2: {
@@ -225,7 +225,7 @@ const Data = {
         },
         {
           name: "Recognition Program",
-          path: "https://badges.layer5.io",
+          path: "https://badges.khulnasoft.com",
           sepLine: true
         },
       ],
@@ -236,7 +236,7 @@ const Data = {
         // },
         {
           actionName: "Discussion forum",
-          actionLink: "https://discuss.layer5.io",
+          actionLink: "https://discuss.khulnasoft.com",
         },
         {
           actionName: "Open source internships",
@@ -265,7 +265,7 @@ const Data = {
         },
         {
           name: "Docs",
-          path: "https://docs.layer5.io",
+          path: "https://docs.khulnasoft.com",
           sepLine: true
         },
         // {
@@ -285,7 +285,7 @@ const Data = {
         },
         // {
         //   name: "Forum",
-        //   path: "https://discuss.layer5.io",
+        //   path: "https://discuss.khulnasoft.com",
         //   sepLine: true,
         //   externalLink: true
         // },
@@ -308,7 +308,7 @@ const Data = {
         //   actionLink: "/resources",
         // },
         {
-          actionName: "Layer5 in the news",
+          actionName: "KhulnaSoft in the news",
           actionLink: "/news",
         },
         {

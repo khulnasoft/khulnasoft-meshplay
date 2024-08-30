@@ -21,7 +21,7 @@
 //
 //
 //     <>
-//       <SEO title="Layer5 | Expect More from Your Infrastructure" />
+//       <SEO title="KhulnaSoft | Expect More from Your Infrastructure" />
 //       <Navigation />
 //       <Banner />
 //       <About />

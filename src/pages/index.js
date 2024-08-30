@@ -13,7 +13,7 @@ import CaseStudyBanner from "../components/Case-study-banner";
 
 // const EngineerEnabler = loadable(() => import("../sections/Home/Engineer-enabler"));
 // const SoSpecial = loadable(() => import("../sections/Home/So-Special-Section"));
-const MesheryIntegration = loadable(() => import("../sections/Meshery/Meshery-integrations"));
+const MeshplayIntegration = loadable(() => import("../sections/Meshplay/Meshplay-integrations"));
 const FeaturesContainer = loadable(() => import("../sections/Home/FeaturesContainer"));
 
 // import { IoMdClose } from "@react-icons/all-files/io/IoMdClose";
@@ -29,7 +29,7 @@ const IndexPage = () => {
       <CornerPopup/>
       {/* <ServiceMeshManagement /> */}
       <CloudNativeManagement />
-      <MesheryIntegration  />
+      <MeshplayIntegration  />
       {/* <Statement /> */}
       {/* <AppScreens /> */}
       {/* <Pricing /> */}
@@ -52,18 +52,18 @@ export const Head = () => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Corporation",
-    "name": "Layer5",
-    "url": "https://layer5.io/",
-    "logo": "https://layer5.io/images/layer5-gradient.webp",
+    "name": "KhulnaSoft",
+    "url": "https://khulnasoft.com/",
+    "logo": "https://khulnasoft.com/images/khulnasoft-gradient.webp",
     "sameAs": [
-      "https://twitter.com/layer5",
-      "https://www.linkedin.com/company/layer5/",
-      "https://github.com/layer5io",
-      "https://www.youtube.com/c/Layer5io?sub_confirmation=1"
+      "https://twitter.com/khulnasoft",
+      "https://www.linkedin.com/company/khulnasoft/",
+      "https://github.com/khulnasoft",
+      "https://www.youtube.com/c/KhulnaSoft?sub_confirmation=1"
     ]
   };
   return (
-    <SEO title="Layer5" description="An empowerer of engineers, Layer5 helps you extract more value from your infrastructure. Creator and maintainer of cloud native standards. Maker of Meshery, the cloud native manager."
+    <SEO title="KhulnaSoft" description="An empowerer of engineers, KhulnaSoft helps you extract more value from your infrastructure. Creator and maintainer of cloud native standards. Maker of Meshplay, the cloud native manager."
       schemaMarkup={schema} />
   );
 };

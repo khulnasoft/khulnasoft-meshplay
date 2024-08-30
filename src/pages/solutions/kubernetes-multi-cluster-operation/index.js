@@ -12,7 +12,7 @@ export const Head = () => {
   return (
     <SEO
       title="Kubernetes Multi-cluster Operation"
-      description="Manage all of your Kubernetes clusters with the cloud native management plane, Meshery. Learn how Meshery makes connecting, discovering, and configuring multiple clusters a breeze."
+      description="Manage all of your Kubernetes clusters with the cloud native management plane, Meshplay. Learn how Meshplay makes connecting, discovering, and configuring multiple clusters a breeze."
     />
   );
 };

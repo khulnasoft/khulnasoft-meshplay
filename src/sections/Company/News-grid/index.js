@@ -77,7 +77,7 @@ const NewsGrid = ({ data }) => {
   };
   return (
     <NewsPageWrapper>
-      <PageHeader title="Layer5 in the News" path="News" img={rss_feed_icon}  feedlink="/news/feed.xml" />
+      <PageHeader title="KhulnaSoft in the News" path="News" img={rss_feed_icon}  feedlink="/news/feed.xml" />
 
       <div>
         <Container>

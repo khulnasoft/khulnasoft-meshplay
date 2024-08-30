@@ -9,19 +9,19 @@ import { IoIosArrowDropleftCircle } from "@react-icons/all-files/io/IoIosArrowDr
 import { Col, Container, Row } from "../../../reusecore/Layout";
 import Image from "../../../components/image";
 import MeshMateIcon from "../../../assets/images/meshmate/meshmate-icon.svg";
-import mesheryLogo from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
-import mesheryOperatorLogo from "../../../assets/images/meshery-operator/meshery-operator-dark.svg";
+import meshplayLogo from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
+import meshplayOperatorLogo from "../../../assets/images/meshplay-operator/meshplay-operator-dark.svg";
 import smpLogo from "../../../assets/images/service-mesh-performance/stacked/smp-dark-text.svg";
-import landscapeLogo from "../../../assets/images/landscape/layer5_landscape_green.svg";
+import landscapeLogo from "../../../assets/images/landscape/khulnasoft_landscape_green.svg";
 import patternsLogo from "../../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
 import NighthawkLogo from "../../../assets/images/nighthawk/icon-only/SVG/nighthawk-logo.svg";
-import imageHubLogo from "../../../assets/images/image-hub/layer5-image-hub.svg";
+import imageHubLogo from "../../../assets/images/image-hub/khulnasoft-image-hub.svg";
 import communityLogo from "../../../assets/images/community/community-green.svg";
 import uiuxrLogo from "../../../assets/images/uiuxr/uiuxr.svg";
 import writerIcon from "../../../assets/images/writer-program/writer-program-badge.svg";
 import docsLogo from "../../../assets/images/docs/docs.svg";
-import mesheryCatalogLogo from "../../../assets/images/meshery/meshery-catalog.svg";
-import dockerExtensionLogo from "../../../assets/images/docker-extension/docker-extension-meshery-logo.svg";
+import meshplayCatalogLogo from "../../../assets/images/meshplay/meshplay-catalog.svg";
+import dockerExtensionLogo from "../../../assets/images/docker-extension/docker-extension-meshplay-logo.svg";
 import meshMapLogo from "../../../assets/images/meshmap/icon-only/meshmap-icon.svg";
 import Button from "../../../reusecore/Button";
 import { ReactComponent as TwitterIcon } from "../../../assets/images/socialIcons/twitter.svg";
@@ -33,7 +33,7 @@ const MemberSingle = ({ frontmatter }) => {
     github,
     twitter,
     image_path,
-    layer5,
+    khulnasoft,
     meshmate,
     linkedin,
     location,
@@ -56,7 +56,7 @@ const MemberSingle = ({ frontmatter }) => {
               </div>
             </Col>
             <Col xs={12} sm={12} lg={6}>
-              <h1 className="page-heading">Layer5 Community Member</h1>
+              <h1 className="page-heading">KhulnaSoft Community Member</h1>
             </Col>
           </Row>
           <Row>
@@ -86,18 +86,18 @@ const MemberSingle = ({ frontmatter }) => {
                 {badges && (
                   <div className="social-bg">
                     <ul className="profile-social-links">
-                      {badges.includes("meshery") && (
+                      {badges.includes("meshplay") && (
                         <div className="tooltip">
                           <li>
-                            <Link to="/cloud-native-management/meshery">
+                            <Link to="/cloud-native-management/meshplay">
                               <img
                                 className="profile-social-links"
-                                src={mesheryLogo}
-                                alt="Meshery logo"
+                                src={meshplayLogo}
+                                alt="Meshplay logo"
                               />
                             </Link>
                           </li>
-                          <div className="tooltip-text meshery">Meshery</div>
+                          <div className="tooltip-text meshplay">Meshplay</div>
                         </div>
                       )}
                       {badges.includes("smp") && (
@@ -165,7 +165,7 @@ const MemberSingle = ({ frontmatter }) => {
                       {badges.includes("docs") && (
                         <div className="tooltip">
                           <li>
-                            <Link to="https://docs.meshery.io/">
+                            <Link to="https://docs.meshplay.khulnasoft.com/">
                               <img
                                 className="profile-social-links"
                                 src={docsLogo}
@@ -176,19 +176,19 @@ const MemberSingle = ({ frontmatter }) => {
                           <span className="tooltip-text docs">Docs</span>
                         </div>
                       )}
-                      {badges.includes("meshery-catalog") && (
+                      {badges.includes("meshplay-catalog") && (
                         <div className="tooltip">
                           <li>
-                            <Link to="https://meshery.io/catalog">
+                            <Link to="https://meshplay.khulnasoft.com/catalog">
                               <img
                                 className="profile-social-links"
-                                src={mesheryCatalogLogo}
-                                alt="Meshery Catalog logo"
+                                src={meshplayCatalogLogo}
+                                alt="Meshplay Catalog logo"
                               />
                             </Link>
                           </li>
-                          <span className="tooltip-text meshery-catalog">
-                            Meshery-catalog
+                          <span className="tooltip-text meshplay-catalog">
+                            Meshplay-catalog
                           </span>
                         </div>
                       )}
@@ -209,7 +209,7 @@ const MemberSingle = ({ frontmatter }) => {
                       {badges.includes("docker-extension") && (
                         <div className="tooltip">
                           <li>
-                            <Link to="/docker-extension-meshery">
+                            <Link to="/docker-extension-meshplay">
                               <img
                                 className="profile-social-links"
                                 src={dockerExtensionLogo}
@@ -238,19 +238,19 @@ const MemberSingle = ({ frontmatter }) => {
                           </span>
                         </div>
                       )}
-                      {badges.includes("meshery-operator") && (
+                      {badges.includes("meshplay-operator") && (
                         <div className="tooltip">
                           <li>
-                            <Link to="/cloud-native-management/meshery/meshery-operator">
+                            <Link to="/cloud-native-management/meshplay/meshplay-operator">
                               <img
                                 className="profile-social-links"
-                                src={mesheryOperatorLogo}
-                                alt="Meshery Operator logo"
+                                src={meshplayOperatorLogo}
+                                alt="Meshplay Operator logo"
                               />
                             </Link>
                           </li>
-                          <span className="tooltip-text meshery-operator">
-                            Meshery-operator
+                          <span className="tooltip-text meshplay-operator">
+                            Meshplay-operator
                           </span>
                         </div>
                       )}
@@ -373,11 +373,11 @@ const MemberSingle = ({ frontmatter }) => {
                       </a>
                     </li>
                   )}
-                  {layer5 && (
+                  {khulnasoft && (
                     <li className="tooltip">
-                      <a href={`https://meshery.layer5.io/user/${layer5}`}>
-                        <img src={mesheryLogo} alt="meshery-icon"></img>
-                        <span className="tooltiptext">Meshery</span>
+                      <a href={`https://meshplay.khulnasoft.com/user/${khulnasoft}`}>
+                        <img src={meshplayLogo} alt="meshplay-icon"></img>
+                        <span className="tooltiptext">Meshplay</span>
                       </a>
                     </li>
                   )}

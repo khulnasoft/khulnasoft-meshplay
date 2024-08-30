@@ -1,0 +1,191 @@
+---
+title: "Announcing Meshplay v0.5.0"
+subtitle: ""
+date: 2021-04-19 08:00:00 +0000
+author: Aisuko Li
+thumbnail: ./v0.5.0.webp
+darkthumbnail: ./v0.5.0.webp
+category: Announcements
+tags:
+ - Meshplay
+ - Projects
+published: true
+resource: true
+type: Blog
+product: Meshplay
+redirect_from:
+ - /blog/meshplay/announcing-meshplay-v0.5.0/
+---
+
+import { BlogWrapper } from "../../Blog.style.js";
+import { Link } from "gatsby";
+import MeshplayOperatorShot from "./meshplay-operator-v0.5.0.webp";
+import MeshplayOperator from "./meshplay-operator-dark.svg";
+import MeshSync from "./meshsync.svg";
+import MeshplayDB from "./meshplay-database.svg";
+import MeshplayAdapterLibrary from "./meshplay-adapter-library.svg";
+import Traefik from "./traefik-mesh.svg";
+import MeshplayExtensibility from "./meshplay-extensibility.svg";
+import NGINXSM from "./nginx-service-mesh.svg";
+import khulnasoftLogo from "../../../../assets/images/khulnasoft/khulnasoft-only/svg/khulnasoft-no-trim.svg";
+
+<BlogWrapper>
+
+<p><strong>We're pleased to announce the release of Meshplay 0.5.0!</strong> Consisting of a number of significant architectural enhancements with 8 new capabilities entering alpha, Meshplay v0.5.0's feature density is impressive. Previewed in the <i>Using Istio</i> workshop delivered at the <Link to="/community/events/istiocon-2021">inaugural IstioCon 2021</Link> earlier this month, Meshplay v0.5.0 provides a strong architectural foundation for cloud native application and service mesh management.</p>
+
+
+## Feature Highlights
+- New GraphQL API
+- Meshplay Operator with MeshSync inside
+- Meshplay Adapter for Traefik Mesh (beta)
+- MeshKit and the Meshplay Adapter Library
+- Meshplay Adapter for NGINX Service Mesh (alpha)
+- Meshplay Remote Provider extensions with dynamic injection
+- New Meshplay CLI commands to manage mutiple Meshplay deployments
+
+<div class="intro" style="text-align:center; display:flex; flex-direction:row; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; margin: 2rem;">
+  <img src={khulnasoftLogo} style="max-height:55px; height:auto; margin: auto; padding: .5rem;" />
+  <p style="flex-basis: 50%; width:100%; padding: 0rem; margin:0rem; ">Thank you to the wonderful KhulnaSoft community of open source contributors in making this significant release possible.</p>
+</div>
+
+## New Service Mesh Support
+
+<p><span class="bigfirstletter">2</span> new Meshplay service mesh adapters are bundled with this latest version of Meshplay: The Meshplay Adapter for Traefik Mesh and the Meshplay Adapter for NGINX Service Mesh.</p>
+
+<h3>Meshplay Adapter for Traefik Mesh (beta)</h3>
+<img style="display: inline; float: left; max-width:300px; width:80%; padding: 1.25rem;" src={Traefik} />
+
+<p>Traefik Mesh is a straight-forward, easy to configure, and non-invasive service mesh that allows visibility and management of the traffic flows inside any Kubernetes cluster.</p>
+
+<p>Meshplay supports the lifecycle and performance management of Traefik Mesh. Along with support for multiple versions of Traefik Mesh, bundled with this adapter are the Book Info and HttpBin sample applications operations to aid you in familiarizing with the functionality of Traefik Mesh. As a Meshplay user, you can apply custom configuration to your instances of Traefik Mesh, managing the onboarding of your own applications onto the service mesh and providing the ability for you as a service mesh manager to customize your service mesh deployment.</p>
+
+<p>Review the <a href="https://docs.meshplay.khulnasoft.com/guides/sample-apps">sample application guides</a> to familiarize with their differences and learn more about the beta adapter for <a href="https://docs.meshplay.khulnasoft.com/service-meshes">Meshplay Adapter for Traefik Mesh</a>.</p>
+ 
+
+<h3>Meshplay Adapter for NGINX Service Mesh (alpha)</h3>
+<img style="float:left; max-width:200px; display:inline; position:relative; margin-right: 1.5rem; padding: 1.25rem;" src={NGINXSM} />
+
+<p>NGINX Service Mesh (NSM) is a fully integrated, lightweight service mesh that leverages a data plane powered by NGINX Plus to manage container traffic in Kubernetes environments. </p>
+
+<p>Meshplay supports lifecycle and performance management of NGINX Service Mesh. Bundled with this support are a few sample applications to help users understand the functionality of NGINX Service Mesh. lifecycle management and sample applications operations below:</p>
+
+  <ul>
+    <li>Book Info</li>
+    <li>HTTPBin</li>
+    <li>Emojivoto</li>
+  </ul>
+
+<p>Review the <a href="https://docs.meshplay.khulnasoft.com/guides/sample-apps">sample application guides</a> to familiarize with their differences. Learn more about the alpha adapter for <a href="https://docs.meshplay.khulnasoft.com/service-meshes">Meshplay Adapter for NGINX Service Mesh</a>.</p>
+
+<h2>Integrating with Meshplay: Using extension points</h2>
+
+As the cloud native manager, Meshplay, is an extensible platform offering user and integrators well-crafted, extension points. Extension points allow you to  augment the behavior of Meshplay by either adding entirely new capabilities or affecting the behavior of existing functionality, as see in the figure below.
+
+<div class="img-center">
+  <a href={MeshplayExtensibility} style="background-color:rgba(255,255,255,0)"><img src={MeshplayExtensibility} /></a>
+</div>
+
+As you can see in the diagram, Meshplay offers many types of extension points.
+
+- <strong>Extensible Service Mesh Adapters</strong> - bring your own service mesh.
+- <strong>Extensible APIs</strong> - bring your own GraphQL resolvers and expose new, custom endpoints.
+- <strong>Extensible Load Generators</strong> - Meshplay supports three types of load generators, however, you can bring your own and plug it in.
+- <strong>Extensible Providers</strong> - the v0.5.0 release delivers dynamic injection of Remote Provider extensions. Providers are a powerful mechanism for integrating Meshplay into your existing tooling and systems.
+
+There are two types of Providers in Meshplay: Local - built into Meshplay and Remote - implemented by anyone or any organization that wishes to integrate with Meshplay. Remote Provider extensibility includes:
+
+  * Pluggable UI functionality
+  * Pluggable Backend functionality
+  * Pluggable Authentication and Authorization
+  * Long-Term Persistence
+  * Enhanced Visualization
+  * Historical Reporting  
+
+Learn more about the platform Meshplay provides to extend its funcionality by exploring its <Link to="https://docs.meshplay.khulnasoft.com/extensibility">extension points</Link>. If you have or are building your own <Link to="https://docs.meshplay.khulnasoft.com/extensibility/providers">Remote Provider</Link>, let us know!
+<h2>MeshKit and Meshplay Adapter Library</h2>
+
+As a service mesh toolkit, MeshKit aims to specifically focus on service mesh management and provides broadly useful functionality, it provides a standard policy for error handling and logging across all Meshplay components, and implementations for error handling, logging, and tracing.
+
+<ul>
+  <li>MeshKit provides common data models of Service Mesh Interface conformance testing for Meshplay.</li>
+  <li>The low-level API abstract by MeshKit to the high-level functions provides out-of-the-box functions.</li>
+</ul>
+
+<h3>Meshplay Adapter Library</h3>
+
+<p>The Meshplay Adapter Library provides a common and consistent set of functionality for managing the lifecycle of service meshes and their workloads.</p>
+<div class="img-center">
+  <a href={MeshplayAdapterLibrary}><img src={MeshplayAdapterLibrary} /></a>
+</div>
+
+* The library provides a set of interfaces, some with default implementations like a mini framework implementing the gRPC server that allows plugging in the mesh-specific configuration and operations implemented in the adapters.
+* The default configuration provider we use Viper to reads the adapter specific configuration, and the configuration providers are implementations of an interface, this can be flexible if anyone wants to implement it on their own.
+
+<div class="intro" style="text-align:center;margin: 2rem 4rem;"><p>Read <Link to="/community/members/michael-gfeller">Maintainer Michael Gfeller</Link>'s blog post <Link to="/blog/meshplay/introducing-meshkit-and-the-meshplay-adapter-library">Introduction MeshKit and the Meshplay Adapter Library</Link> for more details.</p></div>
+
+With the increasing the number and diversity of service meshes supported by Meshplay, you might find the list of [Supported Service Meshes](https://docs.meshplay.khulnasoft.com/service-meshes) a helpful, complete list.
+
+<h2>Meshplay Operator</h2>
+<img style="float: left;max-width:300px; width:20%;padding: 1.25rem;" src={MeshplayOperator} />
+<p style="display:block;width:100%;">
+As a Kubernetes custom controller, Meshplay Operator provides a Kubernetes-native approach to interfacing with Meshplay. Kubernetes is where service meshes have gotten their initial foothold, and therefore, important that Meshplay interface to Kubernetes natively.</p><p>Some service meshes support non-containerized workloads outside of the cluster and will grow in this focus over time. While Meshplay Operator is Kubernetes only in the v0.5.0 release, Meshplay's arichitecture makes considerations for different workload and platform types.</p>
+
+<div style="display:flex;width:100%;">
+  <div style="text-align:center;flex:50%;">
+    <a href={MeshplayOperatorShot} style="background-color:rgba(255,255,255,0)"><img style="width:100%;" src={MeshplayOperatorShot} /></a>
+  </div>
+  <ul style="flex:50%;">
+    <li>Meshplay Operator is the multi-service mesh operator that runs as a Kubernetes Operator and defines two custom resources: MeshSync and Meshplay Broker (NATS)</li>
+    <li>Meshplay Operator is provides abilities includes cluster discovery, service mesh discovery, and data streaming via NATS.</li>
+  </ul>
+</div>
+
+<h3>MeshSync</h3>
+<p>MeshSync is available as a Kubernetes custom resource that provides tiered discovery and continual synchronization with Meshplay Server as to the state of the Kubernetes cluster, service meshes, and their workloads.</p>
+
+<div style="display:flex;">
+<img style="max-width:300px; width:20%;padding: 1.25rem;" src={MeshSync} />
+<ul>
+
+  <li>MeshSync is one of a family of custom controllers within Meshplay Operator and is the <Link to="https://docs.meshplay.khulnasoft.com/concepts/architecture/meshsync">heartbeat of Meshplay</Link>, pumping information about service meshes and their workloads throughout Meshplay's components.</li>
+  <li>MeshSync helps Meshplay mesh with meshes by helping define a service mesh agnostic object model.</li>
+  <li>It provides ability to detect service meshes and services deployed on the cluster, and snapshot stored in-memory and refreshed periodically; 
+maintain the local snapshot of the cluster and refreshed periodically.</li>
+  <li>MeshSync These abilities above help Meshplay operations more resilient.</li>
+</ul>
+
+</div>
+<h4>Relational Database</h4>
+
+Meshplay's <a href="https://docs.meshplay.khulnasoft.com/concepts/architecture/database">relational database</a> serves as a repository for MeshSync data, user preferences, and system settings. This database should be considered ephemeral and given that it operates as a cache. Meshplay relational database offers federated datasets for managing multiple Kubernetes cluster and multiple service meshes.
+
+<div class="img-center">
+  <a href={MeshplayDB}><img src={MeshplayDB} /></a>
+</div>
+
+<p>Learn more and consider <a href="https://github.com/khulnasoft/meshsync">contributing</a> to MeshSync.</p>
+
+## GraphQL Support
+
+Meshplay now supports <a href="https://docs.meshplay.khulnasoft.com/concepts/architecture#meshplay-operator-and-meshsync">GraphQL instances</a> between Meshplay UI and Meshplay Server offering any GraphQL client the  power to ask for exactly what they need from mesh. This new API sets the stage preparing for  exciting features in upcoming releases. Extension points are also built into Meshplay's GraphQL support allowing integrators to bring their own GraphQL resolvers to the Meshplay server runtime.
+
+
+<h2>Meshplay Command Line Interface Enhancements</h2>
+The beloved `meshplayctl` introduces new commands in the v0.5.0 release expands the CLI's support of multiple Meshplay deployments with the `context` command and control over when Meshplay auto-updates with the `channel` command.
+
+<h3>Managing Multiple Meshplay Deployments</h3>
+Introduced in this release is the meshconfig - a configuration file that describes Meshplay deployments in separate <i>contexts</i>. A Meshplay <i>context</i> describes deployments across Docker hosts and Kubernetes clusters. <code>meshplayctl system context</code> enables user to easy manage multiple deployments of Meshplay by quickly switching contexts. 
+
+### Subscribing to Meshplay Release Channels
+`meshplayctl system channel` allows you to easily set and switch between which Meshplay release channel (stable or edge) that you want a particilar Meshplay deployment (`context`) to use. Meshplay deployments subscribe to one of two release channels and can either automatically self-update the deployment or prompt you to update the deployment. Alternatively, you can pin a given Meshplay deployment to a specific release should you want tighter control over when Meshplay updates. Read more about <Link to="https://docs.meshplay.khulnasoft.com/project/build-and-release#release-channels">Meshplay's <i>stable</i> and <i>edge</i> release channels</Link>. 
+
+
+Review the <Link to="https://docs.meshplay.khulnasoft.com/reference/meshplayctl">meshplayctl Command Reference</Link> for details on all subcommands, flags, and their behavior.
+
+<h2>On to v0.6.0</h2>
+
+To get a more comprehensive list of the bug fixes and enhancements packaged in the v0.5.0 release, see the [Meshplay Documentation](https://docs.meshplay.khulnasoft.com/). With v0.6.0 planning complete these signal of the KhulnaSoft community's innovation cycle trending upward sharply. See Meshplay's <Link to="https://github.com/khulnasoft/meshplay/blob/master/ROADMAP.md">roadmap</Link> for a prelude of what's yet to come.
+
+<div class="intro"><p>If these topics excite you and you want to explore the wonderful world of service meshes, come and say "Hi" on the community <Link to="http://slack.khulnasoft.com">Slack</Link> and you are sure to be warmly welcomed. <span>😀</span></p></div>
+
+</BlogWrapper>

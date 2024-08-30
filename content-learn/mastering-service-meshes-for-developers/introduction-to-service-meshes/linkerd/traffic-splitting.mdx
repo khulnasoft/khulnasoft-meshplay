@@ -1,14 +1,14 @@
 ---
 docType: "Chapter"
 chapterTitle: "Traffic Splitting using SMI and Linkerd"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 7
 ---
 
 import { ChapterStyle } from "../../../../src/components/Learn-Components/Chapters-Style/chapters.style.js";
-import ControlPlane from "../../../../src/assets/images/learn-layer5/linkerd/control-plane-c.webp";
+import ControlPlane from "../../../../src/assets/images/learn-khulnasoft/linkerd/control-plane-c.webp";
 
 <ChapterStyle>
 
@@ -26,15 +26,15 @@ proxies to follow. As opposed to presenting its own configuration format for tra
 
 We will be deploying [istio's bookinfo application](https://istio.io/latest/docs/examples/bookinfo/) for this part of the demo
 
-Use meshery to deploy the bookinfo application :
+Use meshplay to deploy the bookinfo application :
 
-- In Meshery, navigate to the Linkerd adapter's management page from the left nav menu.
+- In Meshplay, navigate to the Linkerd adapter's management page from the left nav menu.
 - On the Linkerd adapter's management page, please enter `default` in the `Namespace` field.
 - Then, click the (+) icon on the `Sample Application` card and select `Bookinfo Application` from the list.
 
 OR...
 
-- Download the [./sample/bookinfo.yaml](https://raw.githubusercontent.com/layer5io/linkerd-service-mesh-workshop/master/lab-7/sample/book-info.yaml)
+- Download the [./sample/bookinfo.yaml](https://raw.githubusercontent.com/khulnasoft/linkerd-service-mesh-workshop/master/lab-7/sample/book-info.yaml)
 - Inject linkerd into the sample application.
 
 ```sh
@@ -122,6 +122,6 @@ kubectl delete trafficsplit/reviews-split
 kubectl delete -f ./sample/service.yaml
 ```
 
-- Remove the bookinfo application from the `Meshery Dashboard` by clicking on the `trash icon` in the `sample application` card on the linkerd adapters' page.
+- Remove the bookinfo application from the `Meshplay Dashboard` by clicking on the `trash icon` in the `sample application` card on the linkerd adapters' page.
 
 </ChapterStyle>

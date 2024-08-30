@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import slugify from "../../../utils/slugify";
-import layer5_img from "../../../assets/images/layer5/layer5-only/svg/layer5-gray-no-trim.svg";
+import khulnasoft_img from "../../../assets/images/khulnasoft/khulnasoft-only/svg/khulnasoft-gray-no-trim.svg";
 import BlogPostSignOffWrapper from "./blogpost-signoff.styles";
 
 const authorField = (author, isSlugAvailable) => {
@@ -42,8 +42,8 @@ const BlogPostSignOff = ({ author }) => {
   }
   return (
     <BlogPostSignOffWrapper>
-      - {author.name === "Layer5 Team"
-        ? <p className="sign-off"><img src={layer5_img} alt="Layer5" /> Team</p>
+      - {author.name === "KhulnaSoft Team"
+        ? <p className="sign-off"><img src={khulnasoft_img} alt="KhulnaSoft" /> Team</p>
         : <p className="sign-off">{authorField(author, isSlugAvailable)}</p>
       }
     </BlogPostSignOffWrapper>

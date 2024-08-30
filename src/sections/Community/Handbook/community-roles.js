@@ -7,7 +7,7 @@ import { Link } from "gatsby";
 import TocPagination from "../../../components/handbook-navigation/TocPagination";
 
 const contents = [
-  { id: 0, link: "#top", text: "What are the different roles in the Layer5 community?", },
+  { id: 0, link: "#top", text: "What are the different roles in the KhulnaSoft community?", },
   { id: 1, link: "#Community Manager", text: "Community Manager" },
   { id: 2, link: "#MeshMate", text: "MeshMate" },
   { id: 3, link: "#Maintainer", text: "Maintainer", },
@@ -25,11 +25,11 @@ const CommunityGuide = () => {
           <div className="content">
             <a id="top">
               {" "}
-              <h2>What are the roles held by individuals in the Layer5 community?</h2>{" "}
+              <h2>What are the roles held by individuals in the KhulnaSoft community?</h2>{" "}
             </a>
 
             <p>
-              A leader is someone who can contribute to the Layer5 Community's
+              A leader is someone who can contribute to the KhulnaSoft Community's
               growth by being accountable, participating in decision-making, and
               feeling responsible.
             </p>
@@ -115,7 +115,7 @@ const CommunityGuide = () => {
             <p>
               <strong> Roles and Responsibilities: </strong>
               <br />
-              Layer5 MeshMates are committed to helping community members be
+              KhulnaSoft MeshMates are committed to helping community members be
               successful contributors. MeshMates aid in identifying areas of
               projects to engage within, working groups to join, and helping
               community members grow in their open-source and cloud-native
@@ -156,7 +156,7 @@ const CommunityGuide = () => {
                 <li>
                   Facilitate the creation and advancement of metrics/software
                 </li>
-                <li>Answer questions about the progress of Layer5 projects</li>
+                <li>Answer questions about the progress of KhulnaSoft projects</li>
                 <li>Report on weekly community call progress on a project</li>
                 <li>Review issues on the repository</li>
                 <li>Review and merge pull requests</li>
@@ -173,7 +173,7 @@ const CommunityGuide = () => {
               id="maintainer-checklist-1"
             />
             <label htmlFor="maintainer-checklist-1">
-              Makes consistent contributions within the Layer5 community
+              Makes consistent contributions within the KhulnaSoft community
             </label>
             <input
               type="checkbox"
@@ -189,7 +189,7 @@ const CommunityGuide = () => {
               id="maintainer-checklist-3"
             />
             <label htmlFor="maintainer-checklist-3">
-              Holds knowledge of Layer5 project performance, and software
+              Holds knowledge of KhulnaSoft project performance, and software
             </label>
             <input
               type="checkbox"

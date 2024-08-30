@@ -56,7 +56,7 @@ const SMPPage = () => {
                   </Col>
                   <Col lg={7} md={12} sm={12} style={{ textAlign: "center" }}>
                     <h1> Cloud Native Performance </h1>
-                    <p>Donated by Layer5, Intel, Red Hat, and HashiCorp, Cloud Native Performance is a CNCF-hosted project. MeshMark provides a universal performance index to gauge your infrastructure's efficiency against deployments in other organizations' environments.</p>
+                    <p>Donated by KhulnaSoft, Intel, Red Hat, and HashiCorp, Cloud Native Performance is a CNCF-hosted project. MeshMark provides a universal performance index to gauge your infrastructure's efficiency against deployments in other organizations' environments.</p>
                   </Col>
                 </Row>
               </div>
@@ -66,7 +66,7 @@ const SMPPage = () => {
         <Container>
           <div className="smp-details">
             <h2> Standardizing Cloud Native Value Measurement</h2>
-            <h3>SMP is a collaborative effort of Layer5, UT Austin, Intel, Red Hat, HashiCorp, Google and The Linux Foundation.</h3>
+            <h3>SMP is a collaborative effort of KhulnaSoft, UT Austin, Intel, Red Hat, HashiCorp, Google and The Linux Foundation.</h3>
             <Row>
               <Col lg={6}>
                 <img src={example} className="smp-example" alt="example: smp in action"></img>

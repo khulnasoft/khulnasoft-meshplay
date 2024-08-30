@@ -13,5 +13,5 @@ const Handbook = () => {
 };
 export default Handbook;
 export const Head = () => {
-  return <SEO title="Community Handbook" description="The purpose of the handbook is to provide an overview of the Layer5 community" />;
+  return <SEO title="Community Handbook" description="The purpose of the handbook is to provide an overview of the KhulnaSoft community" />;
 };

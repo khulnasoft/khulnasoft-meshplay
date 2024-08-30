@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Exposing services through Linkerd Ingress"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 3
@@ -25,7 +25,7 @@ In this workshop, you will use the NGINX Ingress Controller with Linkerd.
 
 <h3 class="chapter-sub-heading"> Installing NGINX Ingress Controller</h3>
 
-Using Meshery, select the Linkerd from the Management menu, and:
+Using Meshplay, select the Linkerd from the Management menu, and:
 
 1. Enter ingress-nginx into the namespace field.
 1. Click the (+) icon on the Apply Service Mesh Configuration card and select NGINX Ingress Controller to install the latest version of KIC.
@@ -55,7 +55,7 @@ minikube addons enable ingress
   Setting up Ingress controller with the sample application deployed
 </h3>
 
-Using Meshery, click the ➡️ icon on the `Apply Custom Configuration` card and apply the following manifest to your cluster:
+Using Meshplay, click the ➡️ icon on the `Apply Custom Configuration` card and apply the following manifest to your cluster:
 
 ```sh
 apiVersion: extensions/v1beta1

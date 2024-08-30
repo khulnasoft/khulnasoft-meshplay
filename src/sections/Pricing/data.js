@@ -33,7 +33,7 @@ export const details = [
       },
       {
         feature: "WASM Envoy Filter Management",
-        description: "Efficient WASM Envoy Filter Management in Meshery UI and CLI",
+        description: "Efficient WASM Envoy Filter Management in Meshplay UI and CLI",
         free: <MdClose className="no-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -180,7 +180,7 @@ export const details = [
       },
       {
         feature: "Distributed Load Generation",
-        description: "Distributed Load Generator: Support multiple Meshery clients generating load, collecting and coalescing results into a single report.",
+        description: "Distributed Load Generator: Support multiple Meshplay clients generating load, collecting and coalescing results into a single report.",
         free: <MdClose className="no-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -201,7 +201,7 @@ export const details = [
       },
       // {
       //   feature: "Service Mesh Interface Conformance GitHub Action",
-      //   description: "Using Meshery as the offical SMI Conformance validation tool, configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event.",
+      //   description: "Using Meshplay as the offical SMI Conformance validation tool, configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event.",
       //   free: <MdClose className="no-icon" />,
       //   team: <GiCheckMark className="yes-icon" />,
       //   enterprise: <GiCheckMark className="yes-icon" />,
@@ -229,7 +229,7 @@ export const details = [
       },
       {
         feature: "Collaborators for public designs",
-        description: "Invite any Layer5 Cloud user, or all Meshery users, to work with you on a public design that you control – including making changes and releasing new versions.",
+        description: "Invite any KhulnaSoft Cloud user, or all Meshplay users, to work with you on a public design that you control – including making changes and releasing new versions.",
         free: <MdClose className="no-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -264,7 +264,7 @@ export const details = [
       },
       {
         feature: "Add-ons",
-        description: "Access a variety of third-party applications, right from MeshMap. Send a message to Slack, identify an on-duty team to page, or raise an alarm in Layer5 Cloud.",
+        description: "Access a variety of third-party applications, right from MeshMap. Send a message to Slack, identify an on-duty team to page, or raise an alarm in KhulnaSoft Cloud.",
         free: <MdClose className="no-icon" />,
         team: <MdClose className="no-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -313,14 +313,14 @@ export const details = [
       },
       {
         feature: "Authentication: LDAP",
-        description: "Access Meshery using your existing accounts and centrally manage repository access.",
+        description: "Access Meshplay using your existing accounts and centrally manage repository access.",
         free: <MdClose className="no-icon" />,
         team: <MdClose className="no-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
       },
       {
         feature: "Authentication: SAML",
-        description: "Use an identity provider to manage the identities Meshery users and applications.",
+        description: "Use an identity provider to manage the identities Meshplay users and applications.",
         free: <MdClose className="no-icon" />,
         team: <MdClose className="no-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -341,7 +341,7 @@ export const details = [
     features: [
       {
         feature: "Notification Center",
-        description: "Events: Reporting of Meshery provisioning aand managagement events.",
+        description: "Events: Reporting of Meshplay provisioning aand managagement events.",
         free: <GiCheckMark className="yes-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -383,14 +383,14 @@ export const details = [
     features: [
       {
         feature: "Community Support",
-        description: "Get help with most of your Meshery questions and issues in our community discussion forum.",
+        description: "Get help with most of your Meshplay questions and issues in our community discussion forum.",
         free: <GiCheckMark className="yes-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
       },
       {
         feature: "Standard Support",
-        description: "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via the web.",
+        description: "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via the web.",
         free: <MdClose className="no-icon" />,
         team: <GiCheckMark className="yes-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -404,14 +404,14 @@ export const details = [
       },
       {
         feature: "Self-hosted Deployment",
-        description: "Self-hosted Layer5 Cloud for on-prem appliances or self-managed cloud tenants.",
+        description: "Self-hosted KhulnaSoft Cloud for on-prem appliances or self-managed cloud tenants.",
         free: <MdClose className="no-icon" />,
         team: <MdClose className="no-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
       },
       {
         feature: "Phone Support",
-        description: "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via phone.",
+        description: "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via phone.",
         free: <MdClose className="no-icon" />,
         team: <MdClose className="no-icon" />,
         enterprise: <GiCheckMark className="yes-icon" />,
@@ -434,22 +434,22 @@ export const options = [
     monthlyprice: 0,
     yearlyprice: 0,
     byline: "Open Source features, plus:",
-    button: ["Join for Free", "https://meshery.layer5.io"],
+    button: ["Join for Free", "https://meshplay.khulnasoft.com"],
     summary: [
       { id: 0, category: "Cloud Native Design Patterns", description: "Import and export your designs using your local filesystem or remote URL." },
       { id: 1, category: "Multiple Kubernetes Clusters", description: "Ongoing synchronization of Kubernetes configuration, workloads and cloud native infrastructure changes across any number of Kubernetes clusters." },
       { id: 2, category: "Cluster Discovery", description: "Day 2 support for ongoing synchronization of Kubernetes configuration, workloads and cloud native infrastructure changes." },
       { id: 3, category: "Microservices Performance", description: "Continuous visibility across all of your clusters and workloads." },
-      { id: 4, category: "Load Generation", description: "Single Load Generator: Support testing multiple endpoints simultaneously. Distributed Load Generator: Support multiple Meshery clients generating load, collecting and coalescing results into a single report." },
+      { id: 4, category: "Load Generation", description: "Single Load Generator: Support testing multiple endpoints simultaneously. Distributed Load Generator: Support multiple Meshplay clients generating load, collecting and coalescing results into a single report." },
       { id: 5, category: "Open Policy Agent integration", description: "Ensure adherence to performance budgets with comprehensive support in Patterns. Safeguard service requests through JWT-based authorization. Enforce admission control for specific workloads, empowering seamless governance across your infrastructure." },
       { id: 6, category: "Continuous Service Monitoring", description: "Experience uninterrupted oversight of your service quality with our Continuous Quality of Service Monitoring." },
       { id: 7, category: "Audit Trail", description: "Log of all actions invoked by users." },
       { id: 8, category: "Alert Generation", description: "Dismiss individual; Dismiss bulk." },
-      { id: 9, category: "mesheryctl commands", description: " Seamlessly manage your configurations, deployments, and interactions through our intuitive and powerful command-line interface." },
+      { id: 9, category: "meshplayctl commands", description: " Seamlessly manage your configurations, deployments, and interactions through our intuitive and powerful command-line interface." },
       { id: 10, category: "MeshMark", description: "Identify the cost of a specific network function." },
       { id: 11, category: "Notification Center", description: "Consolidate all important updates, alerts, and messages in one centralized hub, ensuring you never miss a critical communication or task." },
       { id: 12, category: "Screenshots", description: "Capture and share visual snapshots of your work with ease using our Screenshots feature." },
-      { id: 13, category: "Community Support", description: "Get help with most of your Meshery questions and issues in our Community Forum." },
+      { id: 13, category: "Community Support", description: "Get help with most of your Meshplay questions and issues in our Community Forum." },
     ]
   },
   {
@@ -462,7 +462,7 @@ export const options = [
     summary: [
       { id: 0, category: "Dry-run", description: "Test and verify configuration changes in a separate environment." },
       { id: 1, category: "Design Reviews", description: "Discuss any design by leaving review comments or notes on a specific design. Control who has access, notify discussion participants with updates, and link from anywhere." },
-      { id: 2, category: "WASM Envoy Filter Management", description: "Efficient WASM Envoy Filter Management in Meshery UI and CL" },
+      { id: 2, category: "WASM Envoy Filter Management", description: "Efficient WASM Envoy Filter Management in Meshplay UI and CL" },
       { id: 3, category: "Visual Design", description: "Drag-n-drop cloud native infrastructure designer to configure, model, and deploy your workloads." },
       { id: 4, category: "Design versioning", description: "Connect your favorite git provider and version your designs." },
       { id: 5, category: "Distributed Performance Analysis", description: "Automatically suggest timeout or retry settings for a given service." },
@@ -471,7 +471,7 @@ export const options = [
       { id: 8, category: "Built-in Roles", description: "Static - out of the box" },
       { id: 9, category: "Comparative Testing", description: "Detect real-time anomalies and Historical views: Infrastructure-centric." },
       { id: 10, category: "Calendaring", description: "Get integration with GSuite and integration with Microsoft Outlook." },
-      { id: 11, category: "Standard Support", description: "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via the web." },
+      { id: 11, category: "Standard Support", description: "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via the web." },
       { id: 12, category: "Add-ons", description: "Access a variety of third-party applications, right from MeshMap. Send a message to Slack, identify an on-duty team to page, or raise an alarm in Datadog." },
     ]
   },
@@ -485,17 +485,17 @@ export const options = [
     button: ["Coming Soon", ""],
     summary: [
       { id: 0, category: "User-defined Roles", description: "Customizable roles for specific permission assignments" },
-      { id: 1, category: "Authentication: LDAP", description: "Access Meshery  using your existing accounts and centrally manage repository access." },
-      { id: 2, category: "Authentication: SAML", description: "Use an identity provider to manage the identities of Meshery users and applications." },
-      { id: 3, category: "Self-hosted Deployment", description: "Self-hosted Layer5 Cloud for on-prem appliances or self-managed cloud tenants." },
+      { id: 1, category: "Authentication: LDAP", description: "Access Meshplay  using your existing accounts and centrally manage repository access." },
+      { id: 2, category: "Authentication: SAML", description: "Use an identity provider to manage the identities of Meshplay users and applications." },
+      { id: 3, category: "Self-hosted Deployment", description: "Self-hosted KhulnaSoft Cloud for on-prem appliances or self-managed cloud tenants." },
       { id: 4, category: "Traffic Replay", description: "Visual event replay in MeshMap." },
       { id: 5, category: "Certificate support in performance profiles", description: "Enable certificate support within performance profiles. Enhance security and performance by seamlessly integrating certificates into your profiles." },
-      { id: 6, category: "Phone Support", description: "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via phone." },
+      { id: 6, category: "Phone Support", description: "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via phone." },
       { id: 7, category: "Organization and Team Management", description: "Manage access to designs on a team-by-team, or individual user, basis." },
       { id: 8, category: "Team Chat", description: "Message in real-time, unattached to a specific design. Control who can pariticpate in the discussion." },
       { id: 9, category: "Serverless Pricing", description: "Subscription plan management. Transformation of workflow pricing model." },
       { id: 10, category: "Premium and Premium Plus Support", description: "With Premium, get a 30-minute SLA and 24/7 web and phone support. With Premium Plus, get everything in Premium plus your own Support Account Manager and more." },
-      { id: 11, category: "Phone Support", description: "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via phone." },
+      { id: 11, category: "Phone Support", description: "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via phone." },
     ]
   },
 ];

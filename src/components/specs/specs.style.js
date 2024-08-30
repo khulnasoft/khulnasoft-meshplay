@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MesheryWhiteLogo from "../../assets/images/meshery/icon-only/meshery-logo.svg";
+import MeshplayWhiteLogo from "../../assets/images/meshplay/icon-only/meshplay-logo.svg";
 
 const SpecsWrapper = styled.div`
   
@@ -36,7 +36,7 @@ const SpecsWrapper = styled.div`
         top: 0;
         width: 100%;
         height: 100%;
-        background: url(${MesheryWhiteLogo}) no-repeat;
+        background: url(${MeshplayWhiteLogo}) no-repeat;
         z-index: 1;
         opacity: 0.2;
       }

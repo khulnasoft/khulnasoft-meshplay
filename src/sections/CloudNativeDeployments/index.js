@@ -47,7 +47,7 @@ const KubernetesMultiCluster = () => {
           <div>
             <h2 className={"use-heading"}>
               {" "}
-              Seamless Deployment Across Multiple Kubernetes Clusters for Every Meshery Design {" "}
+              Seamless Deployment Across Multiple Kubernetes Clusters for Every Meshplay Design {" "}
             </h2>
           </div>
           <div className={"collaboration_display"}>

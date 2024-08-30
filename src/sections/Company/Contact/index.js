@@ -28,10 +28,10 @@ const ContactPage = () => {
             img={Jobs_Icon}
             alt="Job"
             title="Careers"
-            content="I'm interested in career opportunities at Layer5"
+            content="I'm interested in career opportunities at KhulnaSoft"
           />
           <CardOutline
-            link="mailto:support@layer5.io"
+            link="mailto:support@khulnasoft.com"
             img={Support_Icon}
             alt="Support"
             title="Support"
@@ -42,7 +42,7 @@ const ContactPage = () => {
             img={Partner_Icon}
             alt="Partner"
             title="Partnership"
-            content="I would like to establish a partnership with Layer5"
+            content="I would like to establish a partnership with KhulnaSoft"
           />
         </Row>
         <Row className="contact-form-row">

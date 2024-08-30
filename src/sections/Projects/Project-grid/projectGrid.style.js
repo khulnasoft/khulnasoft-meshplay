@@ -86,7 +86,7 @@ export const ProjectWrapper = styled.div`
       transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
   }
-  .project__card-container_meshery {
+  .project__card-container_meshplay {
     height: 13rem;
   }
   .project__card-container_one {
@@ -133,7 +133,7 @@ export const ProjectWrapper = styled.div`
       margin-top: 10px;
     }
   }
-  // Meshery
+  // Meshplay
   .project__card.two {
     grid-column: 3/6;
     grid-row: 1/6;
@@ -334,7 +334,7 @@ export const ProjectWrapper = styled.div`
       align-items: center;
       justify-content: center;
     }
-    .project__card-container_meshery {
+    .project__card-container_meshplay {
       all: unset;
       aspect-ratio: 6/5;
       display: flex;

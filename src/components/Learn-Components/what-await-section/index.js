@@ -15,7 +15,7 @@ const WhatAwaitsSection = () => {
             <p>Cloud Native patterns help you get the most out of any cloud native. Each pattern can be used as a template and is customizable.
             </p>
             <p style={{ "justifyContent": "center", "textAlign": "center" }}>
-              <Button primary title="Visit Cloud Native Patterns catalog" url="https://meshery.layer5.io/catalog" external={true} style={{ "margin": "1rem" }}/>
+              <Button primary title="Visit Cloud Native Patterns catalog" url="https://meshplay.khulnasoft.com/catalog" external={true} style={{ "margin": "1rem" }}/>
               <Button secondary title="Visit Service Mesh Patterns website" url="https://service-mesh-patterns.github.io/service-mesh-patterns/" external={true} />
             </p>
           </div>
@@ -24,7 +24,7 @@ const WhatAwaitsSection = () => {
 
           <Terminal
             lines={[
-              { code: "$ mesheryctl pattern apply -f canary-v3.yaml", color: "white" },
+              { code: "$ meshplayctl pattern apply -f canary-v3.yaml", color: "white" },
               { code: "» Deploying...", color: "navy" },
               {
                 code: "✓ Deployment successfully rolled out!",
@@ -58,11 +58,11 @@ const WhatAwaitsSection = () => {
                 color: "navy",
               },
               {
-                code: "» Prerelease URL: https://payments-v3.meshery.run",
+                code: "» Prerelease URL: https://payments-v3.meshplay.run",
                 color: "green",
               },
               {
-                code: "» Release URL: https://payments.meshery.run",
+                code: "» Release URL: https://payments.meshplay.run",
                 color: "green",
               },
             ]}

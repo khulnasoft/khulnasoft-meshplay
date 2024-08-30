@@ -27,7 +27,7 @@ const CommunityGuide = () => {
               <h2 id="communityGuidelines">Community Guidelines</h2>
             </a>
             <p>
-              Welcome to the Layer5 community! We’re happy to have you here and
+              Welcome to the KhulnaSoft community! We’re happy to have you here and
               handhold you for your first contribution. Here are some tips to
               help you get started:
             </p>
@@ -58,12 +58,12 @@ const CommunityGuide = () => {
               a sample of the many active, ongoing community projects. One way
               of doing so is to review the{" "}
               <Link to="/community/handbook/repository-overview">
-                Layer5 Repository Overview
+                KhulnaSoft Repository Overview
               </Link>{" "}
               section of this handbook to get a better understanding of each
               project. This document will help you to understand the projects
               based on their technology domain(s). Be sure to star the
-              community’s <a href="https://github.com/layer5io">repositories</a>{" "}
+              community’s <a href="https://github.com/khulnasoft">repositories</a>{" "}
               on GitHub!
             </p>
             <p>
@@ -109,12 +109,12 @@ const CommunityGuide = () => {
               <p>
                 <img className="logo" src={Point} alt="Point" />
                 Sign-up on the{" "}
-                <a href="https://layer5.io/subscribe">community mailer</a>.
+                <a href="https://khulnasoft.com/subscribe">community mailer</a>.
               </p>
               <p>
                 <img className="logo" src={Point} alt="Point" />
                 Ask for a copy of{" "}
-                <a href="https://layer5.io/books/the-enterprise-path-to-service-mesh-architectures">
+                <a href="https://khulnasoft.com/books/the-enterprise-path-to-service-mesh-architectures">
                   The Enterprise Path to Service Mesh Architectures.
                 </a>
               </p>

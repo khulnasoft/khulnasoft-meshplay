@@ -12,7 +12,7 @@ import { ProgramsWrapper } from "../Programs.style.js";
 import Button from "../../../reusecore/Button";
 import gsoc_logo from "./gsoc.svg";
 import {Link} from "gatsby";
-import playground from "./meshery-playground-alt-4.webp";
+import playground from "./meshplay-playground-alt-4.webp";
 
 <ProgramsWrapper>
 
@@ -45,20 +45,20 @@ import playground from "./meshery-playground-alt-4.webp";
 
 ### Cloud Native Playground
 
-<a href="https://play.meshery.io">
+<a href="https://play.meshplay.khulnasoft.com">
 <img src={playground} alt="the cncf playground mockup" style="width:40%;" />
 </a>
 
 
 #### In-browser OPA policy evaluation in WASM and Rego
 
-- Description: Meshery's highly dynamic infrastructure configuration capabilities require real-time evaluation of complex policies. Policies of various types and with a high number of parameters need to be evaluted client-side. With policies expressed in Rego, the goal of this project is to incorporate use of the https://github.com/open-policy-agent/golang-opa-wasm project into Meshery UI, so that a powerful, real-time user experience is possible.
+- Description: Meshplay's highly dynamic infrastructure configuration capabilities require real-time evaluation of complex policies. Policies of various types and with a high number of parameters need to be evaluted client-side. With policies expressed in Rego, the goal of this project is to incorporate use of the https://github.com/open-policy-agent/golang-opa-wasm project into Meshplay UI, so that a powerful, real-time user experience is possible.
 - Expected outcome:
 - Recommended Skills: Golang, Open Policy Agent, WASM
 - Mentor(s): <Link to="/community/members/lee-calcote">Lee Calcote</Link>, <Link to="/community/members/abhishek-kumar">Abhishek Kumar</Link>
 - Expected project size: 350 hours
 - Difficulty: Hard
-- Upstream Issue (URL): https://github.com/meshery/meshery/issues/7019
+- Upstream Issue (URL): https://github.com/meshplay/meshplay/issues/7019
 
 #### [MeshModel] Kubernetes Ontology Browser
 
@@ -72,28 +72,28 @@ import playground from "./meshery-playground-alt-4.webp";
 - Mentor(s): <Link to="/community/members/lee-calcote">Lee Calcote</Link>, <Link to="/community/members/abhishek-kumar">Abhishek Kumar</Link>
 - Expected project size: 350 hours
 - Difficulty: Hard
-- Upstream Issue (URL): https://github.com/meshery/meshery/issues/7465
+- Upstream Issue (URL): https://github.com/meshplay/meshplay/issues/7465
 
-#### Adopt OCI as the packaging and distribution format for Meshery MeshModels
+#### Adopt OCI as the packaging and distribution format for Meshplay MeshModels
 
-- Description: Meshery MeshModels represent a schema-based description of cloud native infratructure. MeshModels need to be portable between Meshery deployments as well as easily versionable in external repositories. 
+- Description: Meshplay MeshModels represent a schema-based description of cloud native infratructure. MeshModels need to be portable between Meshplay deployments as well as easily versionable in external repositories. 
 - Expected outcome:
-  - Meshery clients (mesheryctl and Meshery UI) should be able to import/export MeshModels as OCI images.
-  - Meshery clients (mesheryctl and Meshery UI) should be able to push/pull from OCI-compatible registries.
+  - Meshplay clients (meshplayctl and Meshplay UI) should be able to import/export MeshModels as OCI images.
+  - Meshplay clients (meshplayctl and Meshplay UI) should be able to push/pull from OCI-compatible registries.
   - Stretch Goal: OCI image signing; Verify the authenticity of MeshModels using [cosign](https://github.com/sigstore/cosign).
-  - Target registries: Meshery Catalog (https://meshery.io/catalog), Artifact Hub.
+  - Target registries: Meshplay Catalog (https://meshplay.khulnasoft.com/catalog), Artifact Hub.
 - Recommended Skills: Reactjs, Golang, GraphQL
 - Mentor(s): <Link to="/community/members/lee-calcote">Lee Calcote</Link>, <Link to="/community/members/abhishek-kumar">Abhishek Kumar</Link>
 - Expected project size: 175 hours
 - Difficulty: Medium
-- Upstream Issue (URL): https://github.com/meshery/meshery/issues/6447
+- Upstream Issue (URL): https://github.com/meshplay/meshplay/issues/6447
 
 <br />
 <hr />
 <br />
 <h2>Additional Information</h2>
 <div className="flex-div">&nbsp;</div>
-<div id="layer5-intro" className="iframe-container">
+<div id="khulnasoft-intro" className="iframe-container">
   <iframe
     width="392"
     height="220.5"
@@ -105,26 +105,26 @@ import playground from "./meshery-playground-alt-4.webp";
   />
 </div>
 <p>
-  Layer5 projects are open source software. Anyone can download, use, work on,
+  KhulnaSoft projects are open source software. Anyone can download, use, work on,
   and share it with others. It's built on principles like collaboration,
-  globalism, and innovation. Layer5 projects are distributed under the terms of
+  globalism, and innovation. KhulnaSoft projects are distributed under the terms of
   Apache v2.
 </p>
 
-<h3>About Layer5</h3>
+<h3>About KhulnaSoft</h3>
 
 <p>
 We want to participate to help first-time open source contributors get started and what will hopefully be a lifelong journey of open source participation. We want to have them have a great first experience, understand what it means to be embraced by empathy and, in turn, to have empathy for others. We are all learning and growing each day. Our organization and community culture has a pay-it-forward mentality. We spend a lot of time with both students and adults alike, tutoring them, supporting them, and watching them grow. We believe that the world has too few truly diverse and perpetually encouraging open source communities. We take our internships very seriously and grow and support interns to dramatically increase their career velocity. We love helping others learn and grow. </p>
 
 <p>
-Mentoring and seeing others learn and grow is what Layer5 is all about - they grow, we grow. Layer5 is a platform for mentees to hoist themselves up on and leapfrog from. We’re a platform for shared success. Direct participation in GSoC will be most meaningful to the community. </p>
+Mentoring and seeing others learn and grow is what KhulnaSoft is all about - they grow, we grow. KhulnaSoft is a platform for mentees to hoist themselves up on and leapfrog from. We’re a platform for shared success. Direct participation in GSoC will be most meaningful to the community. </p>
 
 <p>
-We interact daily over Slack, and have an open source project <Link to="/community/calendar">meeting everyday</Link>, which are posted to the community <a href="https://www.youtube.com/c/Layer5io?sub_confirmation=1" rel="nofollow">YouTube channel</a>.</p>
+We interact daily over Slack, and have an open source project <Link to="/community/calendar">meeting everyday</Link>, which are posted to the community <a href="https://www.youtube.com/c/KhulnaSoft?sub_confirmation=1" rel="nofollow">YouTube channel</a>.</p>
 <p>
-  Layer5 projects are open source software. Anyone can download, use, work on,
+  KhulnaSoft projects are open source software. Anyone can download, use, work on,
   and share it with others. It's built on principles like collaboration,
-  globalism, and innovation. Layer5 projects are distributed under the terms of
+  globalism, and innovation. KhulnaSoft projects are distributed under the terms of
   Apache v2.
 </p>
 
@@ -134,7 +134,7 @@ We interact daily over Slack, and have an open source project <Link to="/communi
   The key component of these projects is our Community. This community, which
   you will join as a participant in Google Summer of Code, is improving the
   world of diverse cloud native systems. Your contributions will affect people
-  you've never met. The Layer5 community includes software engineers,
+  you've never met. The KhulnaSoft community includes software engineers,
   researchers, students, artists, system administrators, operators and web
   designers -- all of whom will be happy to help you get started.
 </p>
@@ -150,7 +150,7 @@ We interact daily over Slack, and have an open source project <Link to="/communi
     <Button
       primary
       title="Participate"
-      url="https://discuss.layer5.io"
+      url="https://discuss.khulnasoft.com"
       external={ true }
     />
   </h3>

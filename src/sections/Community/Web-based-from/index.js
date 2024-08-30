@@ -76,7 +76,7 @@ const WebBasedForm = () => {
     return (
       <Container>
         <h2 className="title">New Community Member</h2>
-        <p className="para">Hi! Welcome to the Layer5 community. As you get oriented with the community and its projects, will you consider filling in this form? It helps us get familiarized with you and you with the ongoing projects and community. There is much to learn around the technologies at-hand. We'll look to get you acclimated and engaged around your areas of interest and passion. </p>
+        <p className="para">Hi! Welcome to the KhulnaSoft community. As you get oriented with the community and its projects, will you consider filling in this form? It helps us get familiarized with you and you with the ongoing projects and community. There is much to learn around the technologies at-hand. We'll look to get you acclimated and engaged around your areas of interest and passion. </p>
         <Formik
           initialValues={{
             firstname: memberFormOne.firstname ? memberFormOne.firstname : "",
@@ -208,7 +208,7 @@ const WebBasedForm = () => {
   //             <div className="text">
   //               <h2>Community First</h2>
   //               <p>
-  //                 The Layer5 community represents the largest collection of
+  //                 The KhulnaSoft community represents the largest collection of
   //                 service mesh projects and their maintainers in the world.
   //               </p>
   //             </div>
@@ -232,7 +232,7 @@ const WebBasedForm = () => {
   //                 developers, owners, and operators with repeatable patterns and
   //                 best practices for managing all aspects of distributed
   //                 services. Our shared commitment to the open source spirit push
-  //                 the Layer5 community and its projects forward.
+  //                 the KhulnaSoft community and its projects forward.
   //               </p>
   //             </div>
   //           </Col>
@@ -248,7 +248,7 @@ const WebBasedForm = () => {
   const MemberFormThird = () => {
     return (
       <Container>
-        <h2 className="title">Layer5 and You</h2>
+        <h2 className="title">KhulnaSoft and You</h2>
         <Formik
           initialValues={{
             projects: MemberFormThirdValue.projects ? MemberFormThirdValue.projects : [],
@@ -270,10 +270,10 @@ const WebBasedForm = () => {
             <label>
               <Field type="checkbox"
                 name="projects"
-                value="Meshery"
+                value="Meshplay"
                 className="form-check"
               />
-              <span className="checkbox-label">Meshery</span>
+              <span className="checkbox-label">Meshplay</span>
             </label>
             <br />
             <label>
@@ -342,10 +342,10 @@ const WebBasedForm = () => {
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="Contributing to Meshery UI with ReactJS, NextJS and Material UI"
+                value="Contributing to Meshplay UI with ReactJS, NextJS and Material UI"
                 className="form-check"
               />
-              <span className="checkbox-label">Contributing to Meshery UI with ReactJS, NextJS and Material UI</span>
+              <span className="checkbox-label">Contributing to Meshplay UI with ReactJS, NextJS and Material UI</span>
             </label>
             <br />
             <label>
@@ -360,10 +360,10 @@ const WebBasedForm = () => {
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="Introduction to using a cloud native management plane: Meshery"
+                value="Introduction to using a cloud native management plane: Meshplay"
                 className="form-check"
               />
-              <span className="checkbox-label">Introduction to using a cloud native management plane: Meshery</span>
+              <span className="checkbox-label">Introduction to using a cloud native management plane: Meshplay</span>
             </label>
             <br />
             <label>
@@ -378,37 +378,37 @@ const WebBasedForm = () => {
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="How gRPC is used in Meshery and Service Mesh Performance (SMP)"
+                value="How gRPC is used in Meshplay and Service Mesh Performance (SMP)"
                 className="form-check"
               />
-              <span className="checkbox-label">How gRPC is used in Meshery and Service Mesh Performance (SMP)</span>
+              <span className="checkbox-label">How gRPC is used in Meshplay and Service Mesh Performance (SMP)</span>
             </label>
             <br />
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="How Jekyll websites work and how to contribute to Layer5 projects"
+                value="How Jekyll websites work and how to contribute to KhulnaSoft projects"
                 className="form-check"
               />
-              <span className="checkbox-label">How Jekyll websites work and how to contribute to Layer5 projects</span>
+              <span className="checkbox-label">How Jekyll websites work and how to contribute to KhulnaSoft projects</span>
             </label>
             <br />
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="How mesheryctl uses Go Cobra"
+                value="How meshplayctl uses Go Cobra"
                 className="form-check"
               />
-              <span className="checkbox-label">How mesheryctl uses Go Cobra</span>
+              <span className="checkbox-label">How meshplayctl uses Go Cobra</span>
             </label>
             <br />
             <label>
               <Field type="checkbox"
                 name="tutorials"
-                value="Introduction to Gatsby and Layer5"
+                value="Introduction to Gatsby and KhulnaSoft"
                 className="form-check"
               />
-              <span className="checkbox-label">Introduction to Gatsby and Layer5</span>
+              <span className="checkbox-label">Introduction to Gatsby and KhulnaSoft</span>
             </label>
             <br />
             <label>
@@ -428,14 +428,14 @@ const WebBasedForm = () => {
               />
               <span className="checkbox-label">None of the above</span>
             </label>
-            <p className="form-name"><Link to="https://layer5.io/community/meshmates">Layer5 MeshMates</Link> is a community member mentoring program aimed at individuals new to open source or simply new to Layer5 projects. Is this program of interest to you?</p>
+            <p className="form-name"><Link to="https://khulnasoft.com/community/meshmates">KhulnaSoft MeshMates</Link> is a community member mentoring program aimed at individuals new to open source or simply new to KhulnaSoft projects. Is this program of interest to you?</p>
             <label>
               <Field type="checkbox"
                 name="meshMate"
-                value="Yes, and I would like to explore engaging with a Layer5 MeshMate."
+                value="Yes, and I would like to explore engaging with a KhulnaSoft MeshMate."
                 className="form-check"
               />
-              <span className="checkbox-label">Yes, and I would like to explore engaging with a Layer5 MeshMate.</span>
+              <span className="checkbox-label">Yes, and I would like to explore engaging with a KhulnaSoft MeshMate.</span>
             </label>
             <br />
             <label>
@@ -456,7 +456,7 @@ const WebBasedForm = () => {
               <span className="checkbox-label">No, thank you.</span>
             </label>
             <br />
-            <p className="para label">If you would like to pair with a MeshMate, please review each MeshMate profile to identify your ideal mentor. Once you have identified your ideal MeshMate or if you can’t decide on one, simply ask to be partnered in the <a href="https://layer5io.slack.com/archives/C019426UBNY">#newcomers channel</a> in the Layer5 Slack.</p>
+            <p className="para label">If you would like to pair with a MeshMate, please review each MeshMate profile to identify your ideal mentor. Once you have identified your ideal MeshMate or if you can’t decide on one, simply ask to be partnered in the <a href="https://khulnasoft.slack.com/archives/C019426UBNY">#newcomers channel</a> in the KhulnaSoft Slack.</p>
             <label htmlFor="interests" className="form-name">What has your recent focus been? Why have you joined the community? What are you passionate about? Is there a specific project or aspect of project that interests you?<span className="required-sign">*</span></label>
             <Field as="textarea" className="text-field" id="interests" name="interests" required onInvalid={e => e.target.setCustomValidity("Please fill-in this field")} onInput={e => e.target.setCustomValidity("")} />
             <label htmlFor="profiency" className="form-name">If a contributor, what tools, technologies, or languages are you most proficient with?</label>
@@ -578,7 +578,7 @@ const WebBasedForm = () => {
     return (
       <Container>
         <h2 className="title">Expectations and Programs FAQ</h2>
-        <p>Commonly asked questions about general engagement expectations and information focal to internship programs. See the <Link to="/community">Layer5 Community</Link> and <Link to="/programs">Open Source Internship Programs</Link> for additional information.</p>
+        <p>Commonly asked questions about general engagement expectations and information focal to internship programs. See the <Link to="/community">KhulnaSoft Community</Link> and <Link to="/programs">Open Source Internship Programs</Link> for additional information.</p>
         <Formik
           initialValues={{
             expect: false,
@@ -594,8 +594,8 @@ const WebBasedForm = () => {
           }}
         >
           <Form className="form">
-            <p className="form-name">What can I expect from Layer5? What does Layer5 expect of me?</p>
-            <p className="para label">The Layer5 community expects you to get as much or more out of your time than you give to the projects. We expect earnest effort from its contributors. What “earnest effort” means is different for each community member as all have different circumstances. Suffice to say, the more you put into your efforts, the greater your reward will be. Most community contributors stay with the project for many months, if not indefinitely. Length of involvement is entirely up to the individual community member.</p>
+            <p className="form-name">What can I expect from KhulnaSoft? What does KhulnaSoft expect of me?</p>
+            <p className="para label">The KhulnaSoft community expects you to get as much or more out of your time than you give to the projects. We expect earnest effort from its contributors. What “earnest effort” means is different for each community member as all have different circumstances. Suffice to say, the more you put into your efforts, the greater your reward will be. Most community contributors stay with the project for many months, if not indefinitely. Length of involvement is entirely up to the individual community member.</p>
             <label>
               <Field type="checkbox"
                 name="expect"
@@ -603,7 +603,7 @@ const WebBasedForm = () => {
               />
               <span>Ok</span>
             </label>
-            <p className="form-name">I see works of other contributors being highlighted in the Layer5, Meshery, and SMP Twitter feeds, the Meshery and SMP showcases, and in the Layer5 YouTube channel.</p>
+            <p className="form-name">I see works of other contributors being highlighted in the KhulnaSoft, Meshplay, and SMP Twitter feeds, the Meshplay and SMP showcases, and in the KhulnaSoft YouTube channel.</p>
             <p className="para label">We try to elevate the works of our contributors. All of our community members are proud of their work and so are we! We want their work and names to be recognized across our collective technology industry. Be sure to follow and engage with these Twitter accounts, YouTube, and LinkedIn accounts.</p>
             <label>
               <Field type="checkbox"
@@ -613,7 +613,7 @@ const WebBasedForm = () => {
               <span>Ok</span>
             </label>
             <p className="form-name">Are community contributors paid? Are internships paid? What do I get in return?</p>
-            <p className="para label">With few exceptions, generally community contributors and interns are not paid. Those that participate through Google Summer of Code, LFX, or Google Season of Docs do receive a stipend at the culmination of their internship. The largest return on time invested in the community for any contributor is the knowledge, relationships, recognition, and experience gained throughout their engagement. Their participation affords them an opportunity to work with world-class engineers, gives focus and purpose to their learning efforts on technologies they otherwise may not understand, and exposes their work broadly to the Cloud Native community. Letters of recommendation, mentorship and coaching, introduction to engineers at globally-recognized technology companies, potential contract or full-time work at Layer5, public writing and speaking opportunities are all examples of benefits those that participate can receive for their time spent.</p>
+            <p className="para label">With few exceptions, generally community contributors and interns are not paid. Those that participate through Google Summer of Code, LFX, or Google Season of Docs do receive a stipend at the culmination of their internship. The largest return on time invested in the community for any contributor is the knowledge, relationships, recognition, and experience gained throughout their engagement. Their participation affords them an opportunity to work with world-class engineers, gives focus and purpose to their learning efforts on technologies they otherwise may not understand, and exposes their work broadly to the Cloud Native community. Letters of recommendation, mentorship and coaching, introduction to engineers at globally-recognized technology companies, potential contract or full-time work at KhulnaSoft, public writing and speaking opportunities are all examples of benefits those that participate can receive for their time spent.</p>
             <label>
               <Field type="checkbox"
                 name="paid"
@@ -621,7 +621,7 @@ const WebBasedForm = () => {
               />
               <span>Ok</span>
             </label>
-            <p className="form-name">I see other contributors have affiliated themselves with Layer5 on LinkedIn. Am I encouraged to do the same?</p>
+            <p className="form-name">I see other contributors have affiliated themselves with KhulnaSoft on LinkedIn. Am I encouraged to do the same?</p>
             <p className="para label">Yes! We welcome you to affiliate with the community and projects. We consider this affiliation helpful in boosting your profile and resume in context of job searches and overall in general. Be sure to update your profile, and be social about your activities. We love to highlight our members!</p>
             <label>
               <Field type="checkbox"
@@ -648,11 +648,11 @@ const WebBasedForm = () => {
     return (
       <Container>
         <div className="black-box">
-          <h2>Welcome to the Layer5 Community!</h2>
+          <h2>Welcome to the KhulnaSoft Community!</h2>
           <h4>Resources are on their way. See these in the meantime:</h4>
           <div className="btn-box">
-            <Button primary className="btn-one" type="button" title="Community Handbook" url="https://layer5.io/community/handbook" />
-            <Button secondary className="btn-two" type="button" title="Newcomers Roadmap" url="https://layer5.io/community/newcomers" />
+            <Button primary className="btn-one" type="button" title="Community Handbook" url="https://khulnasoft.com/community/handbook" />
+            <Button secondary className="btn-two" type="button" title="Newcomers Roadmap" url="https://khulnasoft.com/community/newcomers" />
           </div>
           <p>We are pleased to have you as a new member!</p>
         </div>

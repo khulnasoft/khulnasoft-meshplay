@@ -7,14 +7,14 @@ import { ThemeManagerContext } from "../../../theme/app/ThemeManager";
 import { ProjectWrapper } from "./projectGrid.style";
 import MeshMapCTA from "../../meshmap-cta";
 
-import extension from "../../../assets/images/docker-extension/docker-extension-meshery-logo.svg";
-import meshery from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
-import landscape from "../../../assets/images/landscape/layer5_landscape_green.svg";
-import imagehub from "../../../assets/images/image-hub/layer5-image-hub.svg";
+import extension from "../../../assets/images/docker-extension/docker-extension-meshplay-logo.svg";
+import meshplay from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
+import landscape from "../../../assets/images/landscape/khulnasoft_landscape_green.svg";
+import imagehub from "../../../assets/images/image-hub/khulnasoft-image-hub.svg";
 import smp_dark from "../../../assets/images/service-mesh-performance/icon/smp-dark.svg";
 import smp_light from "../../../assets/images/service-mesh-performance/icon/smp-light.svg";
 import patterns from "../../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
-import L5gray from "../../../assets/images/layer5/5 icon/svg/gray/5-gray-60.svg";
+import L5gray from "../../../assets/images/khulnasoft/5 icon/svg/gray/5-gray-60.svg";
 import nighthawk from "../../../assets/images/nighthawk/icon-only/SVG/nighthawk-logo.svg";
 import meshmap from "../../../assets/images/meshmap/icon-only/meshmap-icon.svg";
 import catalog from "../../../assets/images/catalog-icon/catalog.svg";
@@ -50,12 +50,12 @@ const ProjectPage = () => {
               </div>
             </Link>
             <Link
-              to="/cloud-native-management/meshery"
+              to="/cloud-native-management/meshplay"
               className="project__card two"
             >
-              <div className="project__card-container project__card-container_meshery">
-                <img src={meshery} alt="Meshery" />
-                <h5>Meshery</h5>
+              <div className="project__card-container project__card-container_meshplay">
+                <img src={meshplay} alt="Meshplay" />
+                <h5>Meshplay</h5>
               </div>
             </Link>
             <Link to="/projects/image-hub" className="project__card three">
@@ -99,13 +99,13 @@ const ProjectPage = () => {
               </div>
             </Link>
             <Link
-              to="/docker-extension-meshery"
+              to="/docker-extension-meshplay"
               className="project__card seven"
             >
               <div className="project__card-container-seven">
                 <Row>
-                  <img src={extension} alt="Meshery Docker Extension" />
-                  <h5> Meshery Docker Extension </h5>
+                  <img src={extension} alt="Meshplay Docker Extension" />
+                  <h5> Meshplay Docker Extension </h5>
                 </Row>
               </div>
             </Link>

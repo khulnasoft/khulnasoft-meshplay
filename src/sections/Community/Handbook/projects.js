@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "../../../reusecore/Layout";
-import meshery from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
-import layer5icon from "../../../assets/images/layer5/5 icon/svg/light/5-light-bg.svg";
+import meshplay from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
+import khulnasofticon from "../../../assets/images/khulnasoft/5 icon/svg/light/5-light-bg.svg";
 import hawkIcon from "../../../assets/images/nighthawk/icon-only/SVG/nighthawk-logo.svg";
 import meshmateicon from "../../../assets/images/meshmate/meshmate-icon.svg";
 import PatternsLogo from "../../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
 import servicemeshperformance from "../../../assets/images/service-mesh-performance/icon/smp-dark.svg";
-import mesheryoperatoricon from "../../../assets/images/meshery-operator/meshery-operator.svg";
-import mesherysyncicon from "../../../assets/images/meshsync/meshsync.svg";
+import meshplayoperatoricon from "../../../assets/images/meshplay-operator/meshplay-operator.svg";
+import meshplaysyncicon from "../../../assets/images/meshsync/meshsync.svg";
 import { HandbookWrapper } from "./Handbook.style";
 import TOC from "../../../components/handbook-navigation/index";
 import TocPagination from "../../../components/handbook-navigation/TocPagination";
@@ -17,10 +17,10 @@ import IntraPage from "../../../components/handbook-navigation/intra-page";
 const contents = [
   {
     id: 0,
-    link: "#Layer5",
-    text: "Layer5",
+    link: "#KhulnaSoft",
+    text: "KhulnaSoft",
   },
-  { id: 1, link: "#Meshery", text: "Meshery" },
+  { id: 1, link: "#Meshplay", text: "Meshplay" },
   {
     id: 2,
     link: "#Cloud Native Performance",
@@ -45,12 +45,12 @@ const Maintainer = () => {
           <div className="content">
             <p>
 
-              <a id="Layer5">
+              <a id="KhulnaSoft">
                 {" "}
                 <h3 className="heading-top">
-                  <a href="https://layer5.io/">
-                    <img className="project-title-icon" src={layer5icon} alt="Layer5" />
-                    &nbsp; Layer5{" "}
+                  <a href="https://khulnasoft.com/">
+                    <img className="project-title-icon" src={khulnasofticon} alt="KhulnaSoft" />
+                    &nbsp; KhulnaSoft{" "}
                   </a>
                 </h3>{" "}
               </a>
@@ -66,18 +66,18 @@ const Maintainer = () => {
               <ul>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/">Layer5 :</a>
+                    <a href="https://khulnasoft.com/">KhulnaSoft :</a>
                   </h4>{" "}
                 </li>
                 <p>
-                  Layer5 is the official website of the Layer5 community showing
-                  an overview of the Layer5 projects. The different cloud native
+                  KhulnaSoft is the official website of the KhulnaSoft community showing
+                  an overview of the KhulnaSoft projects. The different cloud native
                   landscapes, resources to learn about cloud native, and
                   communities. <br />
                 </p>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/projects/image-hub">
+                    <a href="https://khulnasoft.com/projects/image-hub">
                       Image-Hub :
                     </a>
                   </h4>{" "}
@@ -92,7 +92,7 @@ const Maintainer = () => {
                 </p>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/projects/nighthawk">
+                    <a href="https://khulnasoft.com/projects/nighthawk">
                       Nighthawk :
                     </a>
                   </h4>{" "}
@@ -100,7 +100,7 @@ const Maintainer = () => {
                 <p>
                   This Is a Layer 7 (HTTP/HTTPS/HTTP2) performance
                   characterization tool. Nighthawk is Envoy’s load generator and
-                  is written in C++. Meshery integrates Nighthawk as one of
+                  is written in C++. Meshplay integrates Nighthawk as one of
                   (currently) three choices of load generators for
                   characterizing and managing the performance of cloud native infrastructure (e.g. Kubernetes and Docker) and their services. <br />
                 </p>
@@ -108,74 +108,74 @@ const Maintainer = () => {
             </p>
             <p>
 
-              <a id="Meshery">
+              <a id="Meshplay">
                 {" "}
                 <h3>
-                  <a href="https://layer5.io/cloud-native-management/meshery">
-                    <img className="project-title-icon" src={meshery} alt="Meshery" />
-                    &nbsp; Meshery
+                  <a href="https://khulnasoft.com/cloud-native-management/meshplay">
+                    <img className="project-title-icon" src={meshplay} alt="Meshplay" />
+                    &nbsp; Meshplay
                   </a>
                 </h3>{" "}
               </a>
 
             </p>
             <p>
-              Meshery and its components Meshery Operator{" "}
-              <img className="project-description-icon" src={mesheryoperatoricon} alt="Meshery Operator Icon" /> and MeshSync{" "}
-              <img className="project-description-icon" src={mesherysyncicon} alt="MeshSync icon" />
+              Meshplay and its components Meshplay Operator{" "}
+              <img className="project-description-icon" src={meshplayoperatoricon} alt="Meshplay Operator Icon" /> and MeshSync{" "}
+              <img className="project-description-icon" src={meshplaysyncicon} alt="MeshSync icon" />
               <ul>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/cloud-native-management/meshery">
-                      Meshery
+                    <a href="https://khulnasoft.com/cloud-native-management/meshplay">
+                      Meshplay
                     </a>
                   </h4>{" "}
                 </li>
                 <p>
                   It is a cloud native management plane offering lifecycle
-                  management of more types of cloud native infrastrcture than any other tool                  available today. Meshery facilitates adopting, configuring,
+                  management of more types of cloud native infrastrcture than any other tool                  available today. Meshplay facilitates adopting, configuring,
                   operating, and managing the performance of Kuberenetes workloads and incorporates the collection and display of metrics
                   from applications running on top of any service mesh.
                   <br />{" "}
                 </p>
                 <li>
                   <h4>
-                    <a href="https://meshery.io/">Meshery.io</a>
+                    <a href="https://meshplay.khulnasoft.com/">Meshplay.io</a>
                   </h4>{" "}
                 </li>
                 <p>
-                  Website for Meshery, the cloud native manager. <br />
+                  Website for Meshplay, the cloud native manager. <br />
                 </p>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/cloud-native-management/meshery/meshery-operator">
-                      Meshery-operator :
+                    <a href="https://khulnasoft.com/cloud-native-management/meshplay/meshplay-operator">
+                      Meshplay-operator :
                     </a>
                   </h4>{" "}
                 </li>
                 <p>
-                  Meshery Operator is the multi-cloud native operator and
+                  Meshplay Operator is the multi-cloud native operator and
                   implementation of MeshSync. <br />
                 </p>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/docker-extension-meshery">
-                      Meshery-docker-extension :
+                    <a href="https://khulnasoft.com/docker-extension-meshplay">
+                      Meshplay-docker-extension :
                     </a>
                   </h4>{" "}
                 </li>
                 <p>
-                  The Docker Extension for Meshery extends Docker Desktop’s position as the cloud native developer’s go-to Kubernetes environment with easy access to the next layer of cloud native infrastructure: cloud native infra. <br />
+                  The Docker Extension for Meshplay extends Docker Desktop’s position as the cloud native developer’s go-to Kubernetes environment with easy access to the next layer of cloud native infrastructure: cloud native infra. <br />
                 </p>
                 <li>
                   <h4>
-                    <a href="https://layer5.io/cloud-native-management/catalog">
-                      Meshery Catalog :
+                    <a href="https://khulnasoft.com/cloud-native-management/catalog">
+                      Meshplay Catalog :
                     </a>
                   </h4>{" "}
                 </li>
                 <p>
-                  As a central hub for sharing cloud native infrastructure designs, Meshery Catalog enables the exchange of the best practices, reusable templates, and Kubernetes-based operational patterns for multi-cluster Kubernetes clusters and distributed applications. <br />
+                  As a central hub for sharing cloud native infrastructure designs, Meshplay Catalog enables the exchange of the best practices, reusable templates, and Kubernetes-based operational patterns for multi-cluster Kubernetes clusters and distributed applications. <br />
                 </p>
               </ul>
             </p>
@@ -196,7 +196,7 @@ const Maintainer = () => {
             </a>
 
             <p>
-              <a href="https://layer5.io/projects/cloud-native-performance">
+              <a href="https://khulnasoft.com/projects/cloud-native-performance">
                 The Cloud Native Performance (SMP)
               </a>{" "}
               is a vendor-neutral specification for capturing details of
@@ -223,7 +223,7 @@ const Maintainer = () => {
             </p>
             <p>
               A collection of curated patterns of cloud native use cases
-              compatible with Meshery. <br />
+              compatible with Meshplay. <br />
             </p>
           </div>
           <TocPagination />

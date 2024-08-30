@@ -86,7 +86,7 @@ const Reviews = () => {
         <Slider {...settings}>
           {/* <Customers
             type="1"
-            quote="The Meshery Extension transforms Docker Desktop into a powerful load generation utility, conveniently enabling me to deploy and configure any service mesh with a click of the button and invoke and control load-based performance tests from my desktop."
+            quote="The Meshplay Extension transforms Docker Desktop into a powerful load generation utility, conveniently enabling me to deploy and configure any service mesh with a click of the button and invoke and control load-based performance tests from my desktop."
             person="Maximiliano Churichi"
             title="Software Engineer at HPE"
             image={Maxi}
@@ -107,7 +107,7 @@ const Reviews = () => {
           />
           <Customers
             type="2"
-            quote="Meshery is the perfect tool for ensuring that your applications are optimally configured and performing well; it also gives you a fantastic visual insight into what can be a large amount of textual configuration"
+            quote="Meshplay is the perfect tool for ensuring that your applications are optimally configured and performing well; it also gives you a fantastic visual insight into what can be a large amount of textual configuration"
             person="Nic Jackson"
             title="Principal Developer Advocate at HashiCorp"
             image={Nic}
@@ -158,7 +158,7 @@ const Reviews = () => {
           />
           <Customers
             type="2"
-            quote="With a goal to bring workload identity and attestation to all service meshes, HPE Security Engineering uses the Meshery Docker Extension to deploy their service mesh of choice and test the performance of our SPIFFE and SPIRE-based identity solution."
+            quote="With a goal to bring workload identity and attestation to all service meshes, HPE Security Engineering uses the Meshplay Docker Extension to deploy their service mesh of choice and test the performance of our SPIFFE and SPIRE-based identity solution."
             person="Maximiliano Churichi"
             title="Software Engineer at HPE"
             image={Maxi}
@@ -167,12 +167,12 @@ const Reviews = () => {
             type="3"
             quote="A sophisticated, but simply communicated value-performance index, MeshMark, redefines efficiency utilization, bringing business, application, and infrastructure KPIs under a single unit of measure."
             person="Lee Calcote"
-            title="Founder and CEO of Layer5, and Co-Chair of the CNCF TAG Network"
+            title="Founder and CEO of KhulnaSoft, and Co-Chair of the CNCF TAG Network"
             image={Lee}
           /> */}
           <Customers
             type="3"
-            quote="The Meshery Docker Extension offers an easy button to go from Docker Compose to Kubernetes to any service mesh."
+            quote="The Meshplay Docker Extension offers an easy button to go from Docker Compose to Kubernetes to any service mesh."
             person="Nic Jackson"
             title="Principal Developer Advocate at HashiCorp"
             image={Nic}
@@ -192,14 +192,14 @@ const Reviews = () => {
             image={Patrick}
           />
           <Customers
-            quote="Meshery is an innovative tool for managing our multi-cluster and multi-cloud workloads."
+            quote="Meshplay is an innovative tool for managing our multi-cluster and multi-cloud workloads."
             person="Hein Htet Win"
             title="MeshMap User"
             image={Hein}
           />
           <Customers
             type="1"
-            quote="Meshery has so many really amazing features all of which make DevOps and SRE life easy."
+            quote="Meshplay has so many really amazing features all of which make DevOps and SRE life easy."
             person="Anusha Sridharan"
             title="Lead Software Engineer at Fidelity Investments"
             image={Anusha}

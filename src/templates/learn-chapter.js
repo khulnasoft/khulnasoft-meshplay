@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import SEO from "../components/seo";
 
 
-import Chapters from "../sections/Learn-Layer5/Chapters";
+import Chapters from "../sections/Learn-KhulnaSoft/Chapters";
 
 import SimpleReactLightbox from "simple-react-lightbox";
 
@@ -102,6 +102,6 @@ export default SingleChapter;
 export const Head = ({ data }) => {
   return <SEO
     title={data.chapter.frontmatter.chapterTitle}
-    canonical="https://layer5.io/learn/learning-paths"
+    canonical="https://khulnasoft.com/learn/learning-paths"
   />;
 };

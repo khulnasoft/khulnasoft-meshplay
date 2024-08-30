@@ -4,8 +4,8 @@ import { Row, Col } from "../../../../reusecore/Layout";
 import Button from "../../../../reusecore/Button";
 import ColorBox from "../../../../components/ColorBox";
 import { FiDownloadCloud } from "@react-icons/all-files/fi/FiDownloadCloud";
-import ImageHub from "../../../../assets/images/image-hub/layer5-image-hub.webp";
-import ImageHubWhite from "../../../../assets/images/image-hub/layer5-image-hub-white.webp";
+import ImageHub from "../../../../assets/images/image-hub/khulnasoft-image-hub.webp";
+import ImageHubWhite from "../../../../assets/images/image-hub/khulnasoft-image-hub-white.webp";
 
 
 const ImageHubBrand = () => {
@@ -28,10 +28,10 @@ const ImageHubBrand = () => {
           <p>
             The Image Hub mark includes the Image Hub name & logo, and any
             word, phrase, image, or other designation that identifies the
-            source or origin of any Layer5 projects. Please don’t modify the
+            source or origin of any KhulnaSoft projects. Please don’t modify the
             marks or use them in a confusing way, including suggesting
-            sponsorship or endorsement by Layer5, or in a way that confuses
-            Layer5 with another brand (including your own).
+            sponsorship or endorsement by KhulnaSoft, or in a way that confuses
+            KhulnaSoft with another brand (including your own).
           </p>
         </Col>
       </Row>

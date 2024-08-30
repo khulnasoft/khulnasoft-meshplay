@@ -7,8 +7,8 @@ import Button from "../../../reusecore/Button";
 import VintageBox from "../../../reusecore/VintageBox";
 import BGImg from "../../../components/BGImage";
 import ReactPlayer from "react-player/youtube";
-// import mesheryPlayground from "./meshery-playground-meshmap.png";
-import videoThumbnail from "./meshery-infrastructure-as-diagram.webp";
+// import meshplayPlayground from "./meshplay-playground-meshmap.png";
+import videoThumbnail from "./meshplay-infrastructure-as-diagram.webp";
 
 import { FaMapMarkedAlt } from "@react-icons/all-files/fa/FaMapMarkedAlt";
 import { BsArrowUpRight } from "@react-icons/all-files/bs/BsArrowUpRight";
@@ -16,7 +16,7 @@ import playIcon from "../../../assets/images/homePage-images/play-button.webp";
 
 import Banner1SectionWrapper from "./banner4.style";
 
-// import meshmapVideo from "../../../assets/video/meshery/meshmap/meshmap-short-consul.mp4";
+// import meshmapVideo from "../../../assets/video/meshplay/meshmap/meshmap-short-consul.mp4";
 import { graphql, useStaticQuery } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import useHasMounted from "../../../utils/useHasMounted";
@@ -68,10 +68,10 @@ const Banner1 = (props) => {
               </SectionTitle>
               <span className="vintage-box-container">
                 <VintageBox right={true} vintageOne={true}>
-                  <Button primary className="banner-btn one" title="Learn about Meshery" url="/cloud-native-management/meshmap">
+                  <Button primary className="banner-btn one" title="Learn about Meshplay" url="/cloud-native-management/meshmap">
                     <FaMapMarkedAlt size={21} className="icon-left" />
                   </Button>
-                  <Button secondary className="banner-btn two" title="Open in Playground" url="https://play.meshery.io" external={true}>
+                  <Button secondary className="banner-btn two" title="Open in Playground" url="https://play.meshplay.khulnasoft.com" external={true}>
                     <BsArrowUpRight size={21} className="icon-left" />
                   </Button>
                 </VintageBox>

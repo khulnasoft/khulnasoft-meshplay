@@ -56,11 +56,11 @@ const MembersGrid = (props) => {
           <div className="AboutCommunity">
             <div>
               <h3 className="sectionTitle">Community Membership</h3>
-              <img src={communityImg} alt="Layer5 Community" />
+              <img src={communityImg} alt="KhulnaSoft Community" />
             </div>
             <div className="detailsCommunity">
               <p>
-                The open source community at Layer5 goes out of its way to
+                The open source community at KhulnaSoft goes out of its way to
                 welcome and encourage new contributors. We often assign
                 newcomers an onboarding buddy, a{" "}
                 <Link to="/community/meshmates" className="meshmate-link">
@@ -74,14 +74,14 @@ const MembersGrid = (props) => {
               </p>
               <p>
                 We also spend a great deal of time trying to recognize and
-                uplift contributors on the Layer5 and Meshery Twitter accounts
+                uplift contributors on the KhulnaSoft and Meshplay Twitter accounts
                 whether "contribution" means code or any of the other various
                 forms of being involved in the projects and community.
                 Likewise, we try to lift up contributors' works on the{" "}
-                <Link to="https://www.linkedin.com/company/layer5">Layer5</Link>
+                <Link to="https://www.linkedin.com/company/khulnasoft">KhulnaSoft</Link>
                 ,{" "}
-                <Link to="https://www.linkedin.com/showcase/meshery">
-                  Meshery
+                <Link to="https://www.linkedin.com/showcase/meshplay">
+                  Meshplay
                 </Link>
                 ,{" "}
                 <Link to="https://getnighthawk.dev/">
@@ -101,7 +101,7 @@ const MembersGrid = (props) => {
 
               <p>
                 Open source contributors come in all shapes, sizes, colors and
-                so on. All are welcome in the Layer5 projects and community!!
+                so on. All are welcome in the KhulnaSoft projects and community!!
               </p>
 
               <p className="text-gray">Would you like to participate?</p>
@@ -121,7 +121,7 @@ const MembersGrid = (props) => {
                     secondary
                     className="banner-btn two memberProfileBtn"
                     title="Join the Community"
-                    url="https://slack.layer5.io"
+                    url="https://slack.khulnasoft.com"
                   >
                     <FaUsers size={21} className="icon-left" />
                   </Button>
@@ -141,11 +141,11 @@ const MembersGrid = (props) => {
             </div>
             <div className="detailsCommunity">
               <p>
-              Layer5 badges are one of the many ways that we recognize the efforts
-              of our contributors and uplift our users. Layer5 badges represent milestones
-              that you achieve both in using and in contributing to Layer5-supported
+              KhulnaSoft badges are one of the many ways that we recognize the efforts
+              of our contributors and uplift our users. KhulnaSoft badges represent milestones
+              that you achieve both in using and in contributing to KhulnaSoft-supported
               open source projects. As a contributor, this is how you demonstrate your ownership,
-              dedication, skills and loyalty to Layer5. As a user,
+              dedication, skills and loyalty to KhulnaSoft. As a user,
               this is how you demonstrate your prowess.
               </p>
               <p>
@@ -155,7 +155,7 @@ const MembersGrid = (props) => {
               recognition of your achievements.
               </p>
               <p>
-              See what badges you can earn by visiting the Layer5 badges site. Collect the whole set!
+              See what badges you can earn by visiting the KhulnaSoft badges site. Collect the whole set!
               </p>
 
               <div>
@@ -164,7 +164,7 @@ const MembersGrid = (props) => {
                     primary
                     className="banner-btn memberProfileBtn"
                     title="Collect Badges"
-                    url="https://badges.layer5.io/"
+                    url="https://badges.khulnasoft.com/"
                     external={true}
                   >
                     <FaCertificate size={21} className="icon-left" />
@@ -174,7 +174,7 @@ const MembersGrid = (props) => {
                     secondary
                     className="banner-btn two memberProfileBtn"
                     title="Join the Community"
-                    url="https://slack.layer5.io"
+                    url="https://slack.khulnasoft.com"
                   >
                     <FaUsers size={21} className="icon-left" />
                   </Button>

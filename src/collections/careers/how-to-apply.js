@@ -45,7 +45,7 @@ const PositionApply = () => {
           <h5>How to Apply</h5>
         </div>
         <p>Submit your resume and a short cover letter to:
-          <a href="mailto:jobs@layer5.io"> jobs@layer5.io</a>
+          <a href="mailto:jobs@khulnasoft.com"> jobs@khulnasoft.com</a>
         </p>
       </div>
     </PositionApplyWrapper>

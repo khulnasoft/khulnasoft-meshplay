@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import layer5_img from "./layer5-white.webp";
+import khulnasoft_img from "./khulnasoft-white.webp";
 
 const sortByLen = (rowA, rowB, id, desc) => {
 
@@ -26,7 +26,7 @@ export const Columns = [
     accessor: "service_mesh"
   },
   {
-    Header: () => <Link to="/"><img src={layer5_img} alt="layer5"/></Link>,
+    Header: () => <Link to="/"><img src={khulnasoft_img} alt="khulnasoft"/></Link>,
     columns: [
       {
         Header: "Category",

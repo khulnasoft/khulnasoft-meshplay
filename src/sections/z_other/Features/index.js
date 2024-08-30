@@ -8,7 +8,7 @@ import Icon1 from "../../assets/images/app/features/01.svg";
 // import Icon3 from "../../assets/images/app/features/03.svg";
 // import Icon4 from "../../assets/images/app/features/04.svg";
 // import Icon5 from "../../assets/images/app/features/05.svg";
-import mesheryOperatorDark from "./img/meshery-operator_dark.svg";
+import meshplayOperatorDark from "./img/meshplay-operator_dark.svg";
 import policyEngineGreen from "./img/policy-engine_green.svg";
 import distributedPerformance from "./img/distributed-performance_green.svg";
 import visualToplogy from "./img/visual-topology.svg";
@@ -89,11 +89,11 @@ const Features = () => {
           <Col xs={12} sm={6} md={4}>
             <div className="features-block v2">
               <div className="features-icon-block">
-                <img src={mesheryOperatorDark} alt="Meshery Operator" />
+                <img src={meshplayOperatorDark} alt="Meshplay Operator" />
               </div>
               <h3>Automated Operation</h3>
               <p>
-                <a href="/meshery/service-mesh-operator" alt="Cloud Native and Service Mesh Operator">Meshery Operator</a>
+                <a href="/meshplay/service-mesh-operator" alt="Cloud Native and Service Mesh Operator">Meshplay Operator</a>
               </p>
             </div>
           </Col>

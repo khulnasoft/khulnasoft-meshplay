@@ -21,7 +21,7 @@ const AdventuresHome = () => {
       <div className="community-home-container">
         <AdventuresVol
           title="Meet Five"
-          description="Join Five as he sets off in his trusty rocketship following the trail of stars to planet Meshery."
+          description="Join Five as he sets off in his trusty rocketship following the trail of stars to planet Meshplay."
           to="/five/vol1/mascot-five-adventure-github-stars.pdf"
           image={vol1Img}
         />
@@ -42,8 +42,8 @@ const AdventuresHome = () => {
         />
 
         <AdventuresVol
-          title="Planet Meshery"
-          description="Our hero parchutes into planet Meshery.
+          title="Planet Meshplay"
+          description="Our hero parchutes into planet Meshplay.
           ...coming soon..."
         //   to="/community/handbook/faq"
         />

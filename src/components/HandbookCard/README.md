@@ -7,4 +7,4 @@ To use this CTA :
 <HandbookCard />
 ```
 
-![image](https://github.com/layer5io/docs/assets/74408634/e2700f3f-a7e9-4331-a6c0-37776296ba4b)
+![image](https://github.com/khulnasoft/docs/assets/74408634/e2700f3f-a7e9-4331-a6c0-37776296ba4b)

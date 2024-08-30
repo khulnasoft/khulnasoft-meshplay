@@ -1,6 +1,6 @@
 ## How to use the CTA (Call To Action)
 
-The CTA's are meant to be used in the MDX files under the layer5 repo.
+The CTA's are meant to be used in the MDX files under the khulnasoft repo.
 Any MDX file can have these CTA's, and you don't need to import them explicitly.
 Just calling the component like `<AdventuresVolh />` would do the trick.
 

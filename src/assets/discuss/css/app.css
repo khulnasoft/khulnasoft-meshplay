@@ -28,7 +28,7 @@ body {
         color: var(--header-primary);
     }
     a:hover {
-        color: var(--layer5_green);
+        color: var(--khulnasoft_green);
     }
 } 
 
@@ -59,7 +59,7 @@ body {
 
 .custom-search-banner {
     margin: -1em 0 2em 0;
-    background-color: var(--layer5_green);
+    background-color: var(--khulnasoft_green);
     .custom-search-banner-wrap{
         max-height: 250px;
         padding-top: 4em;

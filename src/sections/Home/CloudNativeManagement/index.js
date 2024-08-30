@@ -28,7 +28,7 @@ const BannerDefault = () => {
                   leftAlign={true}
                   UniWidth="100%"
                 >
-                  <h4 className="statement">Meshery is</h4>
+                  <h4 className="statement">Meshplay is</h4>
                   <div className="demo">
                     The <span>cloud native management platform</span>
                   </div>
@@ -39,8 +39,8 @@ const BannerDefault = () => {
                       </div> */}
                       <div className="description">
                         <p>
-                          An extensible platform, Meshery comes packed with{" "}
-                          <Link to="/cloud-native-management/meshery/integrations">
+                          An extensible platform, Meshplay comes packed with{" "}
+                          <Link to="/cloud-native-management/meshplay/integrations">
                             integrations
                           </Link>{" "}
                           for Prometheus, Grafana, Jaeger, CloudEvents, support
@@ -48,8 +48,8 @@ const BannerDefault = () => {
                           other cloud native projects.
                         </p>
                         <p>
-                          Meshery is your microservices manager. With extension
-                          points throughout, Meshery offers users and
+                          Meshplay is your microservices manager. With extension
+                          points throughout, Meshplay offers users and
                           integrators the ability to extend and customize
                           platform functionality.
                         </p>
@@ -61,7 +61,7 @@ const BannerDefault = () => {
                       primary
                       className="join-community-button"
                       title="Extend your control"
-                      url="/cloud-native-management/meshery"
+                      url="/cloud-native-management/meshplay"
                     />
                   </div>
                 </SectionTitle>

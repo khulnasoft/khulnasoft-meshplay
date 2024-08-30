@@ -119,7 +119,7 @@ export const SpacingGuidance = () => {
             a more grotesque or brutal theme, while higher and more consistent
             use of radiuses can describe a modern and minimal UI theme. Radius
             values can be determined based on the use case and the needs of the
-            designs being curated. With Layer5, we have chosen five radius
+            designs being curated. With KhulnaSoft, we have chosen five radius
             values that can provide a the much needed variation that can help to
             describe a minimal and consistent user interface.
           </p>

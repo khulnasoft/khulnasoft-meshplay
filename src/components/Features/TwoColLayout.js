@@ -71,7 +71,7 @@ const TwoColLayout = ({ containerRefs, contentRefs }) => {
         </ImageWrapper>
         <ContentWrapper ref={(el) => (contentRefs.current[0] = el)}>
           <h2>Visualize and Simplify Platform Engineering</h2>
-          <p className="text">Incorporate AWS, GCP and Kubernetes components into Meshery designs for comprehensive and intuitive system mapping, documentation, and orchestration.</p>
+          <p className="text">Incorporate AWS, GCP and Kubernetes components into Meshplay designs for comprehensive and intuitive system mapping, documentation, and orchestration.</p>
           <div className="small-card-container">
             <Link aria-label="aws" className="small-card" to="/cloud-native-management/generate-aws-architecture-diagram">
               <img alt="aws" src={isDark ? AWSLogoDark : AWSLogoLight} width={40} />

@@ -89,7 +89,7 @@ area/packages:
 - changed-files:
   - any-glob-to-any-file:
     - "package-*.js"
-project/meshery:
+project/meshplay:
 - changed-files:
   - any-glob-to-any-file:
     - "src/collections/integrations/**/*"

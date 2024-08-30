@@ -8,7 +8,7 @@ import { HiOutlineChevronUp } from "@react-icons/all-files/hi/HiOutlineChevronUp
 import { HiOutlineChevronDown } from "@react-icons/all-files/hi/HiOutlineChevronDown";
 // import { FaSearch } from "@react-icons/all-files/fa/FaSearch";
 
-const Discuss = "../../../assets/images/discuss/layer5-discuss-white.webp";
+const Discuss = "../../../assets/images/discuss/khulnasoft-discuss-white.webp";
 const FiveandFriendsAdventures =
   "../../../assets/images/blog/five-and-friends.png";
 
@@ -65,7 +65,7 @@ const Sidebar = ({ pageContext }) => {
     <BlogSideBarWrapper>
       <div className="explain-1">
         <div className="cards">
-          <a href="https://discuss.layer5.io/">
+          <a href="https://discuss.khulnasoft.com/">
             <div className="card">
               <h2>Join the Conversation</h2>
               <p>On our Discussion Forum</p>
@@ -134,7 +134,7 @@ const Sidebar = ({ pageContext }) => {
             <div className="card">
               <h2>See the Adventures of Five and Friends</h2>
               <StaticImage
-                alt="layer5 five and friends adventures"
+                alt="khulnasoft five and friends adventures"
                 src={FiveandFriendsAdventures}
               />
             </div>

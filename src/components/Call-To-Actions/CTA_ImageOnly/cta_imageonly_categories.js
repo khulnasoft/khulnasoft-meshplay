@@ -4,6 +4,6 @@ export const Categories = {
   "Community": {
     "Image": img_source,
     "Alt": "Alt text",
-    "Link": "https://slack.layer5.io"
+    "Link": "https://slack.khulnasoft.com"
   }
 };

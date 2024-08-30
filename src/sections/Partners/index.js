@@ -35,14 +35,14 @@ const Partner = () => {
     <PartnerWrapper>
       <div className="partner-container">
         <div className="partner-container-head">
-          <h1>Layer5 Partner Program</h1>
+          <h1>KhulnaSoft Partner Program</h1>
         </div>
         <div className="partner-container-body">
           <div className="container">
-            Layer5 is dedicated to partnering with leading educational institutions, technology vendors, solution providers and industry experts to drive the adoption of cloud native technologies focused on the evolution of how developers write modern applications, how operators run infrastructure and how product owners manage service offerings.
+            KhulnaSoft is dedicated to partnering with leading educational institutions, technology vendors, solution providers and industry experts to drive the adoption of cloud native technologies focused on the evolution of how developers write modern applications, how operators run infrastructure and how product owners manage service offerings.
           </div>
           <div className="partner-button">
-            <Button primary className="partner-btn" url="mailto:partners@layer5.io?subject=Partner Program" external={true} icon={Partner_Icon} title="Become A Partner" />
+            <Button primary className="partner-btn" url="mailto:partners@khulnasoft.com?subject=Partner Program" external={true} icon={Partner_Icon} title="Become A Partner" />
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Partner = () => {
         <div className="academic-container">
           <div className="acad-container-body">
             <h1 className="heading">Academic Partners</h1>
-            Layer5 established the Layer5 Partner Program to develop an ecosystem to advance higher learning of cloud native networking and to enable service providers to accelerate customers' digital transformations, helping them move into the new era of DevOps and cloud native applications.
+            KhulnaSoft established the KhulnaSoft Partner Program to develop an ecosystem to advance higher learning of cloud native networking and to enable service providers to accelerate customers' digital transformations, helping them move into the new era of DevOps and cloud native applications.
           </div>
         </div>
         {
@@ -157,10 +157,10 @@ const Partner = () => {
         }
         <div className="partner-button-cont">
           <div className="partner-btn-cont-head">
-            <h1>Become a Layer5 Partner</h1>
+            <h1>Become a KhulnaSoft Partner</h1>
           </div>
           <div className="partner-btn-cont-body">
-            <Button primary title="BECOME A PARTNER" url="mailto:partners@layer5.io" external={true} />
+            <Button primary title="BECOME A PARTNER" url="mailto:partners@khulnasoft.com" external={true} />
           </div>
         </div>
       </Container>

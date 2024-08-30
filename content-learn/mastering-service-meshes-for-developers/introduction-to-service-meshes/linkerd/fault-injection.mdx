@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Fault Injection"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 8
@@ -29,9 +29,9 @@ We will then create a traffic split which would redirect the service mesh to sen
 
 We will be deploying [Linkerd Books application](https://github.com/BuoyantIO/booksapp) for this part of the demo
 
-Use meshery to deploy the bookinfo application :
+Use meshplay to deploy the bookinfo application :
 
-- In Meshery, navigate to the Linkerd adapter's management page from the left nav menu.
+- In Meshplay, navigate to the Linkerd adapter's management page from the left nav menu.
 - On the Linkerd adapter's management page, please enter `default` in the `Namespace` field.
 - Then, click the (+) icon on the `Sample Application` card and select `Books Application` from the list.
 
@@ -170,6 +170,6 @@ If you refresh page few times, you will see `Internal Server Error`.
 kubectl delete trafficsplit/error-split
 ```
 
-- Remove the book info application from the `Meshery Dashboard` by clicking on the `trash icon` in the `sample application` card on the linkerd adapters' page.
+- Remove the book info application from the `Meshplay Dashboard` by clicking on the `trash icon` in the `sample application` card on the linkerd adapters' page.
 
 </ChapterStyle>

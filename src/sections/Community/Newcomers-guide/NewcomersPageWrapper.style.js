@@ -94,7 +94,7 @@ export const NewcomersGuideWrapper = styled.section`
         svg {
           max-height: 22rem;
           width: 21.875rem;
-          .layer5-contributor_svg__colorMode1 {
+          .khulnasoft-contributor_svg__colorMode1 {
             fill: ${props => props.theme.whiteToBlack};
           }
         }

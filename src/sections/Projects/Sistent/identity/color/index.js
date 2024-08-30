@@ -61,7 +61,7 @@ const SistentIdentityColor = () => {
         <div className="main-content">
           <p>
             In order to achieve the aim of maintaining a consistent and engaging
-            digital interface across Layer5, whether it is in the form of
+            digital interface across KhulnaSoft, whether it is in the form of
             websites, applications, or experiences, a detailed explanation of
             color application along with practical use cases is needed. To this
             end, the following concepts help to shape a suitable identity as we
@@ -72,7 +72,7 @@ const SistentIdentityColor = () => {
           </a>
           <p>
             When the color palette is accurately put to use, it ensures a
-            recognizable consistency in Layer5's array of digital interfaces and
+            recognizable consistency in KhulnaSoft's array of digital interfaces and
             products. This is made possible due to adherence to well defined
             rules which though specific, are also flexible and give ample room
             for professionals to curate appealing solutions across themes.
@@ -125,7 +125,7 @@ const SistentIdentityColor = () => {
             <h2>Color Anatomy</h2>
           </a>
           <p>
-            Sistent's default themes are derived from Layer5's color palette of
+            Sistent's default themes are derived from KhulnaSoft's color palette of
             which the Keppel Green color serves as the dominant primary action
             color with subtle shifts in value to enable the required visual
             accessibility as recommended in the WCAG (Web Content Accessibility

@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "WebAssembly and intelligent data planes"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 7
@@ -9,16 +9,16 @@ order: 7
 
 import { ChapterStyle } from "../../../../src/components/Learn-Components/Chapters-Style/chapters.style.js";
 
-import installimagehub from "../../../../src/assets/images/learn-layer5/istio/install-imagehub.webp";
-import deployenvoyfilter from "../../../../src/assets/images/learn-layer5/istio/deploy-envoyfilter.webp";
+import installimagehub from "../../../../src/assets/images/learn-khulnasoft/istio/install-imagehub.webp";
+import deployenvoyfilter from "../../../../src/assets/images/learn-khulnasoft/istio/deploy-envoyfilter.webp";
 
 <ChapterStyle>
 
-In this lab, you will use the sample application [Image Hub](https://github.com/layer5io/image-hub). This version of the Image Hub filter has been simplified for your lab. To self-study deeper functionality, try the other version of the Image Hub filter that is available in the Image Hub repo.
+In this lab, you will use the sample application [Image Hub](https://github.com/khulnasoft/image-hub). This version of the Image Hub filter has been simplified for your lab. To self-study deeper functionality, try the other version of the Image Hub filter that is available in the Image Hub repo.
 
 <h2 class="chapter-sub-heading">Deploy Sample Application</h2>
 
-Using Meshery, select Istio from the Management menu.
+Using Meshplay, select Istio from the Management menu.
 
 In the Istio management page:
 
@@ -35,7 +35,7 @@ In the Istio management page:
 
 Next, load the custom Envoy filter. This filter is written in Rust and is compiled against WebAssembly as it's target runtime.
 
-Using Meshery, select Istio from the Management menu.
+Using Meshplay, select Istio from the Management menu.
 
 In the Istio management page:
 
@@ -113,7 +113,7 @@ Manually patch the Image Hub Deployment.
                 "-L",
                 "-o",
                 "/var/lib/imagehub/filter.wasm",
-                "https://github.com/layer5io/advanced-istio-service-mesh-workshop/raw/master/lab-7/ratelimiter/ratelimit-filter.wasm"
+                "https://github.com/khulnasoft/advanced-istio-service-mesh-workshop/raw/master/lab-7/ratelimiter/ratelimit-filter.wasm"
               ],
               "image": "curlimages/curl",
               "imagePullPolicy": "Always",
@@ -143,6 +143,6 @@ Manually patch the Image Hub Deployment.
 // '
 
 ```
-A future version of Meshery will allow you to deploy any filter from the [wasm-filters](https://github.com/layer5io/wasm-filters) repo. PR the repo to upload your custom filter and have Meshery deploy it.
+A future version of Meshplay will allow you to deploy any filter from the [wasm-filters](https://github.com/khulnasoft/wasm-filters) repo. PR the repo to upload your custom filter and have Meshplay deploy it.
 
 </ChapterStyle>

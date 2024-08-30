@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import CourseOverview from "../sections/Learn-Layer5/Course-Overview";
+import CourseOverview from "../sections/Learn-KhulnaSoft/Course-Overview";
 
 import SEO from "../components/seo";
 
@@ -95,7 +95,7 @@ const CourseOverviewTemplate = ({ data }) => {
           course={data.courseByTitle.nodes[0]}
           chapters={data.courseChapters.nodes}
           serviceMeshesList={data.serviceMeshesList.nodes}
-          canonical="https://layer5.io/learn/learning-paths"
+          canonical="https://khulnasoft.com/learn/learning-paths"
         />
       </SimpleReactLightbox>
 
