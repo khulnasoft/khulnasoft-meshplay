@@ -7,15 +7,15 @@ import SistentPagination from "../../../components/SistentNavigation/pagination"
 
 import { useStyledDarkMode } from "../../../theme/app/useStyledDarkMode";
 import { CodeBlock } from "./components/button/code-block";
-import { SistentThemeProvider } from "@layer5/sistent";
-import { Button } from "@layer5/sistent";
+import { SistentThemeProvider } from "@khulnasoft/sistent";
+import { Button } from "@khulnasoft/sistent";
 
 const contents = [{ id: 0, link: "#About Sistent", text: "About Sistent" }];
 
 const codes = [
-  "npm i @layer5/sistent",
-  `  import { SistentThemeProvider } from "@layer5/sistent";
-  import { Button } from "@layer5/sistent";
+  "npm i @khulnasoft/sistent",
+  `  import { SistentThemeProvider } from "@khulnasoft/sistent";
+  import { Button } from "@khulnasoft/sistent";
      
   <SistentThemeProvider>
     <Button variant="contained">Filled</Button>
@@ -40,7 +40,7 @@ const SistentAbout = () => {
               <h2>About Sistent</h2>
             </a>
             <p>
-              Sistent is the Layer5 Design System - an open source design system
+              Sistent is the KhulnaSoft Design System - an open source design system
               that offers building blocks to create consistent, accessible, and
               user-friendly interfaces. It's aimed at developers who want to
               design applications aligned with the same brand and ensure a
@@ -52,11 +52,11 @@ const SistentAbout = () => {
               components, icons, and design tokens that developers can readily
               integrate into their applications. By using Sistent, developers
               can save time and effort while maintaining a high-quality user
-              experience throughout Layer5 products.
+              experience throughout KhulnaSoft products.
             </p>
             <p>
               <b>
-                Sistent provides a consistent user experience across Layer5
+                Sistent provides a consistent user experience across KhulnaSoft
                 projects and any frontend software projects that choose to use
                 Sistent, too.
               </b>
@@ -86,7 +86,7 @@ const SistentAbout = () => {
             </div>
             <p>
               After installation, you can import Sistent theme and any Sistent
-              component from "@layer5/sistent". The component needs to be
+              component from "@khulnasoft/sistent". The component needs to be
               included inside "SistentThemeProvider".
             </p>
             <p>Taking button as an example:</p>

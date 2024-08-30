@@ -7,4 +7,4 @@ To use this CTA simply use
 <CommunityCallCard />
 ```
 
-![image](https://github.com/layer5io/layer5/assets/74408634/0a782ac4-2b74-43e2-a7a2-c11afef4c98c)
+![image](https://github.com/khulnasoft/khulnasoft/assets/74408634/0a782ac4-2b74-43e2-a7a2-c11afef4c98c)

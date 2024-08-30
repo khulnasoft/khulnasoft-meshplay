@@ -144,7 +144,7 @@ const MeshmapIntegrationsSection = () => {
             id="integrations"
             secondary
             style={{ margin: "1.5rem 0 1.5rem 0" }}
-            url="https://layer5.io/cloud-native-management/meshery/integrations"
+            url="https://khulnasoft.com/cloud-native-management/meshplay/integrations"
             external={true}
           >
             All Integrations

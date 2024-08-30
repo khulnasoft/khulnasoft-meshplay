@@ -435,7 +435,7 @@ const Catalog = () => {
             <p className="caption">
               Turbo-charge your infrastructure with power-ups from the{" "}
               <b>
-                <a className="toCatalog" href="https://meshery.io/catalog">cloud native catalog</a>
+                <a className="toCatalog" href="https://meshplay.khulnasoft.com/catalog">cloud native catalog</a>
               </b>
             </p>
           </div>
@@ -462,7 +462,7 @@ const Catalog = () => {
         </div>
 
         {/* 3d Spinning */}
-        <a href="https://meshery.io/catalog">
+        <a href="https://meshplay.khulnasoft.com/catalog">
           <div className="catalog-wrapper ">
             <div className="container">
               <div id="carousel">

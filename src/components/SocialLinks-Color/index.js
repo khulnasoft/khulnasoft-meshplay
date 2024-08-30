@@ -15,22 +15,22 @@ const SocialLinksColor = () => {
     <SocialLinksWrapper>
       <Col xs={12}>
         <Row className="social_icons">
-          <a href="https://discuss.layer5.io" target="_blank" rel="noreferrer">
+          <a href="https://discuss.khulnasoft.com" target="_blank" rel="noreferrer">
             <img height="30px" src={forum_icon} alt="forum" />
           </a>
           <a
             className="mail_icon"
-            href="mailto:community@layer5.io"
+            href="mailto:community@khulnasoft.com"
             target="_blank"
             rel="noreferrer"
           >
             <img height="30px" src={mail_icon} alt="mail" />
           </a>
-          <a href="https://slack.layer5.io/" target="_blank" rel="noreferrer">
+          <a href="https://slack.khulnasoft.com/" target="_blank" rel="noreferrer">
             <img className="slack" height="30px" src={slack_icon} alt="slack" />
           </a>
           <a
-            href="https://twitter.com/layer5"
+            href="https://twitter.com/khulnasoft"
             target="_blank"
             rel="noreferrer"
             className="footer_twitter"
@@ -38,7 +38,7 @@ const SocialLinksColor = () => {
             <TwitterIcon />
           </a>
           <a
-            href="https://github.com/layer5io"
+            href="https://github.com/khulnasoft"
             target="_blank"
             rel="noreferrer"
             className="github"
@@ -46,7 +46,7 @@ const SocialLinksColor = () => {
             <img height="30px" src={github_icon} alt="github" />
           </a>
           <a
-            href="https://www.linkedin.com/company/layer5"
+            href="https://www.linkedin.com/company/khulnasoft"
             target="_blank"
             rel="noreferrer"
           >
@@ -72,7 +72,7 @@ const SocialLinksColor = () => {
           </a>
           <a
             className="docker_icon"
-            href="https://hub.docker.com/u/layer5/"
+            href="https://hub.docker.com/u/khulnasoft/"
             target="_blank"
             rel="noreferrer"
           >

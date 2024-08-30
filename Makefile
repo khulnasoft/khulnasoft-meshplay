@@ -1,4 +1,4 @@
-# Copyright Layer5, Inc.
+# Copyright KhulnaSoft, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,23 +17,23 @@ include .github/build/Makefile.show-help.mk
 setup-libs: 
 	## "DEPRECATED: This target is deprecated. Use `make setup`.
 
-## Install layer5.io dependencies your local machine.
+## Install khulnasoft.com dependencies your local machine.
 setup:
 	npm install
 
-## Run layer5.io on your local machine.
+## Run khulnasoft.com on your local machine.
 site:
 	npm start
 	
-## Run layer5.io on your local machine. Alternate method.
+## Run khulnasoft.com on your local machine. Alternate method.
 site-fast:
 	gatsby develop
 
-## Build layer5.io on your local machine.
+## Build khulnasoft.com on your local machine.
 build:
 	gatsby build && gatsby serve
 
-## Empty build cache and run layer5.io on your local machine.
+## Empty build cache and run khulnasoft.com on your local machine.
 clean: 
 	gatsby clean && make site
 

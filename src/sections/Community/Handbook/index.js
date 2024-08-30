@@ -12,33 +12,33 @@ const handbookHome = () => {
       </div>
 
       <div className="community-home-subtitle">
-        <h3>Explore the Layer5 Community</h3>
+        <h3>Explore the KhulnaSoft Community</h3>
       </div>
 
       <div className="community-home-container">
 
         <AdventuresVol
           title="Meet Five"
-          description="Join Five as he sets off in his trusty rocketship following the trail of stars to planet Meshery."
+          description="Join Five as he sets off in his trusty rocketship following the trail of stars to planet Meshplay."
           to="/community/adventures-of-five-and-friends"
           image={vol1Img}
         />
 
         <HandbookCard
           title="About"
-          description="Layer5 offers cloud native application management by harnessing the power of a developer-friendly applications management system that supports visualization of the modern infrastructure leading to effective operation with best practices."
+          description="KhulnaSoft offers cloud native application management by harnessing the power of a developer-friendly applications management system that supports visualization of the modern infrastructure leading to effective operation with best practices."
           to="/community/handbook/contributor-journey"
         />
 
         <HandbookCard
           title="Code of Conduct"
-          description="At Layer5 We follow the CNCF Code of Conduct. We pledge to respect all people who contribute through reporting issues, to submit pull requests or patches, and other activities."
+          description="At KhulnaSoft We follow the CNCF Code of Conduct. We pledge to respect all people who contribute through reporting issues, to submit pull requests or patches, and other activities."
           to="/community/handbook/code-of-conduct"
         />
 
         <HandbookCard
           title="Community"
-          description="A MeshMate is an experienced Layer5 community member, who will be available to guide you as you explore the various projects and find your areas of interest."
+          description="A MeshMate is an experienced KhulnaSoft community member, who will be available to guide you as you explore the various projects and find your areas of interest."
           to="/community/handbook/community"
         />
 
@@ -56,14 +56,14 @@ const handbookHome = () => {
 
         <HandbookCard
           title="Contribution"
-          description="Pull requests (PRs) are the best ways to propose changes to a project repository. At Layer5 org, we use the Github Flow."
+          description="Pull requests (PRs) are the best ways to propose changes to a project repository. At KhulnaSoft org, we use the Github Flow."
           to="/community/handbook/contribution"
         />
 
         <HandbookCard
           title="Learning"
           description="As a community, we have put together good learning materials and resources to guide you through learning about cloud native infrastucture."
-          to="/community/handbook/learn-layer5"
+          to="/community/handbook/learn-khulnasoft"
         />
 
         <HandbookCard
@@ -74,13 +74,13 @@ const handbookHome = () => {
 
         <HandbookCard
           title="Projects"
-          description="Layer5 Projects: Layer5, Meshery, Service Mesh Performance, NightHawk"
+          description="KhulnaSoft Projects: KhulnaSoft, Meshplay, Service Mesh Performance, NightHawk"
           to="/community/handbook/projects"
         />
 
         <HandbookCard
           title="Recognition"
-          description="Layer5 readily recognizes and publicly appreciates its community members."
+          description="KhulnaSoft readily recognizes and publicly appreciates its community members."
           to="/community/handbook/recognition"
         />
 
@@ -92,25 +92,25 @@ const handbookHome = () => {
 
         <HandbookCard
           title="Writing Program"
-          description="The Layer5 Writing Program is a way to demonstrate your expertise, give back to the community, and help us produce great content."
+          description="The KhulnaSoft Writing Program is a way to demonstrate your expertise, give back to the community, and help us produce great content."
           to="/community/handbook/writing-program"
         />
 
         <HandbookCard
           title="Security Vulnerabilities"
-          description="We are very grateful to the security researchers and users that report back Meshery security vulnerabilities. We investigate every report thoroughly."
+          description="We are very grateful to the security researchers and users that report back Meshplay security vulnerabilities. We investigate every report thoroughly."
           to="/community/handbook/security-vulnerabilities"
         />
 
         <HandbookCard
           title="GitHub Process"
-          description="The Layer5 GitHub Process emphasizes consistent pull requests and issue labels to streamline continuous integration and reduce overhead across their growing repository collection."
+          description="The KhulnaSoft GitHub Process emphasizes consistent pull requests and issue labels to streamline continuous integration and reduce overhead across their growing repository collection."
           to="/community/handbook/github-process"
         />
 
         <HandbookCard
           title="FAQs"
-          description="General frequently asked questions (FAQ) about Layer5 and people who contribute through reporting issues, to submit pull requests or patches, and other activities."
+          description="General frequently asked questions (FAQ) about KhulnaSoft and people who contribute through reporting issues, to submit pull requests or patches, and other activities."
           to="/community/handbook/faq"
         />
       </div>

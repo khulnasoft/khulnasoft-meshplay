@@ -39,9 +39,9 @@ const SMPBrand = () => {
             <p>
               The Service Mesh Performance mark includes SMP name & logo and any
               word, phrase, image, or other designation that identifies the
-              source or origin of any Layer5 projects. PLease don't modify the
+              source or origin of any KhulnaSoft projects. PLease don't modify the
               marks or use them in a confusing way, including suggesting
-              sponsorship or endorsement by Layer5 with another brand(including
+              sponsorship or endorsement by KhulnaSoft with another brand(including
               your own)
             </p>
           </Col>

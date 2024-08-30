@@ -4,11 +4,11 @@ import { HandbookWrapper } from "./Handbook.style";
 import TOC from "../../../components/handbook-navigation/index";
 import { repo_data } from "./repo-data";
 import github from "../../../assets/images/socialIcons/github.svg";
-import layer5icon from "../../../assets/images/layer5/5 icon/svg/light/5-light-bg.svg";
-import MesheryOperator from "../../../assets/images/meshery-operator/meshery-operator-dark.svg";
+import khulnasofticon from "../../../assets/images/khulnasoft/5 icon/svg/light/5-light-bg.svg";
+import MeshplayOperator from "../../../assets/images/meshplay-operator/meshplay-operator-dark.svg";
 import MeshSync from "../../../assets/images/meshsync/meshsync.svg";
 import servicemeshperformance from "../../../assets/images/service-mesh-performance/icon/smp-dark.svg";
-import meshery from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
+import meshplay from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
 import servicemeshpattern from "../../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
 import TocPagination from "../../../components/handbook-navigation/TocPagination";
 import IntraPage from "../../../components/handbook-navigation/intra-page";
@@ -45,40 +45,40 @@ const Repository = () => {
               <h2>GitHub Organizations and Repositories</h2>
             </a>
             <p>
-              A brief introduction to all of the Github repositories of Layer5 organization is offered below. This overview serves as a resource to newcomers seeking a perspective of the collective community efforts (from a code-centric perspective). See <a href="https://docs.google.com/document/u/0/d/1FzX-C_xy9hZ3Eu9dcCE0unhFV5LRUrb5YLn_MGYuG6Y/edit">Layer5 GitHub Process</a> for more related information.
+              A brief introduction to all of the Github repositories of KhulnaSoft organization is offered below. This overview serves as a resource to newcomers seeking a perspective of the collective community efforts (from a code-centric perspective). See <a href="https://docs.google.com/document/u/0/d/1FzX-C_xy9hZ3Eu9dcCE0unhFV5LRUrb5YLn_MGYuG6Y/edit">KhulnaSoft GitHub Process</a> for more related information.
             </p>
 
             <p>
-              Note that the Layer5 community spans <strong>five</strong> GitHub
+              Note that the KhulnaSoft community spans <strong>five</strong> GitHub
               organizations:
             </p>
 
             <ul className="project-org-list">
               <li>
-                <a href="https://github.com/layer5io">
+                <a href="https://github.com/khulnasoft">
                   <img
-                    src={layer5icon}
-                    alt="layer5 icon"
+                    src={khulnasofticon}
+                    alt="khulnasoft icon"
                   />
-                  &nbsp; Layer5
+                  &nbsp; KhulnaSoft
                 </a>
                   - established projects like GetNighthawk, community with  MeshMates, a catch-all org.
               </li>
 
               <li>
-                <a href="https://github.com/meshery">
+                <a href="https://github.com/meshplay">
                   <img
-                    src={meshery}
-                    alt="meshery icon"
+                    src={meshplay}
+                    alt="meshplay icon"
                   />
-                  &nbsp; Meshery
+                  &nbsp; Meshplay
                 </a>
-                  -  Meshery and its components
+                  -  Meshplay and its components
                 <img
-                  src={MesheryOperator}
-                  alt="Meshery Operator logo"
+                  src={MeshplayOperator}
+                  alt="Meshplay Operator logo"
                   style={{ marginLeft: ".25rem",height: "1.5rem" }}
-                /> Meshery Operator
+                /> Meshplay Operator
                 <img
                   src={MeshSync}
                   alt="mesh sync icon"
@@ -104,17 +104,17 @@ const Repository = () => {
                   />
                   &nbsp; Cloud Native Patterns
                 </a>
-                  - a collection of curated patterns of cloud native use cases compatible with Meshery.
+                  - a collection of curated patterns of cloud native use cases compatible with Meshplay.
               </li>
               <li>
-                <a href="https://github.com/layer5labs">
+                <a href="https://github.com/khulnasoft">
                   <img
-                    src={layer5icon}
-                    alt="Layer5 logo"
+                    src={khulnasofticon}
+                    alt="KhulnaSoft logo"
                   />
-                  &nbsp; Layer5 Labs
+                  &nbsp; KhulnaSoft Labs
                 </a>
-                  - emerging projects and Meshery extensions, like
+                  - emerging projects and Meshplay extensions, like
                 <img
                   src={MeshMap}
                   alt="MeshMap logo"

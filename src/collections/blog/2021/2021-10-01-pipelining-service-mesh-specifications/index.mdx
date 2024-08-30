@@ -1,15 +1,15 @@
 ---
 title: "Pipelining Service Mesh Specifications"
-subtitle: "Using SMI and SMP specs on your CI/CD pipelines with Meshery's GitHub Actions"
+subtitle: "Using SMI and SMP specs on your CI/CD pipelines with Meshplay's GitHub Actions"
 date: 2021-11-09 10:30:05 -0530
-author: Layer5 Team
+author: KhulnaSoft Team
 thumbnail: ./service-mesh-specifications.webp
 darkthumbnail: ./service-mesh-specifications.webp
 category: "Service Mesh"
 tags:
  - Service Mesh Interface
  - Service Mesh Performance
- - Meshery
+ - Meshplay
 published: true
 resource: true
 type: Blog
@@ -34,24 +34,24 @@ import githubBlack from "../../../../assets/images/socialIcons/github_black.svg"
 
 <img src={smiLogo} className="image-right-no-shadow" alt="service mesh interface logo" /><p><a href="https://smi-spec.io">Service Mesh Interface</a> provides a standard interface for service meshes on Kubernetes. These (currently) four specfications offer a common denominator set of interfaces to support most common service mesh use cases and the flexibility to evolve to support new service mesh capabilities over time.</p>
 
-<p>As a service mesh agnostic tool that provides lifecycle and performance management of a large number of (10+) service meshes, Kubernetes applications, service mesh patterns and WebAssembly filters, Meshery is the ideal tool for the job when it comes to implementing these specifications.</p>
+<p>As a service mesh agnostic tool that provides lifecycle and performance management of a large number of (10+) service meshes, Kubernetes applications, service mesh patterns and WebAssembly filters, Meshplay is the ideal tool for the job when it comes to implementing these specifications.</p>
 
-<p>Meshery also comes with two new GitHub Actions that do exactly this. The <a href="https://github.com/layer5io/meshery-smi-conformance-action">Meshery SMI Conformance Action</a> which <a href="https://meshery.io/blog/validating-smi-conformance-with-meshery">validates SMI conformance</a> in your pipeline and the <a href="https://github.com/layer5io/meshery-smp-action">Meshery SMP Action</a> which runs <a href="https://docs.meshery.io/functionality/performance-management">SMP compatible performance benchmarks</a>.</p>
+<p>Meshplay also comes with two new GitHub Actions that do exactly this. The <a href="https://github.com/khulnasoft/meshplay-smi-conformance-action">Meshplay SMI Conformance Action</a> which <a href="https://meshplay.khulnasoft.com/blog/validating-smi-conformance-with-meshplay">validates SMI conformance</a> in your pipeline and the <a href="https://github.com/khulnasoft/meshplay-smp-action">Meshplay SMP Action</a> which runs <a href="https://docs.meshplay.khulnasoft.com/functionality/performance-management">SMP compatible performance benchmarks</a>.</p>
 <p>But how do we use these actions? What do they offer? Let’s find out!</p>
 
 <h2>Service Mesh Interface Conformance GitHub Action</h2>
 
-<p>Conformance of SMI specifications is defined as a series of test assertions. These test assertions are categorised by SMI specification (of which, there are currently four specifications) and comprise the complete suite of SMI conformance tests. Conformance requirements will change appropriately as each new version of the SMI spec is released. Refer to Meshery's documentation for details of how <a href="https://docs.meshery.io/functionality/service-mesh-interface">Meshery performs SMI conformance</a>.</p>
+<p>Conformance of SMI specifications is defined as a series of test assertions. These test assertions are categorised by SMI specification (of which, there are currently four specifications) and comprise the complete suite of SMI conformance tests. Conformance requirements will change appropriately as each new version of the SMI spec is released. Refer to Meshplay's documentation for details of how <a href="https://docs.meshplay.khulnasoft.com/functionality/service-mesh-interface">Meshplay performs SMI conformance</a>.</p>
 
 <img src={githubBlack} className="image-left-no-shadow" style="max-width:9vw" />
 
-<h3>Using Meshery's SMI Conformance GitHub Action</h3>
+<h3>Using Meshplay's SMI Conformance GitHub Action</h3>
 
-<p>The <a href="https://github.com/marketplace/actions/service-mesh-interface-conformance-with-meshery">Service Mesh Interface Conformance GitHub Action</a> is available in the GitHub Marketplace. You can configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event.</p>
-<p>An example of the action configuration which runs on every release is shown below. The action handles setting up a Kubernetes environment, deploying the service mesh (see supported service meshes), running the conformance tests and reporting back the results to the SMI Conformance dashboard in Meshery.</p>
+<p>The <a href="https://github.com/marketplace/actions/service-mesh-interface-conformance-with-meshplay">Service Mesh Interface Conformance GitHub Action</a> is available in the GitHub Marketplace. You can configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event.</p>
+<p>An example of the action configuration which runs on every release is shown below. The action handles setting up a Kubernetes environment, deploying the service mesh (see supported service meshes), running the conformance tests and reporting back the results to the SMI Conformance dashboard in Meshplay.</p>
 
 ```yaml
-name: SMI Conformance with Meshery
+name: SMI Conformance with Meshplay
 on:
   push:
     tags:
@@ -64,9 +64,9 @@ jobs:
     steps:
 
       - name: SMI conformance tests
-        uses: layer5io/mesheryctl-smi-conformance-action@master
+        uses: khulnasoft/meshplayctl-smi-conformance-action@master
         with:
-          provider_token: ${{ secrets.MESHERY_PROVIDER_TOKEN }}
+          provider_token: ${{ secrets.MESHPLAY_PROVIDER_TOKEN }}
           service_mesh: open_service_mesh
           mesh_deployed: false
 ```
@@ -74,7 +74,7 @@ jobs:
 <p>You can also bring in their own cluster with specific capabilities and with a service mesh already installed.</p>
 
 ```yaml
-name: SMI Conformance with Meshery
+name: SMI Conformance with Meshplay
 on:
   push:
     branches:
@@ -103,32 +103,32 @@ jobs:
            osm-bin install --osm-namespace default
 
       - name: SMI conformance tests
-        uses: layer5io/mesheryctl-smi-conformance-action@master
+        uses: khulnasoft/meshplayctl-smi-conformance-action@master
         with:
-          provider_token: ${{ secrets.MESHERY_PROVIDER_TOKEN }}
+          provider_token: ${{ secrets.MESHPLAY_PROVIDER_TOKEN }}
           service_mesh: open_service_mesh
           mesh_deployed: true
 ```
 
-<p>You can download a token from Meshery and add it as a GitHub secret (in the example above, the secret is <code>MESHERY_PROVIDER_TOKEN</code>). After the test is run, you can view the results from the Service Mesh Interface dashboard in Meshery UI.</p>
+<p>You can download a token from Meshplay and add it as a GitHub secret (in the example above, the secret is <code>MESHPLAY_PROVIDER_TOKEN</code>). After the test is run, you can view the results from the Service Mesh Interface dashboard in Meshplay UI.</p>
 
 <p align="center"><img src={smidashboard} className="image-center-shadow" style="width:70%" alt="smi conformance dashboard" /> <br />
-<i>Meshery's Service Mesh Interface Conformance Results</i></p>
+<i>Meshplay's Service Mesh Interface Conformance Results</i></p>
 
-<p>Participating service mesh projects can also <a href="https://docs.meshery.io/functionality/service-mesh-interface#reporting-conformance">automatically report their conformance test results</a> to the <a href="https://meshery.io/service-mesh-interface">SMI Conformance dashboard</a></p>
+<p>Participating service mesh projects can also <a href="https://docs.meshplay.khulnasoft.com/functionality/service-mesh-interface#reporting-conformance">automatically report their conformance test results</a> to the <a href="https://meshplay.khulnasoft.com/service-mesh-interface">SMI Conformance dashboard</a></p>
 
 <h2>Service Mesh Performance GitHub Action</h2>
 
-<p>Measuring and managing the performance of a service mesh is key to efficient operation of any service mesh. Meshery is the canonical implementation of the Service Mesh Performance specification. You can choose from multiple load generators and use a highly configurable set of load profiles with variable tunable facets to run a performance test. Meshery packages all these features into an easy-to-use GitHub Action.</p>
+<p>Measuring and managing the performance of a service mesh is key to efficient operation of any service mesh. Meshplay is the canonical implementation of the Service Mesh Performance specification. You can choose from multiple load generators and use a highly configurable set of load profiles with variable tunable facets to run a performance test. Meshplay packages all these features into an easy-to-use GitHub Action.</p>
 
 <img src={githubBlack} className="image-left-no-shadow" style="max-width:9vw" />
 
-<h3>Using Meshery's Service Mesh Performance GitHub Action</h3>
+<h3>Using Meshplay's Service Mesh Performance GitHub Action</h3>
 
-<p>The <a href="https://github.com/marketplace/actions/performance-testing-with-meshery">Service Mesh Performance GitHub Action</a> is available in the GitHub Marketplace.You can create your own performance profiles to run repeatable tests with Meshery. You can configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event. A sample configuration of the action is shown below.</p>
+<p>The <a href="https://github.com/marketplace/actions/performance-testing-with-meshplay">Service Mesh Performance GitHub Action</a> is available in the GitHub Marketplace.You can create your own performance profiles to run repeatable tests with Meshplay. You can configure this action to trigger with each of your releases, on every pull request. or any GitHub workflow trigger event. A sample configuration of the action is shown below.</p>
 
 ```yaml
-name: Meshery SMP Action
+name: Meshplay SMP Action
 on:
   push:
     branches:
@@ -152,7 +152,7 @@ jobs:
           driver: docker
 
       - name: Run Performance Test
-        uses: layer5io/meshery-smp-action@master
+        uses: khulnasoft/meshplay-smp-action@master
         with:
           provider_token: ${{ secrets.PROVIDER_TOKEN }}
           platform: docker
@@ -181,11 +181,11 @@ clients:
 duration: "30m"
 ```
 
-<p>See this sample GitHub workflow (<a href="https://github.com/layer5io/meshery-smp-action/blob/master/action.yml">action.yml</a>) for more configuration details.</p>
+<p>See this sample GitHub workflow (<a href="https://github.com/khulnasoft/meshplay-smp-action/blob/master/action.yml">action.yml</a>) for more configuration details.</p>
 
 <img src={perfdashboard} className="image-center" alt="performance management dashboard" />
 
-<p>The results from the tests are updated on the Performance Management dashboard in Meshery. To learn more about interpreting the test results, check out <a href="https://docs.meshery.io/guides/interpreting-performance-test-results">this guide</a>. You can always checkout the <a href="https://docs.meshery.io/guides">Meshery User Guides</a> to dive deep into these features.</p>
+<p>The results from the tests are updated on the Performance Management dashboard in Meshplay. To learn more about interpreting the test results, check out <a href="https://docs.meshplay.khulnasoft.com/guides/interpreting-performance-test-results">this guide</a>. You can always checkout the <a href="https://docs.meshplay.khulnasoft.com/guides">Meshplay User Guides</a> to dive deep into these features.</p>
 
 Stay meshy!
 </BlogWrapper>

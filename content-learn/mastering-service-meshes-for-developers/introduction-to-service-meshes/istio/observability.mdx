@@ -1,23 +1,23 @@
 ---
 docType: "Chapter"
 chapterTitle: "Observability"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 4
 ---
 
 import { ChapterStyle } from "../../../../src/components/Learn-Components/Chapters-Style/chapters.style.js";
-import ImageAppIcon from "../../../../src/assets/images/learn-layer5/istio/istio-addons.webp";
-import GraffanaDash from "../../../../src/assets/images/learn-layer5/istio/Grafana_Istio_Dashboard.webp";
-import Prometheus from "../../../../src/assets/images/learn-layer5/istio/Prometheus.webp";
-import Jaeger from "../../../../src/assets/images/learn-layer5/istio/jaeger.webp";
+import ImageAppIcon from "../../../../src/assets/images/learn-khulnasoft/istio/istio-addons.webp";
+import GraffanaDash from "../../../../src/assets/images/learn-khulnasoft/istio/Grafana_Istio_Dashboard.webp";
+import Prometheus from "../../../../src/assets/images/learn-khulnasoft/istio/Prometheus.webp";
+import Jaeger from "../../../../src/assets/images/learn-khulnasoft/istio/jaeger.webp";
 
 <ChapterStyle>
 
 <h2 class="chapter-sub-heading">Install Telemetry Add-ons</h2>
 
-Using Meshery, install Istio telemetry add-ons. In the Istio management page:
+Using Meshplay, install Istio telemetry add-ons. In the Istio management page:
 
 1. Click the (+) icon on the `Apply Service Mesh Configuration` card.
 1. Select each of the following add-ons:
@@ -47,10 +47,10 @@ The URL to run a load test against will be `http://<IP/hostname of any of the no
 
 **Please note:** If you are using Docker Desktop, please use the IP address of your host. You can leave the port blank. For example: `http://1.2.3.4/productpage`. Managed kubernetes service users will need to use `http://<external-ip of istio-ingressgateway>/productpage` as done in expose services section.
 
-Use the computed URL above in Meshery, in the browser, to run a load test and see the results.
+Use the computed URL above in Meshplay, in the browser, to run a load test and see the results.
 
 <h4 class="chapter-sub-heading">
-  Connect Grafana (optionally, Prometheus) to Meshery.
+  Connect Grafana (optionally, Prometheus) to Meshplay.
 </h4>
 
 On the Settings page:
@@ -59,7 +59,7 @@ On the Settings page:
 1. Enter Grafana's URL:port number and submit.
 
 <h4 class="chapter-sub-heading">
-  Use Meshery to generate load and analyze performance.
+  Use Meshplay to generate load and analyze performance.
 </h4>
 
 On the Performance page:

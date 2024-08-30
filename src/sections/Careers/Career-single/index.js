@@ -8,7 +8,7 @@ import { FaGlobeAmericas } from "@react-icons/all-files/fa/FaGlobeAmericas";
 import { FiCalendar } from "@react-icons/all-files/fi/FiCalendar";
 import { FiClock } from "@react-icons/all-files/fi/FiClock";
 import { HiOutlineCash } from "@react-icons/all-files/hi/HiOutlineCash";
-import { ReactComponent as Logo } from "../../../assets/images/app/layer5-colorMode.svg";
+import { ReactComponent as Logo } from "../../../assets/images/app/khulnasoft-colorMode.svg";
 
 const CareerSingle = ({ data }) => {
   const { frontmatter, body } = data.mdx;
@@ -41,8 +41,8 @@ const CareerSingle = ({ data }) => {
               </Row>
             </Col>
             <Col xs={12} md={5} xl={4} className="logo-col">
-              <div className="layer5-logo">
-                <Logo alt="Layer5 logo" />
+              <div className="khulnasoft-logo">
+                <Logo alt="KhulnaSoft logo" />
               </div>
             </Col>
           </Row>

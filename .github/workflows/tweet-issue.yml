@@ -21,7 +21,7 @@ jobs:
           id: checkUserMember
           with:
             username: ${{ github.actor }}
-            organization: "layer5io"
+            organization: "khulnasoft"
             team: "maintainers"
             GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
         # - if: github.ref == 'refs/heads/master'
@@ -29,17 +29,17 @@ jobs:
           uses: ethomson/send-tweet-action@v1
           with:
             status: 'Help wanted: "${{ github.event.issue.title }}" - ${{ github.event.issue.html_url }} \#opensource'
-            consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY_LAYER5 }}
-            consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET_LAYER5 }}
-            access-token: ${{ secrets.TWITTER_ACCESS_TOKEN_LAYER5 }}
-            access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET_LAYER5 }}
+            consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY_KHULNASOFT }}
+            consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KHULNASOFT }}
+            access-token: ${{ secrets.TWITTER_ACCESS_TOKEN_KHULNASOFT }}
+            access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET_KHULNASOFT }}
             
         # - if: github.ref == 'refs/heads/master'
         - name: Check if it is PR
           uses: ethomson/send-tweet-action@v1
           with:
             status: 'Help wanted: "${{ github.event.pull_request.title }}" - ${{ github.event.pull_request.html_url }} \#opensource'
-            consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY_LAYER5 }}
-            consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET_LAYER5 }}
-            access-token: ${{ secrets.TWITTER_ACCESS_TOKEN_LAYER5 }}
-            access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET_LAYER5 }}
+            consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY_KHULNASOFT }}
+            consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET_KHULNASOFT }}
+            access-token: ${{ secrets.TWITTER_ACCESS_TOKEN_KHULNASOFT }}
+            access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET_KHULNASOFT }}

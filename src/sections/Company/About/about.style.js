@@ -167,7 +167,7 @@ const AboutSectionWrapper = styled.section`
   }
   #mapBack {
     .svg{
-        .layer5-collaboration-map_svg__colorMode1{
+        .khulnasoft-collaboration-map_svg__colorMode1{
             fill: ${(props) => props.theme.blackToWhite};
         }
     }

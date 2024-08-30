@@ -9,7 +9,7 @@ module.exports = {
         "http://localhost/404/index.html?desktop",
         "http://localhost/?desktop",
         "http://localhost/company/about/index.html?desktop",
-         "http://localhost/cloud-native-management/meshery/index.html?desktop",
+         "http://localhost/cloud-native-management/meshplay/index.html?desktop",
          "http://localhost/cloud-native-management/meshmap/index.html?desktop",
          "http://localhost/learn/learning-paths/index.html?desktop",
          "http://localhost/learn/service-mesh-books/index.html?desktop",

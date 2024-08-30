@@ -140,7 +140,7 @@ Sidecar injection is responsible for configuring network capture. Injection and 
 
 ```
 $ kubectl get pods productpage-8459b4f9cf-tfblj -o jsonpath="{.spec.containers[*].image}"
-layer5/istio-bookinfo-productpage:v1 docker.io/istio/proxyv2:1.0.5
+khulnasoft/istio-bookinfo-productpage:v1 docker.io/istio/proxyv2:1.0.5
 ```
 <p>
 As you can see, productpage container is our application container, while the istio/proxy is the service proxy (Envoy) that Istio injected into the pod. To manually onboard and offboard a deployment onto and off of the service mesh, you can manipulate annotation within its Kubernetes Deployment specification.

@@ -13,5 +13,5 @@ const UnSubscribeSection = () => {
 };
 export default UnSubscribeSection;
 export const Head = () => {
-  return <SEO title="Layer5 Newsletter" description="Layer5 Newsletter" />;
+  return <SEO title="KhulnaSoft Newsletter" description="KhulnaSoft Newsletter" />;
 };

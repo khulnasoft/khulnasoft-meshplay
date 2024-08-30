@@ -7,10 +7,10 @@ thumbnail: ../../../../assets/images/meshmark/stacked/meshmark-dark-full.webp
 darkthumbnail: ../../../../assets/images/meshmark/stacked/meshmark-dark-full.webp
 category: "Press Release"
 presskit: "/press/kits/MeshMark-press-kit.zip"
-description: "Layer5, a provider of cloud native management software, announced today the general availability of the Meshery Docker Extension. Complementing Docker Desktop's role as the go-to Kubernetes environment for cloud native developers, the Meshery Docker Extension provides easy access to the next layer of cloud native infrastructure: service meshes. As an inaugural Docker Extensions Partner and a maker of industry-defining, cloud native software, Layer5’s integration of Meshery provides a visual pathway for existing Docker Compose applications to move into Kubernetes and onto any service mesh."
+description: "KhulnaSoft, a provider of cloud native management software, announced today the general availability of the Meshplay Docker Extension. Complementing Docker Desktop's role as the go-to Kubernetes environment for cloud native developers, the Meshplay Docker Extension provides easy access to the next layer of cloud native infrastructure: service meshes. As an inaugural Docker Extensions Partner and a maker of industry-defining, cloud native software, KhulnaSoft’s integration of Meshplay provides a visual pathway for existing Docker Compose applications to move into Kubernetes and onto any service mesh."
 tags:
  - Announcements
- - Meshery
+ - Meshplay
  - Docker
 type: News
 resource: false
@@ -39,7 +39,7 @@ VALENCIA, Spain (May 17th, 2022) - ServiceMeshCon EU /KubeCon EU - <a href="http
 A wall of performance metrics causes confusion, not clarity.
 </p>
 
-<img src={MeshmapMeshmark} alt="MeshMark in Layer5 MeshMap" width="40%"/>
+<img src={MeshmapMeshmark} alt="MeshMark in KhulnaSoft MeshMap" width="40%"/>
 
 <p>
 By specifying a uniform way to analyze and report on the degree to which measured performance provides business value, MeshMark converts these metrics into insights about the efficiency and value of the functions your cloud native infrastructure is providing to your applications and services.
@@ -47,7 +47,7 @@ By specifying a uniform way to analyze and report on the degree to which measure
 
 <h2>Service Mesh Performance, the project</h2>
 <p>
-<Link to="/company/news/cncf-adopts-service-mesh-performance-standard-established-by-layer5">Adopted by the Cloud Native Computing Foundation (CNCF)</Link> in October of 2021, <Link to="/projects/cloud-native-performance">Service Mesh Performance</Link> is an open source standard for service mesh efficiency, a growing consideration for cloud native operators and developers utilizing a service mesh in their infrastructure. With the myriad service meshes available and their sophisticated configurations, distributed systems efficacy and performance management is a continuous concern.
+<Link to="/company/news/cncf-adopts-service-mesh-performance-standard-established-by-khulnasoft">Adopted by the Cloud Native Computing Foundation (CNCF)</Link> in October of 2021, <Link to="/projects/cloud-native-performance">Service Mesh Performance</Link> is an open source standard for service mesh efficiency, a growing consideration for cloud native operators and developers utilizing a service mesh in their infrastructure. With the myriad service meshes available and their sophisticated configurations, distributed systems efficacy and performance management is a continuous concern.
 </p>
 
 <Blockquote 
@@ -57,7 +57,7 @@ By specifying a uniform way to analyze and report on the degree to which measure
   />
 
 <p>
-With project maintainers from Layer5, Intel, HashiCorp, and Red Hat, and collaborators from Isovalent, Buoyant, and FiServ, Service Mesh Performance is a vendor neutral cloud native performance measurement standard.
+With project maintainers from KhulnaSoft, Intel, HashiCorp, and Red Hat, and collaborators from Isovalent, Buoyant, and FiServ, Service Mesh Performance is a vendor neutral cloud native performance measurement standard.
 </p>
 
 <BlockquoteAlt
@@ -67,7 +67,7 @@ With project maintainers from Layer5, Intel, HashiCorp, and Red Hat, and collabo
   />
 
 <p>
-With the project’s <Link to="/company/news/analyzing-service-mesh-performance">approach to performance analysis</Link> published in IEEE The Bridge, ongoing analysis of nearly 40,000 performance test results will comprise the initial release of the <a href="https://smp-spec.io/dashboard">Service Mesh Performance Dashboard</a>, also unveiling at KubeCon EU. <Link to="/cloud-native-management/meshery">Meshery</Link>, the cloud native manager, orchestrates the provisioning and configuration of Kubernetes and each service mesh. With <Link to="/projects/nighthawk">Nighthawk</Link> embedded, Meshery’s performance management functions are what drives the tests run within the CNCF Lab.
+With the project’s <Link to="/company/news/analyzing-service-mesh-performance">approach to performance analysis</Link> published in IEEE The Bridge, ongoing analysis of nearly 40,000 performance test results will comprise the initial release of the <a href="https://smp-spec.io/dashboard">Service Mesh Performance Dashboard</a>, also unveiling at KubeCon EU. <Link to="/cloud-native-management/meshplay">Meshplay</Link>, the cloud native manager, orchestrates the provisioning and configuration of Kubernetes and each service mesh. With <Link to="/projects/nighthawk">Nighthawk</Link> embedded, Meshplay’s performance management functions are what drives the tests run within the CNCF Lab.
 </p>
 <Blockquote style="display:block;"
   quote="The precision by which performance measurements are generated and analyzed is a pinnacle focus of Nighthawk. Mesh performance characterization should be distilled from a set of value measurements, and that is where MeshMark compliments to create the ultimate comprehensive efficiency calculation."
@@ -93,7 +93,7 @@ A Mesh Utilization Efficiency (MUE) is a calculated, combined ratio of specific 
 <BlockquoteAlt 
   quote="A sophisticated, but simply communicated value-performance index, MeshMark, redefines efficiency utilization, bringing business, application, and infrastructure KPIs under a single unit of measure."
   person="Lee Calcote"
-  title="Founder and CEO of Layer5, and Co-Chair of the CNCF TAG Network"
+  title="Founder and CEO of KhulnaSoft, and Co-Chair of the CNCF TAG Network"
   />
 
 <p>
@@ -101,21 +101,21 @@ Learn how we distill a variety of microarchitecture performance signals and appl
 </p>
 <div>
 <iframe width="100%" height="315" style="margin-right: 1.5rem;margin-left:1.5rem;" src="https://www.youtube.com/embed/yvqn6ckO7BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p style="font-style:italic;font-size:1rem;margin-left:1rem;">MeshMark in Meshery (an excerpt from ServiceMeshCon EU 2022 demo)</p>
+<p style="font-style:italic;font-size:1rem;margin-left:1rem;">MeshMark in Meshplay (an excerpt from ServiceMeshCon EU 2022 demo)</p>
 </div>
 
 #### Resources
 <ul>
 <li>Attend <Link to="/community/events/servicemeshcon-eu-2022">MeshMark: the Cloud Native Value Measurement</Link> presentation at ServiceMeshCon EU 2022.</li>
 <li>Attend <Link to="/community/events/kubecon-cloudnativecon-eu-virtual-2022">CNCF Tag Network and Service Mesh Working Group Deep Dive</Link> at KubeCon EU 2022. </li>
-<li>Subscribe to the <a href="https://smp-spec.io/subscribe">project newsletter</a> and engage in the <a href="https://discuss.layer5.io/">discussion forum</a>.</li>
+<li>Subscribe to the <a href="https://smp-spec.io/subscribe">project newsletter</a> and engage in the <a href="https://discuss.khulnasoft.com/">discussion forum</a>.</li>
 <li>Learn more about <a href="https://smp-spec.io/meshmark">MeshMark</a> on the <a href="https://smp-spec.io">Service Mesh Performance</a> website.</li>
-<li>Follow <a href="https://twitter.com/smp_spec">@smp_spec</a>, <a href="https://twitter.com/mesheryio">@mesheryio</a>, <a href="https://twitter.com/layer5">@layer5</a> on Twitter.</li>
+<li>Follow <a href="https://twitter.com/smp_spec">@smp_spec</a>, <a href="https://twitter.com/meshplayio">@meshplayio</a>, <a href="https://twitter.com/khulnasoft">@khulnasoft</a> on Twitter.</li>
 </ul>
 
-##### About Layer5, Inc.
+##### About KhulnaSoft, Inc.
 <p style="font-size:1rem">
-Layer5 offers cloud native application management by harnessing the unique position service meshes have in changing how developers write applications, how operators run modern infrastructure and how product owners manage their service offerings. For more information, visit <Link to="/">layer5.io</Link></p>
+KhulnaSoft offers cloud native application management by harnessing the unique position service meshes have in changing how developers write applications, how operators run modern infrastructure and how product owners manage their service offerings. For more information, visit <Link to="/">khulnasoft.com</Link></p>
 
 ##### About Service Mesh Performance 
 <p style="font-size:1rem">

@@ -1,4 +1,4 @@
-import { Box } from "@layer5/sistent";
+import { Box } from "@khulnasoft/sistent";
 import styled from "styled-components";
 
 export const ActionBox = styled(Box)(() => ({

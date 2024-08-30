@@ -13,5 +13,5 @@ const Careers = () => {
 };
 export default Careers;
 export const Head = () => {
-  return <SEO title="Careers" description="Careers at Layer5. Come work with the  the award-winning, Layer5 open source community and projects." />;
+  return <SEO title="Careers" description="Careers at KhulnaSoft. Come work with the  the award-winning, KhulnaSoft open source community and projects." />;
 };

@@ -76,7 +76,7 @@ const Header = () => {
         <Container>
           <Row className="row">
             <Col className="col header__detail" md={6}>
-              <h1 className="header__title">Meshery Catalog</h1>
+              <h1 className="header__title">Meshplay Catalog</h1>
               <p className="header__title_description">
                 The Ultimate Shopping Guide for Your Infrastructure.
 
@@ -87,7 +87,7 @@ const Header = () => {
                   primary
                   title="Browse Catalog"
                   external={true}
-                  url="https://meshery.layer5.io/catalog"
+                  url="https://meshplay.khulnasoft.com/catalog"
                 />
               </div>
             </Col>

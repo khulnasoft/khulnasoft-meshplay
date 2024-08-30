@@ -51,7 +51,7 @@ const CommunityPage = () => {
     <CommunitySectionWrapper>
       <BgImage image={ pluginImage} className="section">
         <div className="community-header">
-          <h1>The Layer5 Community</h1>
+          <h1>The KhulnaSoft Community</h1>
           <h2>New members are always welcome</h2>
         </div>
       </BgImage>
@@ -62,7 +62,7 @@ const CommunityPage = () => {
               <h2>Warm, welcoming, and encouraging. Embrace developer-defined infrastructure and help empower every engineer with us.</h2>
               <p>
                 We build projects to provide learning environments and
-                cloud native infrastructure and application management tooling. Share in our collective accolades as you build lifelong relationships, and world-stage software. Our shared commitment to the open source spirit pushes Layer5 projects forward.
+                cloud native infrastructure and application management tooling. Share in our collective accolades as you build lifelong relationships, and world-stage software. Our shared commitment to the open source spirit pushes KhulnaSoft projects forward.
               </p>
             </Col>
             <Col sm={12} lg={6}>
@@ -72,9 +72,9 @@ const CommunityPage = () => {
           <Row className="open-source-projects">
             <h2>Open Source and Cloud Native</h2>
             <p>
-              Layer5 projects are open source software. Anyone can download,
+              KhulnaSoft projects are open source software. Anyone can download,
               use, work on, and share it with others. It's built on principles
-              like collaboration, globalism, and innovation. Layer5 projects
+              like collaboration, globalism, and innovation. KhulnaSoft projects
               are distributed under the terms of Apache v2.
             </p>
           </Row>
@@ -85,7 +85,7 @@ const CommunityPage = () => {
               <h3>Jump in. The community is warm!</h3>
               <h1>Our Community Members</h1>
               <p>
-                With active members from around the globe, the Layer5 community is a collection of diverse open source contributors, each of whom espouse our cultural values of inclusivity and paying it forward for others.
+                With active members from around the globe, the KhulnaSoft community is a collection of diverse open source contributors, each of whom espouse our cultural values of inclusivity and paying it forward for others.
                 We welcome individuals at all stages of their development and of all walks of life. Every member is encouraged to embrace these values and support one another in meaningfully and consistently advancing the community's open source initiatives.
               </p>
               <p>
@@ -105,16 +105,16 @@ const CommunityPage = () => {
           <Row className="meshmate">
             <Col className="content" sm={12} lg={6}>
               <h1 className="onboarding">An onboarding and mentoring program</h1>
-              <h1>Layer5 MeshMates</h1>
+              <h1>KhulnaSoft MeshMates</h1>
               <p>
-                The Layer5 community is growing at a tremendous rate.
+                The KhulnaSoft community is growing at a tremendous rate.
                 We value our connections and that is what makes us unique.
-                Whether it is your first Layer5 meeting or your tenth contribution,
+                Whether it is your first KhulnaSoft meeting or your tenth contribution,
                 we want to make sure that you are supported and equipped to take
-                advantage of all of that the Layer5 community has to offer.
+                advantage of all of that the KhulnaSoft community has to offer.
               </p>
               <p>
-                In the Layer5 mentor program, we will match you up
+                In the KhulnaSoft mentor program, we will match you up
                 with a MeshMate to support and guide you along the way,
                 by enabling you to identify your area of interests within the projects,
                 directing you towards working groups to join, growing your Cloud Native knowledge,
@@ -143,7 +143,7 @@ const CommunityPage = () => {
                 <h1>Newcomers Welcome!</h1>
                 <h2>Are you new to the community?</h2>
                 <p className="invitation">
-                  Begin your journey by <a href="https://slack.layer5.io">joining the community Slack</a>. Then, use the resources linked in our <Link to="/community/newcomers">Contributor's Journey Map </Link>
+                  Begin your journey by <a href="https://slack.khulnasoft.com">joining the community Slack</a>. Then, use the resources linked in our <Link to="/community/newcomers">Contributor's Journey Map </Link>
                   and engage in the community and projects.
                 </p>
                 <Button primary title="See All Newcomers Resources" url="/community/newcomers">
@@ -154,7 +154,7 @@ const CommunityPage = () => {
           </Row>
         </Container>
         <Container>
-          <InlineQuotes title={"Community Member"} quote={"Wow, you all are incredibly helpful. I wish every open source community was as friendly as Layer5's."} person={"Priyanshu Sharma"}/>
+          <InlineQuotes title={"Community Member"} quote={"Wow, you all are incredibly helpful. I wish every open source community was as friendly as KhulnaSoft's."} person={"Priyanshu Sharma"}/>
         </Container>
       </div>
       <JoinCommunity image={Five} className="newcomers-join" />

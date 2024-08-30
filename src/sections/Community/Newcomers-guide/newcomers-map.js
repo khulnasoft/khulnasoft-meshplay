@@ -191,7 +191,7 @@ const NewcomersMap = ({ handleMouseHover = false }) => {
         <path d="M260.94,201.87h0a6.74,6.74,0,0,1,4.85,1.93,7,7,0,0,1,1.94,5,10.75,10.75,0,0,1-8.62,10.11,9.35,9.35,0,0,1-1.48.13,6.76,6.76,0,0,1-4.86-1.93,7,7,0,0,1-1.94-5A10.76,10.76,0,0,1,259.47,202a8.19,8.19,0,0,1,1.47-.13m0-1a9.35,9.35,0,0,0-1.64.15,11.74,11.74,0,0,0-9.47,11.1,7.62,7.62,0,0,0,7.8,7.94,9.37,9.37,0,0,0,1.65-.15,11.76,11.76,0,0,0,9.45-11.09,7.61,7.61,0,0,0-7.79-7.95Z" />
         <a
           id="newcomers-guide"
-          href="https://layer5.io/community/handbook/contributor-journey#Newcomer%E2%80%99s%20Path"
+          href="https://khulnasoft.com/community/handbook/contributor-journey#Newcomer%E2%80%99s%20Path"
           target="_blank"
           rel="noreferrer"
         >
@@ -431,7 +431,7 @@ const NewcomersMap = ({ handleMouseHover = false }) => {
           </text>
         </Link>
         <a
-          href="https://layer5.io/community/handbook"
+          href="https://khulnasoft.com/community/handbook"
           target="_blank"
           rel="noreferrer"
         >
@@ -466,7 +466,7 @@ const NewcomersMap = ({ handleMouseHover = false }) => {
           style={{ fill: "#477e96" }}
         />
         <a
-          href="https://layer5.io/community/handbook/repository-overview"
+          href="https://khulnasoft.com/community/handbook/repository-overview"
           target="_self"
         >
           <path d="M541.17,286.14a4.8,4.8,0,0,1-.91-.08l-64.83-11.43-5.67,8.82-5.67-10.82-65.32-11.51a6.62,6.62,0,0,1-5.31-6.25V231.38a4.13,4.13,0,0,1,4.23-4.3,4.73,4.73,0,0,1,.91.08l141.49,25a6.6,6.6,0,0,1,5.31,6.24v23.49a4.37,4.37,0,0,1-1.21,3.11,4.21,4.21,0,0,1-3,1.19Z" />

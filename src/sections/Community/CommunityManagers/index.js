@@ -59,10 +59,10 @@ const CommunityManagers = () => {
           </Row>
         </div>
         <InlineQuotes quote={"Thank you so much for your kind words. I absolutely love this community."} person={"Naureen Imran"}/>
-        <InlineQuotes quote={"Thanks for your well wishes on my new job. I would not have landed my job were it not for Layer5's support. The hiring managers at Citi were so impressed based on my experience at Layer5 that I was immediately selected for my new position. I'm and will forever be grateful to the Layer5 community for the positive impact on my life and relationships."} person={"Aadhitya Amarendiran"}/>
+        <InlineQuotes quote={"Thanks for your well wishes on my new job. I would not have landed my job were it not for KhulnaSoft's support. The hiring managers at Citi were so impressed based on my experience at KhulnaSoft that I was immediately selected for my new position. I'm and will forever be grateful to the KhulnaSoft community for the positive impact on my life and relationships."} person={"Aadhitya Amarendiran"}/>
         <div className="expect">
           <h2> What Does a Community Manager Do? </h2>
-          <p> Layer5 Community Managers generally oversee community activities and support ongoing initiatives. They are responsible for the health and growth of the community.
+          <p> KhulnaSoft Community Managers generally oversee community activities and support ongoing initiatives. They are responsible for the health and growth of the community.
              Community Managers cultivate an environment which attracts new community members by ensuring that timely and completed responses are provided to questions asked.
              Aspects of marketing including member and project promotion as well as aspects of project management by organizing meetings and triaging issues are under the purview of Community Managers. </p>
           <p>Community Managers work to ensure that existing community members are retained by helping those members stay engaged in projects on an ongoing basis.</p>
@@ -73,7 +73,7 @@ const CommunityManagers = () => {
         </div>
         <div className="conduct">
           <h2> Code of Conduct </h2>
-          <p> The comfort and safety of Layer5 community members is our priority. You must agree to the Code of Conduct to participate in the Layer5 community, and any violations of the Code of Conduct will be taken seriously. <br/>
+          <p> The comfort and safety of KhulnaSoft community members is our priority. You must agree to the Code of Conduct to participate in the KhulnaSoft community, and any violations of the Code of Conduct will be taken seriously. <br/>
                     To report any violations please fill out this incident form. </p>
           <Button primary title="Report Incident" url="https://docs.google.com/forms/d/e/1FAIpQLSeWzC5HjlHugFjB0TtaAVnSkPPqsRQ3JRYjdwyDXf0oyRxcdQ/viewform" external={true}/>
         </div>

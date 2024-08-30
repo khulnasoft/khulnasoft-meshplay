@@ -83,7 +83,7 @@ const TypographyGuidance = () => {
             scale. This is a better practice.
           </p>
           <p>
-            For Layer5, we utilized the major third ratio to generate a type
+            For KhulnaSoft, we utilized the major third ratio to generate a type
             scale that we could work with.
           </p>
           <Row Hcenter className="image-container">
@@ -194,7 +194,7 @@ const TypographyGuidance = () => {
             provide guidance for any reader going through a group of text.
           </p>
           <p>
-            Of Layer5’s ten fonts, seven of them can function as heading text
+            Of KhulnaSoft’s ten fonts, seven of them can function as heading text
             and ensure hierarchy for different context. For text that needs to
             be prominent in a group of text (especially at the beginning), any
             one of these fonts will suffice.
@@ -207,7 +207,7 @@ const TypographyGuidance = () => {
             used for short text in components and when creating other interface
             elements due to its higher legibility when compared to heading or
             subtitle texts. Three font sizes have been earmarked to function in
-            this capacity for the text needs in Layer5 and across all of its
+            this capacity for the text needs in KhulnaSoft and across all of its
             products.
           </p>
           <h3>Label</h3>

@@ -13,5 +13,5 @@ const CommunityConduct = () => {
 };
 export default CommunityConduct;
 export const Head = () => {
-  return <SEO title="Code Of Conduct" description="Layer5 follows the CNCF Code of Conduct" />;
+  return <SEO title="Code Of Conduct" description="KhulnaSoft follows the CNCF Code of Conduct" />;
 };

@@ -3,16 +3,16 @@ import React from "react";
 import SEO from "../../../components/seo";
 import GitOps from "../../../sections/gitops";
 
-const Meshery = () => {
+const Meshplay = () => {
   return (
     <>
       <GitOps />
     </>
   );
 };
-export default Meshery;
+export default Meshplay;
 export const Head = () => {
-  return  <SEO title="GitOps with Meshery"
+  return  <SEO title="GitOps with Meshplay"
     description="GitOps, lifecycle, performance, and configuration management for cloud native infrastructure as code. Manage your Kubernetes clusters visually. Use the catalog of patterns and best practices."
-    image="/images/meshery-logo-dark-text.png" />;
+    image="/images/meshplay-logo-dark-text.png" />;
 };

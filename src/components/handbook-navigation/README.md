@@ -7,4 +7,4 @@ To use this CTA :
 <Toc />
 ```
 
-![image](https://github.com/layer5io/docs/assets/74408634/d9d846c6-f177-4b05-be83-23d7211b1e06)
+![image](https://github.com/khulnasoft/docs/assets/74408634/d9d846c6-f177-4b05-be83-23d7211b1e06)

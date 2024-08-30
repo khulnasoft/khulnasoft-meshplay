@@ -15,7 +15,7 @@ const MeshmatePage = () => {
 export default MeshmatePage;
 export const Head = () => {
   return  <SEO title="Meshmates"
-    description="MeshMates - the Layer5 contributor onboarding program.
+    description="MeshMates - the KhulnaSoft contributor onboarding program.
           MeshMates is a collection of cloud native mentors."
     image={seoImage} />;
 };

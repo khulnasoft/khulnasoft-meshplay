@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "../../../reusecore/Layout";
-import logo from "../../../assets/images/layer5/layer5-only/svg/layer5-light-bg.svg";
+import logo from "../../../assets/images/khulnasoft/khulnasoft-only/svg/khulnasoft-light-bg.svg";
 import SocialLinksColor from "../../../components/SocialLinks-Color";
 import Button from "../../../reusecore/Button";
 import FooterWrapper from "./footer.style";
@@ -20,7 +20,7 @@ const Footer = ({ location }) => {
       "/",
       "/blog",
       "/careers",
-      "/meshery",
+      "/meshplay",
       "/meshmap",
       "/community",
       "/handbook",
@@ -61,12 +61,12 @@ const Footer = ({ location }) => {
     };
 
     return test.mdx(pathname)
-      ? `https://github.com/layer5io/layer5/tree/master/${test.mdx(pathname)}`
+      ? `https://github.com/khulnasoft/khulnasoft/tree/master/${test.mdx(pathname)}`
       : test.learningPath(pathname)
-        ? `https://github.com/layer5io/layer5/tree/master/${test.learningPath(
+        ? `https://github.com/khulnasoft/khulnasoft/tree/master/${test.learningPath(
           pathname
         )}`
-        : `https://github.com/layer5io/layer5/blob/master/src/pages${
+        : `https://github.com/khulnasoft/khulnasoft/blob/master/src/pages${
           pathname == "/" ? "" : pathname
         }${indexUrl.some((str) => pathname.endsWith(str)) ? "/index" : ""}.js`;
   };
@@ -76,7 +76,7 @@ const Footer = ({ location }) => {
       <img
         className="section__particle"
         src={bubblesElement}
-        alt="Layer5, the cloud native management company"
+        alt="KhulnaSoft, the cloud native management company"
       />
       <Container>
         <Row className="footer-head">
@@ -92,9 +92,9 @@ const Footer = ({ location }) => {
         <Row>
           <Col xs={12} lg={3}>
             <p className="desc-info">
-              An empowerer of engineers, Layer5 helps you extract more value
+              An empowerer of engineers, KhulnaSoft helps you extract more value
               from your infrastructure. Creator and maintainer of cloud native
-              standards. Maker of Meshery, the cloud native manager.
+              standards. Maker of Meshplay, the cloud native manager.
             </p>
           </Col>
           <Col className="sections_col" xs={12} lg={9}>
@@ -107,7 +107,7 @@ const Footer = ({ location }) => {
                 </h3>
                 <ul className="section-categories">
                   <li>
-                    <a className="category-link" href="https://docs.layer5.io">
+                    <a className="category-link" href="https://docs.khulnasoft.com">
                       Docs
                     </a>
                   </li>
@@ -175,7 +175,7 @@ const Footer = ({ location }) => {
                   <li>
                     <a
                       className="category-link"
-                      href="https://discuss.layer5.io"
+                      href="https://discuss.khulnasoft.com"
                     >
                       Forum
                     </a>
@@ -199,7 +199,7 @@ const Footer = ({ location }) => {
                     </Link>
                   </li>
                   <li>
-                    <a className="category-link" href="https://badges.layer5.io/">
+                    <a className="category-link" href="https://badges.khulnasoft.com/">
                     Recognition Program
                     </a>
                   </li>
@@ -224,9 +224,9 @@ const Footer = ({ location }) => {
                   <li>
                     <Link
                       className="category-link"
-                      to="/cloud-native-management/meshery"
+                      to="/cloud-native-management/meshplay"
                     >
-                      Meshery
+                      Meshplay
                     </Link>
                   </li>
                   <li>
@@ -245,7 +245,7 @@ const Footer = ({ location }) => {
                   <li>
                     <Link
                       className="category-link"
-                      to="/docker-extension-meshery"
+                      to="/docker-extension-meshplay"
                     >
                       Docker Extension
                     </Link>
@@ -343,7 +343,7 @@ const Footer = ({ location }) => {
         <Row>
           <div className="footer-bottom">
             <p className="copyright-text">
-              {currentYear} Copyright ©Layer5, Inc | All Rights Reserved
+              {currentYear} Copyright ©KhulnaSoft, Inc | All Rights Reserved
             </p>
 
             <ul className="misc-links">
@@ -359,11 +359,11 @@ const Footer = ({ location }) => {
               <li>
                 <a
                   className="status-link"
-                  href="https://layer5.statuspage.io"
+                  href="https://khulnasoft.statuspage.io"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Layer5 Cloud Status <span className="pulse-icon"></span>
+                  KhulnaSoft Cloud Status <span className="pulse-icon"></span>
                 </a>
               </li>
             </ul>

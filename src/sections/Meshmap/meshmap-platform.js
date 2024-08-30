@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SelfHosted from "./images/datacenter-crash.svg";
-import CloudHosted from "./images/meshery-cloud.svg";
+import CloudHosted from "./images/meshplay-cloud.svg";
 import Features from "../../components/Features-carousel";
 
 const PlatformWrapper = styled.div`
@@ -125,7 +125,7 @@ const Platform = () => {
             {
               title: "Self-hosted",
               description:
-                "Keep your MeshMap designs internal to your workplace. Get remote support from Layer5 when you need it.",
+                "Keep your MeshMap designs internal to your workplace. Get remote support from KhulnaSoft when you need it.",
               content: (
                 <img
                   src={SelfHosted}
@@ -137,7 +137,7 @@ const Platform = () => {
             {
               title: "Cloud",
               description:
-                "Connect to Layer5 Cloud and have your MeshMap designs versioned and available for team sharing and real-time collaboration.",
+                "Connect to KhulnaSoft Cloud and have your MeshMap designs versioned and available for team sharing and real-time collaboration.",
               content: (
                 <img
                   src={CloudHosted}
@@ -155,14 +155,14 @@ const Platform = () => {
           <h1>Self-Hosted</h1>
           <img src={SelfHosted} alt="MeshMap Self-hosted" />
           <p>
-            Keep your MeshMap designs internal to your workplace. Get remote support from Layer5 when you need it.
+            Keep your MeshMap designs internal to your workplace. Get remote support from KhulnaSoft when you need it.
           </p>
         </div>
         <div className="block block--right">
           <h1>Cloud</h1>
           <img src={CloudHosted} alt="MeshMap Cloud" />
           <p>
-            Connect to Layer5 Cloud and have your MeshMap designs versioned and available for team sharing and real-time collaboration.
+            Connect to KhulnaSoft Cloud and have your MeshMap designs versioned and available for team sharing and real-time collaboration.
           </p>
         </div>
       </div>

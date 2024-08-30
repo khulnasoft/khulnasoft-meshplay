@@ -10,10 +10,10 @@ import axios from "axios";
 // import smp_dark_text from "../../../assets/images/service-mesh-performance/stacked/smp-dark-text.svg";
 // import smp_light_text from "../../../assets/images/service-mesh-performance/stacked/smp-light-text.svg";
 import meshmap_dark from "../../..//assets/images/meshmap/icon-only/meshmap-icon.svg";
-import meshery from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
+import meshplay from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
 import Data from "./utility/menu-items.js";
 import ScrollspyMenu from "./utility/ScrollspyMenu.js";
-import { ReactComponent as Logo } from "../../../assets/images/app/layer5-colorMode.svg";
+import { ReactComponent as Logo } from "../../../assets/images/app/khulnasoft-colorMode.svg";
 import NavigationWrap from "./navigation.style";
 import DefaultAvatar from "./utility/DefaultAvatar.js";
 import CloudIcon from "./utility/CloudIcon.js";
@@ -147,12 +147,12 @@ const Navigation = () => {
       {
         frontmatter: {
           thumbnail: {
-            img: meshery,
+            img: meshplay,
           },
-          title: "Meshery, the Cloud Native Manager",
+          title: "Meshplay, the Cloud Native Manager",
         },
         fields: {
-          slug: "/cloud-native-management/meshery",
+          slug: "/cloud-native-management/meshplay",
         },
       },
       {
@@ -196,7 +196,7 @@ const Navigation = () => {
   }
   useEffect(() => {
     const CLOUD_USER_API =
-      "https://meshery.layer5.io/api/identity/users/profile";
+      "https://meshplay.khulnasoft.com/api/identity/users/profile";
     const fetchData = async () => {
       try {
         const token = getCookieValue("provider_token");
@@ -263,7 +263,7 @@ const Navigation = () => {
     >
       <Container className="nav-container">
         <div className="navbar-wrap">
-          <Link aria-label="layer5" to="/" className="logo">
+          <Link aria-label="khulnasoft" to="/" className="logo">
             <Logo />
           </Link>
           <nav className="nav">
@@ -351,7 +351,7 @@ const Navigation = () => {
                           secondary
                           className="banner-btn two"
                           title="Get Started"
-                          url="https://meshery.layer5.io/login"
+                          url="https://meshplay.khulnasoft.com/login"
                           external={true}
                         />
                       </li>
@@ -362,7 +362,7 @@ const Navigation = () => {
                   <ul>
                     <li className="mobile-nav-item">
                       {/* <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pmcApaDP4xd8hvG5fy8ylxuFxD3akIRc5vpWJ60q-HemQi80SFFAVftbiIsq9pgiA2o8yvU56?gv=true" className="menu-item">Book Demo</a> */}
-                      <a href="https://play.meshery.io" className="menu-item">
+                      <a href="https://play.meshplay.khulnasoft.com" className="menu-item">
                         Playground
                       </a>
                     </li>
@@ -377,7 +377,7 @@ const Navigation = () => {
             />
           </nav>
         </div>
-        <div className="meshery-cta">
+        <div className="meshplay-cta">
           {userData ? (
             <div className="dropDown">
               <button
@@ -400,7 +400,7 @@ const Navigation = () => {
                   rel="noreferrer"
                   target="_blank"
                   className="drop-item"
-                  href={`https://meshery.layer5.io/user/${userData.id}`}
+                  href={`https://meshplay.khulnasoft.com/user/${userData.id}`}
                 >
                   <div className="drop-item-icon">
                     <CloudIcon />
@@ -410,7 +410,7 @@ const Navigation = () => {
                 <a
                   rel="noreferrer"
                   className="drop-item"
-                  href="https://playground.meshery.io"
+                  href="https://playground.meshplay.khulnasoft.com"
                   target="_blank"
                 >
                   <div className="drop-item-icon">
@@ -422,7 +422,7 @@ const Navigation = () => {
                   onClick={() => {
                     removeCookie("provider_token");
                     // Open logout API link in a new tab
-                    window.open("https://meshery.layer5.io/logout", "_blank");
+                    window.open("https://meshplay.khulnasoft.com/logout", "_blank");
 
                     // Refresh the current page
                     window.location.reload();
@@ -440,26 +440,26 @@ const Navigation = () => {
           ) : (
             <Button
               id="get-started-2"
-              aria-label="Signup for Layer5 Cloud"
+              aria-label="Signup for KhulnaSoft Cloud"
               secondary
               className="banner-btn two"
               external={true}
               title="Get Started"
-              alt="Signup for Layer5 Cloud"
-              url="https://meshery.layer5.io/registration"
+              alt="Signup for KhulnaSoft Cloud"
+              url="https://meshplay.khulnasoft.com/registration"
             />
           )}
           {/* <Button id="book-a-demo" aria-label="Book a demo" secondary className="banner-btn book-a-demo" external={true} title="Book a demo" alt="Book a demo" url="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pmcApaDP4xd8hvG5fy8ylxuFxD3akIRc5vpWJ60q-HemQi80SFFAVftbiIsq9pgiA2o8yvU56?gv=true" /> */}
           {!userData && (
             <Button
               id="book-a-demo"
-              aria-label="Meshery Playground"
+              aria-label="Meshplay Playground"
               secondary
               className="banner-btn book-a-demo"
               external={true}
               title="Playground"
-              alt="Meshery Playground"
-              url="https://playground.meshery.io"
+              alt="Meshplay Playground"
+              url="https://playground.meshplay.khulnasoft.com"
             />
           )}
           <div className="dark-theme-toggle">

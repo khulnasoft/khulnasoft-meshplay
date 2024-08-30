@@ -20,9 +20,9 @@ import { BlogWrapper } from "../../Blog.style.js";
 
 (ICYMI: [I've made my first-ever Hacktoberfest contribution](https://raungar.wordpress.com/2019/10/02/hacktoberfest-2019-documenting-my-first-ever-hacktoberfest-contribution/)!)_
 
-[Hacktoberfest 2019](https://hacktoberfest.digitalocean.com/) is now well underway, and I am happy to report that I have made my second contribution to my new favorite open source community, [**Layer5**](https://layer5.io/) ([on GitHub](https://github.com/layer5io))!
+[Hacktoberfest 2019](https://hacktoberfest.digitalocean.com/) is now well underway, and I am happy to report that I have made my second contribution to my new favorite open source community, [**KhulnaSoft**](https://khulnasoft.com/) ([on GitHub](https://github.com/khulnasoft))!
 
-_Before I continue on, I want to extend a huge thank-you to Layer5's lead developer, Lee Calcote, as well as the Layer5 community managers for welcoming me into the Layer5 Slack channel, allowing me to introduce myself in their weekly community meeting, and even giving my blog [an awesome shout out on Twitter](https://twitter.com/layer5/status/1180317604168306688?s=12)!_
+_Before I continue on, I want to extend a huge thank-you to KhulnaSoft's lead developer, Lee Calcote, as well as the KhulnaSoft community managers for welcoming me into the KhulnaSoft Slack channel, allowing me to introduce myself in their weekly community meeting, and even giving my blog [an awesome shout out on Twitter](https://twitter.com/khulnasoft/status/1180317604168306688?s=12)!_
 
 * * *
 
@@ -30,16 +30,16 @@ This week, I helped resolve the very first issue that I outlined in my [Planning
 
 [![](https://raungar.files.wordpress.com/2019/10/image-4.webp?w=1024)](https://raungar.files.wordpress.com/2019/10/image-4.webp?w=1024)
 
-Issue [layerio#65](https://github.com/layer5io/layer5/issues/65): enhancements for the [Layer5 Landscape page](https://layer5.io/landscape)
+Issue [layerio#65](https://github.com/khulnasoft/khulnasoft/issues/65): enhancements for the [KhulnaSoft Landscape page](https://khulnasoft.com/landscape)
 
-At the time I found this issue, the second requested enhancement (concerning table row coloration) [was already handled](https://github.com/layer5io/layer5/commit/b313268cb578e762d1212c9910b522af2869b57b) by another contributor, leaving me with two tasks:
+At the time I found this issue, the second requested enhancement (concerning table row coloration) [was already handled](https://github.com/khulnasoft/khulnasoft/commit/b313268cb578e762d1212c9910b522af2869b57b) by another contributor, leaving me with two tasks:
 
-1. Implementing the specified sorting functionalities (for the three tables on the [Landscape page](https://layer5.io/landscape))
-2. Restyling the font color of site hyperlinks (an enhancement [requested later on](https://github.com/layer5io/layer5/issues/65#issuecomment-483912458) in the issue)
+1. Implementing the specified sorting functionalities (for the three tables on the [Landscape page](https://khulnasoft.com/landscape))
+2. Restyling the font color of site hyperlinks (an enhancement [requested later on](https://github.com/khulnasoft/khulnasoft/issues/65#issuecomment-483912458) in the issue)
 
 ### The strange case of Jekyll
 
-Fortunately, thanks to my previous work with Layer5's website, I was already all set up with an offline development environment. However, going into my first task, I knew very little about Jekyll except how to install it.
+Fortunately, thanks to my previous work with KhulnaSoft's website, I was already all set up with an offline development environment. However, going into my first task, I knew very little about Jekyll except how to install it.
 
 _[Jekyll](https://jekyllrb.com/) and [Liquid](https://shopify.github.io/liquid/)... it's got to be like React or Angular, right? I mean, all I need to do is slap in [sort](https://shopify.github.io/liquid/filters/sort/) and [reverse filters](https://shopify.github.io/liquid/filters/reverse/) and toggle them onclick, right_...?
 
@@ -51,11 +51,11 @@ After discovering what Jekyll and Liquid actually were, I determined that I woul
 
 To do so, I followed coding style on the issue's previous contributor by encapsulating my work within a new JavaScript file in the project's assets folder: a simple bubble sort function.
 
-I chose to implement the [simplest of sorting algorithms](https://github.com/layer5io/layer5/blob/master/assets/js/table-sort.js#L13) in JavaScript (which I count as study for my _Data Structures and Algorithms_ midterm):
+I chose to implement the [simplest of sorting algorithms](https://github.com/khulnasoft/khulnasoft/blob/master/assets/js/table-sort.js#L13) in JavaScript (which I count as study for my _Data Structures and Algorithms_ midterm):
 
 
 ```js
-// Excerpted from https://github.com/layer5io/layer5/blob/master/assets/js/table-sort.js
+// Excerpted from https://github.com/khulnasoft/khulnasoft/blob/master/assets/js/table-sort.js
 let bubbleSort = () => {
   for (i = 0; i < rows.length-1; i++) {
     for (j = 0; j < rows.length-i-1; j++) {
@@ -70,19 +70,19 @@ let bubbleSort = () => {
 
 ### Painting over Pumpkin Bread
 
-[Encycolorpedia.com](https://encycolorpedia.com) lists the hex color code `#fdac40` as "[Valspar Paint Pumpkin Bread](https://encycolorpedia.com/fdac40)". Although Layer5.io's then-difficult-to-read hyperlinks were colored `#ffa_b_40`, I'd still like to think that the second task of my second Hacktoberfest contribution was festively-themed!
+[Encycolorpedia.com](https://encycolorpedia.com) lists the hex color code `#fdac40` as "[Valspar Paint Pumpkin Bread](https://encycolorpedia.com/fdac40)". Although KhulnaSoft.io's then-difficult-to-read hyperlinks were colored `#ffa_b_40`, I'd still like to think that the second task of my second Hacktoberfest contribution was festively-themed!
 
-In [my last blog post](https://raungar.wordpress.com/2019/10/02/hacktoberfest-2019-documenting-my-first-ever-hacktoberfest-contribution/), I mentioned that [Materialize CSS](https://materializecss.com) was worth further research. Well, after some poking around, I discovered that all of Layer5.io's pumpkin-colored hyperlink styling (both deliberate, and incidental) originated from its materialize.css asset.
+In [my last blog post](https://raungar.wordpress.com/2019/10/02/hacktoberfest-2019-documenting-my-first-ever-hacktoberfest-contribution/), I mentioned that [Materialize CSS](https://materializecss.com) was worth further research. Well, after some poking around, I discovered that all of KhulnaSoft.io's pumpkin-colored hyperlink styling (both deliberate, and incidental) originated from its materialize.css asset.
 
-Although this asset has been [frequently modified](https://github.com/layer5io/layer5/commits/master/assets/css/materialize.css), I was still hesitant to globally alter the site's styling (in case a return to Pumpkin Bread was desired in the future), so I instead opted to [add a new inline style tag](https://github.com/layer5io/layer5/pull/209/files#diff-48443fc170100677376b7ee11324494b) to override [a styling rule](https://github.com/layer5io/layer5/blob/master/assets/css/materialize.css#L5149) (on top of removing the 'orange-text' class from individual anchor elements).
+Although this asset has been [frequently modified](https://github.com/khulnasoft/khulnasoft/commits/master/assets/css/materialize.css), I was still hesitant to globally alter the site's styling (in case a return to Pumpkin Bread was desired in the future), so I instead opted to [add a new inline style tag](https://github.com/khulnasoft/khulnasoft/pull/209/files#diff-48443fc170100677376b7ee11324494b) to override [a styling rule](https://github.com/khulnasoft/khulnasoft/blob/master/assets/css/materialize.css#L5149) (on top of removing the 'orange-text' class from individual anchor elements).
 
 * * *
 
-All of the changes I've made can be viewed through [my (merged) pull request](https://github.com/layer5io/layer5/pull/209):
+All of the changes I've made can be viewed through [my (merged) pull request](https://github.com/khulnasoft/khulnasoft/pull/209):
 
 [![](https://raungar.files.wordpress.com/2019/10/image-6.webp?w=1024)](https://raungar.files.wordpress.com/2019/10/image-6.webp?w=1024)
 
-Pull request [layer5io#209](https://github.com/layer5io/layer5/pull/209): resolved the remainder of issue [layerio#65](https://github.com/layer5io/layer5/issues/65)
+Pull request [khulnasoft#209](https://github.com/khulnasoft/khulnasoft/pull/209): resolved the remainder of issue [layerio#65](https://github.com/khulnasoft/khulnasoft/issues/65)
 
 * * *
 

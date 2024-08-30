@@ -13,7 +13,7 @@ const ArchitectureDiagramPage = () => {
 
 export default ArchitectureDiagramPage;
 export const Head = () => {
-  return <SEO title="Design Architecture Diagram | Layer5"
+  return <SEO title="Design Architecture Diagram | KhulnaSoft"
     description="Create architecture diagram for AWS, GCP or Kubernetes"
-    image="/images/meshery-logo-dark-text.webp" />;
+    image="/images/meshplay-logo-dark-text.webp" />;
 };

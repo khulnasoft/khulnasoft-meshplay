@@ -14,7 +14,7 @@ const Contact = () => {
 };
 export default Contact;
 export const Head = () => {
-  return <SEO title="Contact" description="Contact Layer5 for help managing your cloud native infrastructre and apps. Layer5 is the maker of Meshery and service mesh standards.">
+  return <SEO title="Contact" description="Contact KhulnaSoft for help managing your cloud native infrastructre and apps. KhulnaSoft is the maker of Meshplay and service mesh standards.">
     <Script src="https://v8hx52m354g0.statuspage.io/embed/script.js" />
   </SEO>;
 };

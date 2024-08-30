@@ -24,7 +24,7 @@ const GitOpsPage = () => {
           <Col className="desc-text-container" lg={6} md={6} sm={10} xs={10}>
             <h1 className="heading-1"> GitOps with Cloud <br/> Native Insights</h1>
             <p className="desc-p">
-              Give your pipelines super powers with Meshery's GitHub Actions
+              Give your pipelines super powers with Meshplay's GitHub Actions
             </p>
           </Col>
           <Col lg={6} md={6} className="hero-images">
@@ -60,7 +60,7 @@ const GitOpsPage = () => {
                 primary
                 className="learn-more-btn"
                 title="Read More"
-                url="https://layer5.io/resources/cloud-native/what-is-gitops"
+                url="https://khulnasoft.com/resources/cloud-native/what-is-gitops"
               />
             </div>
           </Col>
@@ -80,7 +80,7 @@ const GitOpsPage = () => {
             <SquarePoint>Connect MeshMap to your GitHub repo and see changes pull request-to-pull request</SquarePoint>
             <SquarePoint>Get snapshots of your infrastructure directly in your PRs</SquarePoint>
             <div className="buttons-container">
-              <Button primary className="learn-more-btn" title="Install" url="https://meshery.layer5.io/connect/github/new"/>
+              <Button primary className="learn-more-btn" title="Install" url="https://meshplay.khulnasoft.com/connect/github/new"/>
               <Button secondary className="learn-more-btn" title="Learn More" url="/solutions/gitops/snapshot"/>
             </div>
           </Col>
@@ -98,11 +98,11 @@ const GitOpsPage = () => {
           <Col className="desc-text-container" lg={6} md={6} xs={12} sm={10} >
             <h1 className="heading-1">Red light performance regressions</h1>
             <SquarePoint>Baselin and track the performance of your services. Put your application service efficient to the test</SquarePoint>
-            <SquarePoint>Meshery is the canonical implementation of the Cloud Native Performance specification</SquarePoint>
+            <SquarePoint>Meshplay is the canonical implementation of the Cloud Native Performance specification</SquarePoint>
             <SquarePoint>Define your performance profiles upfront. See statistcal analysis with microservice latency and throughput quartiles</SquarePoint>
-            <SquarePoint>Meshery includes your choice of load generator, so that you can meausure your way</SquarePoint>
+            <SquarePoint>Meshplay includes your choice of load generator, so that you can meausure your way</SquarePoint>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <Button primary className="learn-more-btn" title="Install" url="https://github.com/marketplace/actions/performance-testing-with-meshery"/>
+              <Button primary className="learn-more-btn" title="Install" url="https://github.com/marketplace/actions/performance-testing-with-meshplay"/>
             </div>
           </Col>
           <Col lg={6} md={6} className="hero-image" style={{ display: "flex", justifyContent: "flex-end" }} >

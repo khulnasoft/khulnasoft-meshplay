@@ -221,7 +221,7 @@ By default, kube-proxy uses iptables (x_tables kernel modules), so it does not p
 </p>
 <strong>Cons of Service Mesh</strong>
 <p>
-    The biggest drawback of a service mesh architecture is the complexity of implementation (managing hundreds or thousands of sidecars is not trivial). The learning curve can be steep for the platform team because there are so many moving parts. A sidecar for every pod adds to CPU and memory needs. Similarly, sidecars add latency. Latency, which may affect application performance, varies with proxy implementation and can be easily measured by the open source tool, Meshery. Citrix CPX as a sidecar offers latency as low as 1ms, whereas other solutions can add much more. 
+    The biggest drawback of a service mesh architecture is the complexity of implementation (managing hundreds or thousands of sidecars is not trivial). The learning curve can be steep for the platform team because there are so many moving parts. A sidecar for every pod adds to CPU and memory needs. Similarly, sidecars add latency. Latency, which may affect application performance, varies with proxy implementation and can be easily measured by the open source tool, Meshplay. Citrix CPX as a sidecar offers latency as low as 1ms, whereas other solutions can add much more. 
 </p>
 <p>
     Overall, a service mesh architecture provides excellent security, observability, and fine-grained traffic management for all traffic flows. The major downside is that it is complex to implement and manage.

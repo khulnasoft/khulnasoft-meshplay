@@ -110,7 +110,7 @@ export const selectStyles = {
   multiValueLabel: (styles) => ({ ...styles, marginLeft: 20 }),
   multiValue: (styles, { data }) =>
     // prettier-ignore
-    data.value === "meshery-operator"
+    data.value === "meshplay-operator"
     ? {
         ...styles,
         ...img(data.icon),

@@ -107,7 +107,7 @@ const Calendar = () => {
                 initialView="dayGridMonth"
                 googleCalendarApiKey="AIzaSyDcmx-nLYfqvrfpEmVJuclwt9akayYfUgg"
                 events={{
-                  googleCalendarId: "layer5.io_eh2aa9dpf1g40elvoc762jnphs@group.calendar.google.com",
+                  googleCalendarId: "khulnasoft.com_eh2aa9dpf1g40elvoc762jnphs@group.calendar.google.com",
                 }}
                 buttonText={{
                   today: "Today"
@@ -144,7 +144,7 @@ const Calendar = () => {
               <h1>Newcomers Welcome!</h1>
               <h3>Are you new to the community?</h3>
               <p className="invitation">
-                Begin your journey by <a href="https://slack.layer5.io">joining the community Slack</a>. Then, use the resources linked in our <Link to="/community/newcomers">Contributor's Journey Map </Link>
+                Begin your journey by <a href="https://slack.khulnasoft.com">joining the community Slack</a>. Then, use the resources linked in our <Link to="/community/newcomers">Contributor's Journey Map </Link>
                 and engage in the community and projects.
               </p>
               <Button primary title="See All Newcomers Resources" url="/community/newcomers">

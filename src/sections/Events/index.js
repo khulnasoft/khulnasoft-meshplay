@@ -17,7 +17,7 @@ const Meetups = ({ data, pageContext }) => {
   return (
     <MeetupStyle>
       <PageHeader title="Events" path="Community/Events" img={RssFeedIcon} feedlink="/events/feed.xml" />
-      <h2 className="event-subhead">Join Layer5 at these events</h2>
+      <h2 className="event-subhead">Join KhulnaSoft at these events</h2>
       <UpcomingEvents data={data.allUpcoming} />
       <Container>
         <div className="filterBtns">

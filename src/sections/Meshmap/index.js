@@ -151,7 +151,7 @@ const Meshmap = (props) => {
                       <Collab1 id="collaborate-image1" alt="collaborate-image1" />
                     </>
                   )
-                  // Invite any Layer5 Cloud user, or all Meshery users, to work with you on a public design, including making changes and releasing new versions."
+                  // Invite any KhulnaSoft Cloud user, or all Meshplay users, to work with you on a public design, including making changes and releasing new versions."
                 },
                 // {
                 //   title: "Nothing great is made alone.",
@@ -201,7 +201,7 @@ const Meshmap = (props) => {
                 },
                 {
                   title: "Self-service empowerment for all of your teams",
-                  description: "As a self-service engineering platform, Layer5 helps DevOps teams make infrastructure and application management less about finger-pointing and more about collaborating."
+                  description: "As a self-service engineering platform, KhulnaSoft helps DevOps teams make infrastructure and application management less about finger-pointing and more about collaborating."
                 },
                 {
                   title: "Empower developers to change how they write applications",
@@ -243,7 +243,7 @@ const Meshmap = (props) => {
             person="Alex"
             title="Infrastructure Engineering at Docker, Inc."
             image={Alex} />
-          {/* <MesheryAction /> */}
+          {/* <MeshplayAction /> */}
           <SignupForm />
           <Platform />
         </Container>

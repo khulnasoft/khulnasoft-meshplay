@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Traffic management"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 5
@@ -107,7 +107,7 @@ spec:
 
 
 ```
-_Using Meshery, apply custom configuration._
+_Using Meshplay, apply custom configuration._
 
 Refresh BookInfo productpage
 
@@ -129,7 +129,7 @@ spec:
             host: reviews
             subset: v2
 ```
-_Using Meshery, apply custom configuration._
+_Using Meshplay, apply custom configuration._
 
 Refresh BookInfo productpage.
 
@@ -150,7 +150,7 @@ metadata:
   name: bookinfo
 spec:
   hosts:
-    - "bookinfo.meshery.io"
+    - "bookinfo.meshplay.khulnasoft.com"
   gateways:
     - sample-app-gateway
   http:
@@ -266,7 +266,7 @@ spec:
 
 ```
 
-Move to 50%. Observe in Meshery.
+Move to 50%. Observe in Meshplay.
 
 ```yaml
 apiVersion: networking.istio.io/v1alpha3
@@ -406,7 +406,7 @@ Follow these steps if the above steps did not work
 If you haven't forked or cloned this repository, please do so now:
 
 ```sh
-git clone https://github.com/layer5io/advanced-istio-service-mesh-workshop
+git clone https://github.com/khulnasoft/advanced-istio-service-mesh-workshop
 
 ```
 <h4 class="chapter-alt-heading">

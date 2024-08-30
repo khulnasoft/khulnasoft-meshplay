@@ -46,9 +46,9 @@ const CTA_BottomWrapper = styled.div`
     }
 `;
 
-const defaultHeading = "Layer5 Community";
-const defaultContent = "Join the Layer5 community and explore the world of service meshes!";
-const defaultURL = "https://slack.layer5.io";
+const defaultHeading = "KhulnaSoft Community";
+const defaultContent = "Join the KhulnaSoft community and explore the world of service meshes!";
+const defaultURL = "https://slack.khulnasoft.com";
 
 const CTA_Bottom = ({ alt, button_text, category, content, external_link, image, url, heading, ...props }) => {
   return (

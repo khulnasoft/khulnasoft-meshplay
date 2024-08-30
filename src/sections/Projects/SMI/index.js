@@ -28,9 +28,9 @@ const SMIPage = () => {
                 Integrate and wrap your operational processes around a service mesh without fear of lock-in. SMI provides a standard interface for service meshes on Kubernetes and a basic feature set for the most common service mesh use cases.
               </p>
               <p>
-                Meshery is <span>the official</span> SMI Conformance Validator. Use Meshery's diagnostic tool to verify that your service mesh's behavior in an accessible and non-destructive manner.
+                Meshplay is <span>the official</span> SMI Conformance Validator. Use Meshplay's diagnostic tool to verify that your service mesh's behavior in an accessible and non-destructive manner.
               </p>
-              <Button primary title="Run SMI Conformance" url="/blog/programs/starting-smi-conformance-testing-with-meshery" />
+              <Button primary title="Run SMI Conformance" url="/blog/programs/starting-smi-conformance-testing-with-meshplay" />
             </Col>
             <Col lg={4} md={12} sm={12} className="hero_img_col">
               <div className="hero-img">
@@ -78,12 +78,12 @@ const SMIPage = () => {
                   is used as the workload to test. To facilitate a common
                   set of tests, a sample application has been developed
                   for purposes of providing a consistent workload to apply
-                  SMI specs against. A deployment of the Learn Layer5
+                  SMI specs against. A deployment of the Learn KhulnaSoft
                   sample application being fitted to each service mesh.
                 </p>
               </Col>
               <Col lg={4}>
-                <Button primary title="Run SMI Conformance" url="/blog/programs/starting-smi-conformance-testing-with-meshery"></Button>
+                <Button primary title="Run SMI Conformance" url="/blog/programs/starting-smi-conformance-testing-with-meshplay"></Button>
               </Col>
             </Row>
           </div>

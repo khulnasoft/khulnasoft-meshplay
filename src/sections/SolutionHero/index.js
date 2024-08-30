@@ -37,8 +37,8 @@ const FeatureHero = (props) => {
           <Button
             primary
             className="banner-btn two"
-            title="See Meshery"
-            url="/cloud-native-management/meshery"
+            title="See Meshplay"
+            url="/cloud-native-management/meshplay"
           >
             <FiDownloadCloud size={21} className="icon-left" />
           </Button>

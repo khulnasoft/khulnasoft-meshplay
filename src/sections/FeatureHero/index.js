@@ -36,7 +36,7 @@ const FeatureHero = (props) => {
           <Button
             primary
             title="Try Now!"
-            url="https://meshery.layer5.io"
+            url="https://meshplay.khulnasoft.com"
             external={true}
           />
         </div>

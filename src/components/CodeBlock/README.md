@@ -7,4 +7,4 @@ To use this CTA simply use
 <CodeBlock codeString="print(Hello World!);" language="shell" />
 ```
 
-![image](https://github.com/meshery/meshery/assets/74408634/37332188-aae7-4f53-8a3b-27b0e55ed737)
+![image](https://github.com/meshplay/meshplay/assets/74408634/37332188-aae7-4f53-8a3b-27b0e55ed737)

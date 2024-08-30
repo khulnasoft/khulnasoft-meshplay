@@ -11,21 +11,21 @@ import { DropdownWrapper } from "../../components/dropdownLayouts/labels.style";
 import lighttheme from "../../theme/app/themeStyles";
 import writerIcon from "../../assets/images/writer-program/writer-program-badge.svg";
 import communityIcon from "../../assets/images/community/community-green.svg";
-import hubIcon from "../../assets/images/image-hub/layer5-image-hub.svg";
-import icon5 from "../../assets/images/layer5/5 icon/svg/light/5-light-no-trim.svg";
+import hubIcon from "../../assets/images/image-hub/khulnasoft-image-hub.svg";
+import icon5 from "../../assets/images/khulnasoft/5 icon/svg/light/5-light-no-trim.svg";
 import meshmateIcon from "../../assets/images/meshmate/meshmate-icon.svg";
 import hawkIcon from "../../assets/images/nighthawk/icon-only/SVG/nighthawk-logo.svg";
-import landscapeIcon from "../../assets/images/landscape/layer5_landscape_green.svg";
-import mesheryIcon from "../../assets/images/meshery/icon-only/meshery-logo-light.svg";
-import mesheryOpIcon from "../../assets/images/meshery-operator/meshery-operator-dark.svg";
+import landscapeIcon from "../../assets/images/landscape/khulnasoft_landscape_green.svg";
+import meshplayIcon from "../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
+import meshplayOpIcon from "../../assets/images/meshplay-operator/meshplay-operator-dark.svg";
 import smpIcon from "../../assets/images/service-mesh-performance/icon/smp-dark.svg";
 import inactiveIcon from "../../assets/images/status/inactive.webp";
 import activeIcon from "../../assets/images/status/active.webp";
 import patternsIcon from "../../assets/images/service-mesh-patterns/service-mesh-pattern.svg";
 import uiuxrIcon from "../../assets/images/uiuxr/uiuxr.svg";
 import docsIcon from "../../assets/images/docs/docs.svg";
-import dockerExtensionIcon from "../../assets/images/docker-extension/docker-extension-meshery-logo.svg";
-import mesheryCatalogIcon from "../../assets/images/meshery/meshery-catalog.svg";
+import dockerExtensionIcon from "../../assets/images/docker-extension/docker-extension-meshplay-logo.svg";
+import meshplayCatalogIcon from "../../assets/images/meshplay/meshplay-catalog.svg";
 import meshMapIcon from "../../assets/images/meshmap/icon-only/meshmap-icon.svg";
 /**
  * Array containing a list of categories to be shown in the dropdown.
@@ -89,27 +89,27 @@ const options = [
     className: "allOptions",
   },
   {
-    label: "Meshery",
-    value: "meshery",
+    label: "Meshplay",
+    value: "meshplay",
     color: lighttheme.linkColor,
     isFixed: true,
-    icon: mesheryIcon,
+    icon: meshplayIcon,
     className: "allOptions",
   },
   {
-    label: "Meshery Catalog",
-    value: "meshery-catalog",
+    label: "Meshplay Catalog",
+    value: "meshplay-catalog",
     color: lighttheme.linkColor,
     isFixed: true,
-    icon: mesheryCatalogIcon,
+    icon: meshplayCatalogIcon,
     className: "allOptions",
   },
   {
-    label: "Meshery Operator",
-    value: "meshery-operator",
+    label: "Meshplay Operator",
+    value: "meshplay-operator",
     color: lighttheme.linkColor,
     isFixed: true,
-    icon: mesheryOpIcon,
+    icon: meshplayOpIcon,
     className: "allOptions",
   },
   {

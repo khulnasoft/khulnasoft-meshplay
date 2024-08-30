@@ -15,5 +15,5 @@ const CareerPrograms = () => {
 };
 export default CareerPrograms;
 export const Head = () => {
-  return <SEO title="Open Source Internship Programs" description="Engage, Learn, Share. Join the award-winning, Layer5 open source community and projects." />;
+  return <SEO title="Open Source Internship Programs" description="Engage, Learn, Share. Join the award-winning, KhulnaSoft open source community and projects." />;
 };

@@ -41,11 +41,11 @@ export const GitOpsWrapper = styled.section`
             padding-right: 3.125rem;
         }
 
-        .meshery-video {
+        .meshplay-video {
             border-radius: 1rem;
             width: 100%;
           }
-        .meshery-img{
+        .meshplay-img{
             max-width: 45rem;
             position: relative;
             bottom: 2rem;

@@ -26,4 +26,4 @@ let title = "Collaborate with Precision";
       />
 ```
 
-![image](https://github.com/layer5io/docs/assets/74408634/fa6da8c2-5af3-4d5a-9738-fd505790bd71)
+![image](https://github.com/khulnasoft/docs/assets/74408634/fa6da8c2-5af3-4d5a-9738-fd505790bd71)

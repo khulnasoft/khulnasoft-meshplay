@@ -3,13 +3,13 @@ import ProductsWrapper from "./products.style";
 import Button from "../../reusecore/Button";
 import darkbgSvg from "./images/circle_dark.svg";
 import lightbgSvg from "./images/circle_light.svg";
-import product_hero_img from "./images/layer5-products-overview.svg";
-import product_hero_img_light from "./images/layer5-products-overview-dark.svg";
+import product_hero_img from "./images/khulnasoft-products-overview.svg";
+import product_hero_img_light from "./images/khulnasoft-products-overview-dark.svg";
 import desktop from "./images/fluent_desktop-mac.svg";
 import codicon from "./images/codicon_extensions.svg";
-import mesheryLogo from "../../assets/images/meshery/icon-only/meshery-logo-light.svg";
+import meshplayLogo from "../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
 import cloudicon from "./images/cloud.svg";
-import layer5 from "../../assets/images/layer5/5 icon/svg/light/5-light-no-trim.svg";
+import khulnasoft from "../../assets/images/khulnasoft/5 icon/svg/light/5-light-no-trim.svg";
 import meshmap from "../../assets/images/meshmap/icon-only/meshmap-icon.svg";
 import comingSoon from "./icons/coming-soon.webp";
 import { useStyledDarkMode } from "../../theme/app/useStyledDarkMode";
@@ -23,7 +23,7 @@ const options = [
     monthlyprice: 0,
     yearlyprice: 0,
     byline: "Open Source features, plus:",
-    button: ["Join for Free", "https://meshery.layer5.io"],
+    button: ["Join for Free", "https://meshplay.khulnasoft.com"],
     summary: [
       {
         id: 0,
@@ -106,7 +106,7 @@ const options = [
         id: 5,
         category: "Standard Support",
         description:
-          "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via the web.",
+          "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via the web.",
       },
     ],
   },
@@ -128,19 +128,19 @@ const options = [
         id: 1,
         category: "Authentication: LDAP",
         description:
-          "Access Meshery  using your existing accounts and centrally manage repository access.",
+          "Access Meshplay  using your existing accounts and centrally manage repository access.",
       },
       {
         id: 2,
         category: "Authentication: SAML",
         description:
-          "Use an identity provider to manage the identities of Meshery users and applications.",
+          "Use an identity provider to manage the identities of Meshplay users and applications.",
       },
       {
         id: 3,
         category: "Self-hosted Deployment",
         description:
-          "Self-hosted Meshery Cloud for on-prem appliances or self-managed cloud tenants.",
+          "Self-hosted Meshplay Cloud for on-prem appliances or self-managed cloud tenants.",
       },
       {
         id: 4,
@@ -151,7 +151,7 @@ const options = [
         id: 5,
         category: "Phone Support",
         description:
-          "Layer5 Support can help you troubleshoot issues you run into while using Meshery. Get support via phone.",
+          "KhulnaSoft Support can help you troubleshoot issues you run into while using Meshplay. Get support via phone.",
       },
     ],
   },
@@ -168,20 +168,20 @@ const CardsData = [
   },
   {
     id: 2,
-    logo: mesheryLogo,
-    title: "Meshery",
+    logo: meshplayLogo,
+    title: "Meshplay",
     icon: ["",desktop],
-    text: "As a self-service engineering platform, Meshery enables collaborative design and operation of cloud native infrastructure.",
-    url: "/cloud-native-management/meshery"
+    text: "As a self-service engineering platform, Meshplay enables collaborative design and operation of cloud native infrastructure.",
+    url: "/cloud-native-management/meshplay"
   },
   {
     id: 3,
-    logo: layer5,
+    logo: khulnasoft,
     title: "Cloud",
     icon: [cloudicon, codicon, desktop],
-    text: "The Meshery Remote Provider with identity and collaboration services, private catalogs, GitOps, and multi-Meshery management.",
+    text: "The Meshplay Remote Provider with identity and collaboration services, private catalogs, GitOps, and multi-Meshplay management.",
     //as there is no soluton page.
-    url: "https://docs.layer5.io/cloud"
+    url: "https://docs.khulnasoft.com/cloud"
   },
 ];
 
@@ -211,7 +211,7 @@ const index = () => {
                 flexibility, elevating operations to new efficiencies.{" "}
               </p>
               <div className="btn">
-                <Button secondary className="banner-btn two" external={true} title="Explore Now" alt="" url="https://meshery.layer5.io/"/>
+                <Button secondary className="banner-btn two" external={true} title="Explore Now" alt="" url="https://meshplay.khulnasoft.com/"/>
                 <Button id="book-a-demo" aria-label="Book a demo" primary className="banner-btn book-a-demo" external={true} title="Book a demo" alt="Book a demo" url="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pmcApaDP4xd8hvG5fy8ylxuFxD3akIRc5vpWJ60q-HemQi80SFFAVftbiIsq9pgiA2o8yvU56?gv=true" />
               </div>
             </div>
@@ -265,7 +265,7 @@ const index = () => {
               <p className="paraInfo">
                 Embrace the future of technology and embark on a transformative journey with our comprehensive range of products prepared to meet your needs. Elevate, Innovate, and conquer the cloud with us today!
               </p>
-              <Button button secondary className="banner-btn two" title="Open Playground" alt="Cloud Native Playground" url="https://play.meshery.io" />
+              <Button button secondary className="banner-btn two" title="Open Playground" alt="Cloud Native Playground" url="https://play.meshplay.khulnasoft.com" />
             </div>
           </div>
           <div className="headers bot_gap">
@@ -292,7 +292,7 @@ const index = () => {
             <div className="paras">
               <p>See how our products can transform your cloud experience today.</p>
               <p className="paraInfo">
-              Book to see it in action! Our experts are eager to guide you through the incredible possibilities that Layer5 offers. Take this opportunity to discover what more your infrastructure can do for you!
+              Book to see it in action! Our experts are eager to guide you through the incredible possibilities that KhulnaSoft offers. Take this opportunity to discover what more your infrastructure can do for you!
               </p>
             </div>
             <Button external={true} primary title="Book a Demo" alt="Book a demo" url="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3pmcApaDP4xd8hvG5fy8ylxuFxD3akIRc5vpWJ60q-HemQi80SFFAVftbiIsq9pgiA2o8yvU56?gv=true" />

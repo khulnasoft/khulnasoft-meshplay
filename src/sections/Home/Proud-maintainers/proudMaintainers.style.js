@@ -89,7 +89,7 @@ const ProjectItemWrapper = styled.section`
 			.linkerd-horizontal-colorMode_svg__colorMode1,
 			.envoy-horizontal-colorMode_svg__colorMode1,
 			.oam-colorMode_svg__colorMode1,
-			.meshery-logo-colorMode_svg__colorMode1,
+			.meshplay-logo-colorMode_svg__colorMode1,
 			.smp-colorMode_svg__colorMode1
 			 {
 				fill: ${props => props.theme.whiteToBlack};

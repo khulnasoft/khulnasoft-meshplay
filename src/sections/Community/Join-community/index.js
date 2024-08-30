@@ -39,9 +39,9 @@ const JoinCommunity = (props) => {
       <div className="join-community">
         <div className="join-community_text-and_button">
           <h1>{props.header ? props.header : "Join the community!"}</h1>
-          <p>{props.text ? props.text : "Checkout the Layer5 community by joining us on Slack"}</p>
-          {props.btn_primary ? <Button primary title="Join Our Talented Community" url="https://slack.layer5.io/" external={true}/>
-            : <Button secondary title="Join Our Talented Community" url="https://slack.layer5.io/" external={true} />}
+          <p>{props.text ? props.text : "Checkout the KhulnaSoft community by joining us on Slack"}</p>
+          {props.btn_primary ? <Button primary title="Join Our Talented Community" url="https://slack.khulnasoft.com/" external={true}/>
+            : <Button secondary title="Join Our Talented Community" url="https://slack.khulnasoft.com/" external={true} />}
         </div>
       </div>
     </JoinCommunityWrapper>

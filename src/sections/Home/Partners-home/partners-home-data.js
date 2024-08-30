@@ -31,7 +31,7 @@ export const partners = [
     imageWidth: 809,
   },
   {
-    name: "University of Texas at Austin partnership with Layer5",
+    name: "University of Texas at Austin partnership with KhulnaSoft",
     imageLink: utaustin,
     imageRoute: "/partners#utaustin",
     innerDivStyle: "partner__block__inner horizontal",
@@ -47,10 +47,10 @@ export const partners = [
     imageWidth: 144,
   },
   {
-    name: "Hashicorp partnership with Layer5",
+    name: "Hashicorp partnership with KhulnaSoft",
     imageLink: hashicorp,
     imageRoute:
-      "/company/news/layer5-and-hashicorp-launch-service-mesh-partnership",
+      "/company/news/khulnasoft-and-hashicorp-launch-service-mesh-partnership",
     innerDivStyle: "partner__block__inner",
     imageHeight: 113,
     imageWidth: 113,

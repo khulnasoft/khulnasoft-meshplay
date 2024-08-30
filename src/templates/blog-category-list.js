@@ -89,6 +89,6 @@ export const Head = () => {
   return  <SEO
     title="Blog"
     description="Articles on how to develop and operatate cloud native infrastucture and microservices."
-    canonical="https://layer5.io/blog"
+    canonical="https://khulnasoft.com/blog"
   />;
 };

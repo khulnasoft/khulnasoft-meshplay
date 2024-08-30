@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Fault Injection"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 6
@@ -14,7 +14,7 @@ import { ChapterStyle } from "../../../../src/components/Learn-Components/Chapte
 In this chapter we will learn how to test the resiliency of an application by injecting systematic faults.
 Before we start, we will need to reset the virtual services.
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
@@ -42,7 +42,7 @@ spec:
 
 To start, we will inject a 7s delay for accessing the ratings service for a user `jason`. reviews v2 service has a 10s hard-coded connection timeout for its calls to the ratings service configured globally.
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
@@ -98,7 +98,7 @@ If you logout or login as a different user, the page should load normally withou
 
 In this section, , we will introduce an HTTP abort to the ratings microservices for user `jason`.
 
-Using Meshery, navigate to the Istio management page:
+Using Meshplay, navigate to the Istio management page:
 
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.

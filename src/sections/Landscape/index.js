@@ -6,7 +6,7 @@ import Subscribe from "../../sections/subscribe/subscribe";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import ServiceMeshTimeline from "./ServiceMeshTimeline";
-import landscape from "../../assets/images/landscape/layer5_landscape_green.svg";
+import landscape from "../../assets/images/landscape/khulnasoft_landscape_green.svg";
 import Consul_Img from "../../assets/images/service-mesh-icons/consul-white.svg";
 import Nginx_Img from "../../assets/images/service-mesh-icons/nginx-white.svg";
 import Linkerd_Img from "../../assets/images/service-mesh-icons/linkerd-white.svg";
@@ -136,12 +136,12 @@ const LandscapeGrid = () => {
                   alt="Service Mesh Landscape"
                 />
                 <div>
-                  <p>The Layer5 Service Mesh Landscape is a community-curated collection of service mesh projects.
+                  <p>The KhulnaSoft Service Mesh Landscape is a community-curated collection of service mesh projects.
                                     We encourage project maintainers to directly update and represent their service mesh’s functional
                                     and non-functional details.
                   </p>
                   <p className="text-gray">Found a discrepancy, missing or out-dated information?</p>
-                  <Button primary url="https://github.com/layer5io/layer5/issues/new?assignees=&labels=area%2Flandscape&template=landscape.md&title=%5BLandscape%5D" external={true}>
+                  <Button primary url="https://github.com/khulnasoft/khulnasoft/issues/new?assignees=&labels=area%2Flandscape&template=landscape.md&title=%5BLandscape%5D" external={true}>
                                         Let Us Know
                   </Button>
                 </div>

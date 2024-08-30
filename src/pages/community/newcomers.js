@@ -13,5 +13,5 @@ const NewComers = () => {
 };
 export default NewComers;
 export const Head = () => {
-  return <SEO title="Newcomers" description="Contributions from Newcomers are actively encouraged in Layer5. Find a Meshmate and start contributing!" />;
+  return <SEO title="Newcomers" description="Contributions from Newcomers are actively encouraged in KhulnaSoft. Find a Meshmate and start contributing!" />;
 };

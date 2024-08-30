@@ -10,7 +10,7 @@ import { GrTwitter } from "@react-icons/all-files/gr/GrTwitter";
 import { GrYoutube } from "@react-icons/all-files/gr/GrYoutube";
 import { FaDocker } from "@react-icons/all-files/fa/FaDocker";
 import { FaDiscourse } from "@react-icons/all-files/fa/FaDiscourse";
-import FiveIcon from "../../../assets/images/layer5/5 icon/svg/light/5-light-no-trim.svg";
+import FiveIcon from "../../../assets/images/khulnasoft/5 icon/svg/light/5-light-no-trim.svg";
 
 const PressWrapper = styled.div`
 padding: 2rem 0;
@@ -78,12 +78,12 @@ const Press = () => {
         <h4>For any press or analyst inquiries, please reach out:</h4>
         <Row>
           <Col xs={12} md={4}>
-            <a href="mailto:press@layer5.io" target="_blank" rel="noreferrer">
+            <a href="mailto:press@khulnasoft.com" target="_blank" rel="noreferrer">
               <div className="press_card">
                 <h5>Media Contacts</h5>
                 <p>Kate Suttons</p>
                 <FiMail size={40} />
-                <p>press@layer5.io</p>
+                <p>press@khulnasoft.com</p>
               </div>
             </a>
           </Col>
@@ -94,7 +94,7 @@ const Press = () => {
                 <p>Get our brand, logo assets and more.</p>
                 <img src={FiveIcon} alt="Five Logo" height={30} /> <br />
                 <Link to="/brand">
-                  <Button secondary title="Layer5 brand kit" external={true} />
+                  <Button secondary title="KhulnaSoft brand kit" external={true} />
                 </Link>
               </div>
             </Link>
@@ -103,13 +103,13 @@ const Press = () => {
             <div className="press_card">
               <h5>Follow Us</h5>
               <p>On Social Media</p>
-              <a href="https://www.linkedin.com/company/layer5"><GrLinkedin size={40} className="icon" /></a>
-              <a href="https://twitter.com/layer5"><GrTwitter size={40} className="icon" /></a>
+              <a href="https://www.linkedin.com/company/khulnasoft"><GrLinkedin size={40} className="icon" /></a>
+              <a href="https://twitter.com/khulnasoft"><GrTwitter size={40} className="icon" /></a>
               <a href="https://www.youtube.com/channel/UCFL1af7_wdnhHXL1InzaMvA?sub_confirmation=1"><GrYoutube size={45} className="icon" /></a>
               <br />
-              <a href="https://github.com/layer5io"><GrGithub size={45} className="icon" /></a>
-              <a href="https://discuss.layer5.io/"><FaDiscourse size={40} className="icon" /></a>
-              <a href="https://hub.docker.com/u/layer5/"><FaDocker size={45} className="icon" /></a>
+              <a href="https://github.com/khulnasoft"><GrGithub size={45} className="icon" /></a>
+              <a href="https://discuss.khulnasoft.com/"><FaDiscourse size={40} className="icon" /></a>
+              <a href="https://hub.docker.com/u/khulnasoft/"><FaDocker size={45} className="icon" /></a>
             </div>
           </Col>
         </Row>

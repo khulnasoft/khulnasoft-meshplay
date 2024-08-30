@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { Container } from "../../reusecore/Layout";
 import Locator from "./locator.svg";
-import MesherySurface from "./meshery-surface.svg";
+import MeshplaySurface from "./meshplay-surface.svg";
 import Button from "../../reusecore/Button";
 
 const MeshMapCTAWrapper = styled.div`
@@ -97,7 +97,7 @@ const MeshMapCTA = () => {
         <div className="CTAbody">
           <div>
             <img className="rotate" src={Locator} />
-            <img className="surface" src={MesherySurface} />
+            <img className="surface" src={MeshplaySurface} />
           </div>
           <div className="text">
             <h2><span>MeshMap</span> is here!</h2>

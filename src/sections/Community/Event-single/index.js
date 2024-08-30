@@ -71,7 +71,7 @@ const EventSingle = ({ data }) => {
                     form="event"
                     account_desc="Please provide at least one account."
                     submit_title = {`Thank you for registering to ${frontmatter.title}!`}
-                    submit_body = {`You are now signed up for the ${frontmatter.title} workshop by Layer5. Please patiently await your acceptance. We'll send out additional information about the event soon.`}
+                    submit_body = {`You are now signed up for the ${frontmatter.title} workshop by KhulnaSoft. Please patiently await your acceptance. We'll send out additional information about the event soon.`}
                   />
               }
 

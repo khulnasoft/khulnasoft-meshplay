@@ -103,7 +103,7 @@ const SoSpecial = () => {
   return (
     <SoSpecialWrapper>
       <div className="so-special-head">
-        <p>LAYER5 IN THE NEWS</p>
+        <p>KHULNASOFT IN THE NEWS</p>
         <h1>We're making a splash</h1>
       </div>
       <div className="special_carousel">
@@ -136,7 +136,7 @@ const SoSpecial = () => {
         </Slider>
       </div>
       {/* <div className="so-special-foot">
-        <p>Layer5 provides cloud native management for monoliths and <br></br>
+        <p>KhulnaSoft provides cloud native management for monoliths and <br></br>
                    microservices alike.</p>
         <Button className="so-special-foot-btn" primary url="/projects" title="Our Projects" />
       </div> */}

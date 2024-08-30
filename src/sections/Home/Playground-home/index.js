@@ -282,7 +282,7 @@ const MeshmapVisualizerViews = () => {
             primary
             title="Open in Demo System &rarr;"
             external={true}
-            url="https://playground.meshery.io/"
+            url="https://playground.meshplay.khulnasoft.com/"
           />
         </div>
       </div>

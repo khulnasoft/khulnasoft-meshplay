@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import BrandPageWrapper from "./brandPage.style";
 import { Row, Col } from "../../../reusecore/Layout";
-import Layer5Brand from "./Brand-components/layer5";
-import MesheryBrand from "./Brand-components/meshery";
+import KhulnaSoftBrand from "./Brand-components/khulnasoft";
+import MeshplayBrand from "./Brand-components/meshplay";
 import { FiDownloadCloud } from "@react-icons/all-files/fi/FiDownloadCloud";
 import loadable from "@loadable/component";
 
 const MeshSyncBrand = loadable(() => import("./Brand-components/meshsync"));
-const MesheryOperatorBrand = loadable(() => import("./Brand-components/meshery-operator"));
+const MeshplayOperatorBrand = loadable(() => import("./Brand-components/meshplay-operator"));
 const ImageHubBrand = loadable(() => import("./Brand-components/imagehub"));
 const SMPBrand = loadable(() => import("./Brand-components/smp"));
 const CommunityBrand = loadable(() => import("./Brand-components/community"));
@@ -93,10 +93,10 @@ const Brand = () => {
   const [visibleSection, setVisibleSection] = useState();
 
   const headerRef = useRef(null);
-  const layer5Ref = useRef(null);
-  const mesheryRef = useRef(null);
+  const khulnasoftRef = useRef(null);
+  const meshplayRef = useRef(null);
   const meshsyncRef = useRef(null);
-  const mesheryOperatorRef = useRef(null);
+  const meshplayOperatorRef = useRef(null);
   const imageHubRef = useRef(null);
   const meshMasterRef = useRef(null);
   const smpRef = useRef(null);
@@ -110,10 +110,10 @@ const Brand = () => {
   const SocialBackgroundsRef = useRef(null);
 
   const sectionRefs = [
-    { section: "Layer5", ref: layer5Ref },
-    { section: "Meshery", ref: mesheryRef },
+    { section: "KhulnaSoft", ref: khulnasoftRef },
+    { section: "Meshplay", ref: meshplayRef },
     { section: "MeshSync", ref: meshsyncRef },
-    { section: "MesheryOperator", ref: mesheryOperatorRef },
+    { section: "MeshplayOperator", ref: meshplayOperatorRef },
     { section: "ImageHub", ref: imageHubRef },
     { section: "SMP", ref: smpRef },
     { section: "MeshMark", ref: meshmarkRef },
@@ -157,7 +157,7 @@ const Brand = () => {
   return (
     <BrandPageWrapper>
       <div className="brandHeader" ref={headerRef}>
-        <h1>Layer5 Brand Kits</h1>
+        <h1>KhulnaSoft Brand Kits</h1>
         <p>
           We’ve created some guidelines to help you use our brand and assets,
           including our logo, content and trademarks, without having to
@@ -176,20 +176,20 @@ const Brand = () => {
           <div className="section">
             <BrandGuide />
           </div>
-          <div className="section" ref={layer5Ref}>
-            <Layer5Brand />
+          <div className="section" ref={khulnasoftRef}>
+            <KhulnaSoftBrand />
           </div>
           <div className="section" ref={SocialBackgroundsRef}>
             <SocialBackgrounds />
           </div>
-          <div className="section" ref={mesheryRef}>
-            <MesheryBrand />
+          <div className="section" ref={meshplayRef}>
+            <MeshplayBrand />
           </div>
           <div className="section" ref={meshsyncRef}>
             <MeshSyncBrand />
           </div>
-          <div className="section" ref={mesheryOperatorRef}>
-            <MesheryOperatorBrand />
+          <div className="section" ref={meshplayOperatorRef}>
+            <MeshplayOperatorBrand />
           </div>
           <div className="section" ref={imageHubRef}>
             <ImageHubBrand />
@@ -226,13 +226,13 @@ const Brand = () => {
           <nav className={`brand-nav ${scroll ? "nav-fixed" : ""}`}>
             <p
               className={`header_link ${
-                visibleSection === "Layer5" ? "selected" : ""
+                visibleSection === "KhulnaSoft" ? "selected" : ""
               }`}
               onClick={() => {
-                scrollTo(layer5Ref.current);
+                scrollTo(khulnasoftRef.current);
               }}
             >
-              <span>Layer5</span>
+              <span>KhulnaSoft</span>
             </p>
             <p
               className={`header_link ${
@@ -242,17 +242,17 @@ const Brand = () => {
                 scrollTo(SocialBackgroundsRef.current);
               }}
             >
-              <span> Layer5 Social Backgrounds </span>
+              <span> KhulnaSoft Social Backgrounds </span>
             </p>
             <p
               className={`header_link ${
-                visibleSection === "Meshery" ? "selected" : ""
+                visibleSection === "Meshplay" ? "selected" : ""
               }`}
               onClick={() => {
-                scrollTo(mesheryRef.current);
+                scrollTo(meshplayRef.current);
               }}
             >
-              <span>Meshery</span>
+              <span>Meshplay</span>
             </p>
             <p
               className={`header_link ${
@@ -266,13 +266,13 @@ const Brand = () => {
             </p>
             <p
               className={`header_link ${
-                visibleSection === "MesheryOperator" ? "selected" : ""
+                visibleSection === "MeshplayOperator" ? "selected" : ""
               }`}
               onClick={() => {
-                scrollTo(mesheryOperatorRef.current);
+                scrollTo(meshplayOperatorRef.current);
               }}
             >
-              <span>Meshery Operator</span>
+              <span>Meshplay Operator</span>
             </p>
             <p
               className={`header_link ${

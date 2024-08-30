@@ -161,12 +161,12 @@ const BrandPageWrapper = styled.section`
 		justify-content: space-around;
 		gap: 1rem;
 	}
-	.Layer5Logos {
+	.KhulnaSoftLogos {
 		font-style: italic;
 		text-align: center;
 		margin: auto;
 		
-		img.Layer5Icon {
+		img.KhulnaSoftIcon {
 			width: auto;
 			height: 50px;
 			display: block;
@@ -189,7 +189,7 @@ const BrandPageWrapper = styled.section`
 			justify-content: center;
 			flex-wrap: wrap;
 		}
-		img.Layer5Icon {
+		img.KhulnaSoftIcon {
 			width: auto;
 			height: 80px;
 			display: block;

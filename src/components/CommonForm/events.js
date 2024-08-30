@@ -4,7 +4,7 @@ import axios from "axios";
 import { Field, Form, Formik } from "formik";
 import CommonFormWrapper from "./commonForm.style";
 import { Container } from "../../reusecore/Layout";
-import layer5_img from "../../assets/images/layer5/layer5-only/svg/layer5-white-no-trim.svg";
+import khulnasoft_img from "../../assets/images/khulnasoft/khulnasoft-only/svg/khulnasoft-white-no-trim.svg";
 
 
 const EventForm = ({ form, title, submit_title, submit_body }) => {
@@ -87,8 +87,8 @@ const ThankYou = ({ title, description }) => {
       <div className="thank-you-box">
         <h2>{title}</h2>
         <p>{description}</p>
-        <p>In the meantime, please visit our <a href="https://discuss.layer5.io">community forum</a> or join us in our <a href="https://slack.layer5.io">community Slack</a>.</p>
-        <h3 className="white">- Team <img src={layer5_img} alt="Layer5" width="125" /></h3>
+        <p>In the meantime, please visit our <a href="https://discuss.khulnasoft.com">community forum</a> or join us in our <a href="https://slack.khulnasoft.com">community Slack</a>.</p>
+        <h3 className="white">- Team <img src={khulnasoft_img} alt="KhulnaSoft" width="125" /></h3>
       </div>
     </Container>
   );

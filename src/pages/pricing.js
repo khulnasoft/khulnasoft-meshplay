@@ -13,5 +13,5 @@ const Pricing = () => {
 };
 export default Pricing;
 export const Head = () => {
-  return  <SEO title="Pricing" description="Layer5 Pricing" />;
+  return  <SEO title="Pricing" description="KhulnaSoft Pricing" />;
 };

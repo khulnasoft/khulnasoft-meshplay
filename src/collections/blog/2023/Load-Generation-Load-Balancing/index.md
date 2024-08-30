@@ -9,14 +9,14 @@ category: "Kubernetes"
 description: "Load Generation simulates demand on software, identifying capacity and bottlenecks and Load Balancing distributes workloads across resources, preventing overload and enhancing performance."
 tags:
  - Kubernetes
- - Meshery
+ - Meshplay
 type: Blog
 resource: false 
 published: true
 ---
 
 import { BlogWrapper } from "../../Blog.style.js";
-import Layer5 from "./Layer5.svg";
+import KhulnaSoft from "./KhulnaSoft.svg";
 
 <BlogWrapper>
 
@@ -31,24 +31,24 @@ Load tests empower developers to:
 - Ensure reliability and robustness of the application
 - Predict system behavior under varying conditions
 
-## [Meshery](https://meshery.io/) Load Generator
+## [Meshplay](https://meshplay.khulnasoft.com/) Load Generator
 
-Let's delve into Meshery, a multi-Cloud Native management plane founded by [Layer5](https://layer5.io/)—a community dedicated to open-source initiatives in network management and observability. Meshery aids developers in assessing the performance of their Cloud Native applications.
+Let's delve into Meshplay, a multi-Cloud Native management plane founded by [KhulnaSoft](https://khulnasoft.com/)—a community dedicated to open-source initiatives in network management and observability. Meshplay aids developers in assessing the performance of their Cloud Native applications.
 
- Meshery boasts a comprehensive set of features, including:
+ Meshplay boasts a comprehensive set of features, including:
 
 - Performance testing
 - Cloud Native Lifecycle Management
 - Configuration management
 
-Supporting various load generators like HTTP/HTTPS/HTTP2, [Nighthawk](https://layer5.io/projects/nighthawk) and its built-in load generator, Meshery facilitates the creation of synthetic HTTP load and enables benchmarking the performance of Cloud Native applications.
+Supporting various load generators like HTTP/HTTPS/HTTP2, [Nighthawk](https://khulnasoft.com/projects/nighthawk) and its built-in load generator, Meshplay facilitates the creation of synthetic HTTP load and enables benchmarking the performance of Cloud Native applications.
 Developers can choose their preferred load generator for tests and benefit from the capability to run tests, providing a more comprehensive performance analysis.
 
-With Meshery, developers can:
+With Meshplay, developers can:
 
-- Manage the lifecycle of various [Cloud Native](https://play.meshery.io/) applications.
-- Conduct performance tests and compare results between across different [Cloud Native](https://play.meshery.io/) environments.
-- Apply custom or pre-defined configurations to enhance [Cloud Native](https://play.meshery.io/) functionality.
+- Manage the lifecycle of various [Cloud Native](https://play.meshplay.khulnasoft.com/) applications.
+- Conduct performance tests and compare results between across different [Cloud Native](https://play.meshplay.khulnasoft.com/) environments.
+- Apply custom or pre-defined configurations to enhance [Cloud Native](https://play.meshplay.khulnasoft.com/) functionality.
 
 
 # Load Balancing  
@@ -61,9 +61,9 @@ Load balancing plays a pivotal role in optimizing the performance of internet ap
 <br/>
 
  <figure class="imgWithCaption fig-right">
-    <img src={Layer5} />
+    <img src={KhulnaSoft} />
     <figcaption>
-    <p>Layer5</p>
+    <p>KhulnaSoft</p>
     </figcaption>
  </figure>
 
@@ -89,16 +89,16 @@ When a user initiates a request, the load balancer evaluates factors such as ser
 
  > **Reduced Costs:** Efficient resource utilization avoids underutilization or overprovisioning of servers.
 
-## Load Balancing with [Meshery](https://meshery.io/)
+## Load Balancing with [Meshplay](https://meshplay.khulnasoft.com/)
     
-Meshery  serves as a platform for managing various Cloud Native applications . While it doesn't directly perform load balancing directly, Meshery allows users to configure and observe load balancing within their chosen Cloud Native Adaptors. Through a unified dashboard, users can customize load balancing settings, monitor relevant metrics, and leverage observability tools to gain insights into the performance and health of load balancing features. Meshery's focus is on providing a consistent and user-friendly interface for Cloud Native Lifecycle Management, including load balancing configuration.
+Meshplay  serves as a platform for managing various Cloud Native applications . While it doesn't directly perform load balancing directly, Meshplay allows users to configure and observe load balancing within their chosen Cloud Native Adaptors. Through a unified dashboard, users can customize load balancing settings, monitor relevant metrics, and leverage observability tools to gain insights into the performance and health of load balancing features. Meshplay's focus is on providing a consistent and user-friendly interface for Cloud Native Lifecycle Management, including load balancing configuration.
 
 **Adapters**
 
-  - [Istio](https://docs.meshery.io/service-meshes/adapters/istio)
-  - [Linkerd](https://docs.meshery.io/service-meshes/adapters/linkerd)
-  - [Consul](https://docs.meshery.io/service-meshes/adapters/consul)
-  -	[Network Service Mesh](https://docs.meshery.io/service-meshes/adapters/nsm)
+  - [Istio](https://docs.meshplay.khulnasoft.com/service-meshes/adapters/istio)
+  - [Linkerd](https://docs.meshplay.khulnasoft.com/service-meshes/adapters/linkerd)
+  - [Consul](https://docs.meshplay.khulnasoft.com/service-meshes/adapters/consul)
+  -	[Network Service Mesh](https://docs.meshplay.khulnasoft.com/service-meshes/adapters/nsm)
 
 
 ## Types of Load Balancers in Kubernetes: Service, Ingress, and External

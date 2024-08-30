@@ -10,7 +10,7 @@ import FAQ from "../../General/Faq";
 
 const UEM_Img = "../../../assets/images/partners/uem_partner.webp";
 const Univ_Texas_Img = "../../../assets/images/partners/texas_partner.webp";
-const Peek_Img = "../../../assets/images/layer5/layer5-peek-card-edited.svg";
+const Peek_Img = "../../../assets/images/khulnasoft/khulnasoft-peek-card-edited.svg";
 
 const InternshipPage = ({ hide_heading }) => {
   const opportunities = useStaticQuery(
@@ -90,7 +90,7 @@ const InternshipPage = ({ hide_heading }) => {
     <InternshipSectionWrapper>
       {!hide_heading && (
         <PageHeader
-          title="Internships at Layer5"
+          title="Internships at KhulnaSoft"
           path="Careers > Internships"
           subtitle="Available Opportunities"
         />
@@ -110,7 +110,7 @@ const InternshipPage = ({ hide_heading }) => {
             </div>
           </div>
           <p>
-            At Layer5, we take our internships seriously. Interns are expected
+            At KhulnaSoft, we take our internships seriously. Interns are expected
             to work hard, learn much, and be recognized for doing so. Past
             interns have presented their projects at KubeCon, DockerCon, and
             similar technical conferences.
@@ -118,9 +118,9 @@ const InternshipPage = ({ hide_heading }) => {
           <p>
             Our community of contributors is the key ingredient to the success
             of every one of our projects. Interns engage as part of the
-            community. Whether interning directly with Layer5 or through one of
-            Layer5's partner programs, your contributions will affect people
-            you've never met as the Layer5 projects are being broadly referenced
+            community. Whether interning directly with KhulnaSoft or through one of
+            KhulnaSoft's partner programs, your contributions will affect people
+            you've never met as the KhulnaSoft projects are being broadly referenced
             and used in organizations large and small.
           </p>
           <div>
@@ -165,7 +165,7 @@ const InternshipPage = ({ hide_heading }) => {
               <Row>
                 <p>
                   <br />
-                  The Layer5 community includes software engineers, researchers,
+                  The KhulnaSoft community includes software engineers, researchers,
                   students, artists, system administrators, operators and web
                   designers -- all of whom will be happy to help you get
                   started. We believe that all contributors should be afforded a

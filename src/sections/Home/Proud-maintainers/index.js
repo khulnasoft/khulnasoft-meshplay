@@ -4,12 +4,12 @@ import SectionTitle from "../../../reusecore/SectionTitle";
 import ProjectItemWrapper from "./proudMaintainers.style";
 import Traefik from "../../../assets/images/service-mesh-icons/traefik.svg";
 import Istio from "../../../assets/images/service-mesh-icons/istio.svg";
-import ImageHub from "../../../assets/images/image-hub/layer5-image-hub.svg";
+import ImageHub from "../../../assets/images/image-hub/khulnasoft-image-hub.svg";
 
 import { ReactComponent as CNCF } from "../../../assets/images/partners/cncf/horizontal/color/cncf-colorMode.svg";
 import { ReactComponent as OAM } from "../../../assets/images/partners/oam-colorMode.svg";
 import { ReactComponent as Linkerd } from "../../../assets/images/service-mesh-icons/linkerd/horizontal/color/linkerd-horizontal-colorMode.svg";
-import { ReactComponent as Meshery } from "../../../assets/images/meshery/meshery-logo-colorMode.svg";
+import { ReactComponent as Meshplay } from "../../../assets/images/meshplay/meshplay-logo-colorMode.svg";
 import { ReactComponent as Envoy } from "../../../assets/images/service-mesh-icons/envoy/horizontal/color/envoy-horizontal-colorMode.svg";
 import { ReactComponent as OSM } from "../../../assets/images/service-mesh-icons/open-service-mesh/stacked/color/openservicemesh-stacked-colorMode.svg";
 import { ReactComponent as SMP } from "../../../assets/images/service-mesh-performance/horizontal/smp-colorMode.svg";
@@ -59,7 +59,7 @@ const ProudMaintainers = () => {
         </Col> */}
         <Col xs={3} sm={3} md={3} lg={3} className="proj_row_1_col">
           <div className="proj_icon_1">
-            <Meshery alt="Meshery" />
+            <Meshplay alt="Meshplay" />
           </div>
         </Col>
         <Col xs={3} sm={3} md={3} lg={3} className="proj_row_1_col">

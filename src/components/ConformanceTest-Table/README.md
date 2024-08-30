@@ -43,4 +43,4 @@ and call the component
 <ConformanceTestTable columns={columns} data={data}/>
 ```
 
-![image](https://github.com/layer5io/layer5/assets/74408634/21d94675-3052-4338-bc3f-731a20195e97)
+![image](https://github.com/khulnasoft/khulnasoft/assets/74408634/21d94675-3052-4338-bc3f-731a20195e97)

@@ -174,11 +174,11 @@ export const MemberSingleWrapper = styled.div`
       left: -18%;
       width: 150px;
     }
-    .meshery-catalog {
+    .meshplay-catalog {
       left: -18%;
       width: 150px;
     }
-    .meshery-operator {
+    .meshplay-operator {
       left: -18%;
       width: 150px;
     }

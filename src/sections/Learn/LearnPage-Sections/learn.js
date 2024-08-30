@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { Col, Container, Row } from "../../../reusecore/Layout";
 import Button from "../../../reusecore/Button";
 import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
-import Meshery_Logo from "../../../assets/images/meshery/icon-only/meshery-logo-light.svg";
+import Meshplay_Logo from "../../../assets/images/meshplay/icon-only/meshplay-logo-light.svg";
 import OReillyLogo from "./OReilly_logo_rgb.svg";
 import { data } from "../Service-Mesh-Labs/courseData";
 import styled from "styled-components";
@@ -180,10 +180,10 @@ const LearnSection = () => {
   return (
     <LearnSectionWrapper>
       <div className="learn-particle-img">
-        <img src={Meshery_Logo} alt="Meshery Logo"/>
+        <img src={Meshplay_Logo} alt="Meshplay Logo"/>
       </div>
       <div>
-        <h1 className="learn-heading"><span>Meshery - </span> Learn how to manage Kubernetes</h1>
+        <h1 className="learn-heading"><span>Meshplay - </span> Learn how to manage Kubernetes</h1>
         <Container>
           <Row Hcenter className="learn-buttons-section labs">
             <Col xs={12} lg={6}>

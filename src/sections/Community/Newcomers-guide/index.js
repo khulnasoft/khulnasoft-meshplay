@@ -26,11 +26,11 @@ const NewcomersGuide = () => {
           <p>
             Whether you are a first time contributor or an open source
             veteran, you are welcome to contribute to and actively engage in the
-            development of projects at Layer5. Here are some instructions to get
+            development of projects at KhulnaSoft. Here are some instructions to get
             you started and if you haven’t joined yet, join the{" "}
-            <a href="https://slack.layer5.io/" target="_blank" rel="noreferrer">
+            <a href="https://slack.khulnasoft.com/" target="_blank" rel="noreferrer">
               Slack workspace</a>{" "}
-            to collaborate with the community and the <a href="https://discuss.layer5.io" target="">discussion forum</a> for questions. Also, you can check the
+            to collaborate with the community and the <a href="https://discuss.khulnasoft.com" target="">discussion forum</a> for questions. Also, you can check the
             quick-links below for jumping straight into things.</p>
           <Row className="newcomers-journey">
             <Col
@@ -57,10 +57,10 @@ const NewcomersGuide = () => {
             <p>
               These steps outline the process by which you can
               openly engage, learn, and participate in the broad set of open
-              source projects at Layer5. If at any time you get stuck, please
+              source projects at KhulnaSoft. If at any time you get stuck, please
               seek help in the{" "}
               <a
-                href="https://discuss.layer5.io"
+                href="https://discuss.khulnasoft.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -87,32 +87,32 @@ const NewcomersGuide = () => {
             </Col>
             <Col sm={12} lg={6}>
               <h3>Finding an Issue to Work On</h3>
-              <p>Note that the Layer5 community spans five GitHub organizations. See all in the <Link to="/community/handbook/repository-overview">repository overview</Link>.</p>
+              <p>Note that the KhulnaSoft community spans five GitHub organizations. See all in the <Link to="/community/handbook/repository-overview">repository overview</Link>.</p>
               <ol type="i">
                 <li>
                   Browse the list of{" "}
                   <a
-                    href="https://github.com/layer5io"
+                    href="https://github.com/khulnasoft"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Layer5 org
+                    KhulnaSoft org
                   </a>{" "}
                   issues bearing the “
                   <a
-                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns+label%3A%22good+first+issue%22"
+                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Akhulnasoft+org%3Ameshplay+org%3Aservice-mesh-performance+org%3Akhulnasoft+org%3Aservice-mesh-patterns+label%3A%22good+first+issue%22"
                     target="_blank"
                     rel="noreferrer"
                   >
                     good first issue
                   </a>
                   ” label, “
-                  <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns+label%3A%22first-timers-only%22+">
+                  <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Akhulnasoft+org%3Ameshplay+org%3Aservice-mesh-performance+org%3Akhulnasoft+org%3Aservice-mesh-patterns+label%3A%22first-timers-only%22+">
                     first timers only
                   </a>
                   ” or the “
                   <a
-                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns++label%3A%22help+wanted%22+"
+                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Akhulnasoft+org%3Ameshplay+org%3Aservice-mesh-performance+org%3Akhulnasoft+org%3Aservice-mesh-patterns++label%3A%22help+wanted%22+"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -123,7 +123,7 @@ const NewcomersGuide = () => {
                 <li>
                   Find an area of interest by perusing the list of projects by repository and technology in the{" "}
                   <Link to="/community/handbook/repository-overview/">
-                    Layer5 Repository Overview
+                    KhulnaSoft Repository Overview
                   </Link>.
                 </li>
                 <li>
@@ -143,7 +143,7 @@ const NewcomersGuide = () => {
                   Once an issue has been assigned to you, it’s time to get
                   started! Make sure you take a look at the{" "}
                   <a
-                    href="https://github.com/layer5io/meshery/blob/master/CONTRIBUTING.md"
+                    href="https://github.com/khulnasoft/meshplay/blob/master/CONTRIBUTING.md"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -154,7 +154,7 @@ const NewcomersGuide = () => {
                 <li>
                   Be sure to{" "}
                   <a
-                    href="https://github.com/layer5io/meshery/blob/master/CONTRIBUTING.md#signing-off-on-commits-developer-certificate-of-origin"
+                    href="https://github.com/khulnasoft/meshplay/blob/master/CONTRIBUTING.md#signing-off-on-commits-developer-certificate-of-origin"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -164,9 +164,9 @@ const NewcomersGuide = () => {
                 </li>
                 <li>Contributions of all sizes are welcome.</li>
                 <li>
-                  If you need some additional help, please join Layer5{" "}
+                  If you need some additional help, please join KhulnaSoft{" "}
                   <a
-                    href="https://discuss.layer5.io/"
+                    href="https://discuss.khulnasoft.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -174,7 +174,7 @@ const NewcomersGuide = () => {
                   </a>{" "}
                   or find your way to the{" "}
                   <a
-                    href="https://slack.layer5.io"
+                    href="https://slack.khulnasoft.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -198,15 +198,15 @@ const NewcomersGuide = () => {
                 Be patient. There are a large number of contributors and only a
                 small number of maintainers/reviewers. All contributors are
                 equally important to us, and we'll be sure to get to you as soon
-                as possible. In the meanwhile, you are welcome to engage in the Layer5{" "}
+                as possible. In the meanwhile, you are welcome to engage in the KhulnaSoft{" "}
                 <a
-                  href="https://discuss.layer5.io/"
+                  href="https://discuss.khulnasoft.com/"
                   target="_blank"
                   rel="noreferrer"
                 > discussion forum
                 </a>, join our{" "}
                 <a
-                  href="https://slack.layer5.io/"
+                  href="https://slack.khulnasoft.com/"
                   target="_blank"
                   rel="noreferrer"
                 >

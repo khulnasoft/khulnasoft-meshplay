@@ -1,9 +1,9 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
-import meshery from "../../assets/images/app/projects/meshery-logo-white.webp";
+import meshplay from "../../assets/images/app/projects/meshplay-logo-white.webp";
 import smp from "../../assets/images/app/projects/smp.webp";
-import imagehub from "../../assets/images/app/projects/layer5-image-hub.webp";
+import imagehub from "../../assets/images/app/projects/khulnasoft-image-hub.webp";
 
 export default () => (
   <div
@@ -29,10 +29,10 @@ export default () => (
             type: ["images"],
             images: [
               {
-                src: `${meshery}`,
+                src: `${meshplay}`,
                 width: 20,
                 height: 15,
-                alt: "meshery-image",
+                alt: "meshplay-image",
               },
               {
                 src: `${smp}`,
@@ -52,7 +52,7 @@ export default () => (
               //     height: 15,
               // },
               // {
-              //     src: `${meshery}`,
+              //     src: `${meshplay}`,
               //     width: 20,
               //     height: 15,
               // }

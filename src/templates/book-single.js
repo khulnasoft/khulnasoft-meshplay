@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 
 
 import BookSingle from "../sections/Learn/Book-single";
-import DockerExtensionCTA from "../sections/Docker-Meshery/docker-extension-CTA";
+import DockerExtensionCTA from "../sections/Docker-Meshplay/docker-extension-CTA";
 // import LearnServiceMeshCTA from "../sections/Learn/Learn-Service-Mesh-CTA";
 
 

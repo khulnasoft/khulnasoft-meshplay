@@ -20,7 +20,7 @@ const LearnPage = () => {
       <WorkshopsSection />
       <LearnSection />
       <LearningPaths />
-      <JoinCommunity image={Book_Giveaway} header={"Don't Learn Alone"} text={"Check out the Layer5 community, join us on Slack and learn with the community"} btn_primary={true} />
+      <JoinCommunity image={Book_Giveaway} header={"Don't Learn Alone"} text={"Check out the KhulnaSoft community, join us on Slack and learn with the community"} btn_primary={true} />
     </LearnPageWrapper>
   );
 };

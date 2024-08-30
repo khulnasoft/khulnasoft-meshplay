@@ -1,28 +1,28 @@
 /* Font Styles */
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftBlack.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftBlack.otf")
     format("opentype");
   font-weight: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftBold.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftBold.otf")
     format("opentype");
   font-weight: bold;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftBlackItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftBlackItalic.otf")
     format("opentype");
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftBoldItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftBoldItalic.otf")
     format("opentype");
   font-weight: bold;
   font-style: italic;
@@ -30,14 +30,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftExtraBold.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftExtraBold.otf")
     format("opentype");
   font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftExtraBoldItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftExtraBoldItalic.otf")
     format("opentype");
   font-weight: 800;
   font-style: italic;
@@ -45,14 +45,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftHeavy.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftHeavy.otf")
     format("opentype");
   font-weight: 900;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftHeavyItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftHeavyItalic.otf")
     format("opentype");
   font-weight: 900;
   font-style: italic;
@@ -60,14 +60,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftLight.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftLight.otf")
     format("opentype");
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftLightItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftLightItalic.otf")
     format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -75,14 +75,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftMedium.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftMedium.otf")
     format("opentype");
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftMediumItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftMediumItalic.otf")
     format("opentype");
   font-weight: 500;
   font-style: italic;
@@ -90,14 +90,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftRegular.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftRegular.otf")
     format("opentype");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftRegularItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftRegularItalic.otf")
     format("opentype");
   font-weight: 400;
   font-style: italic;
@@ -105,14 +105,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftSemiBold.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftSemiBold.otf")
     format("opentype");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftSemiBoldItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftSemiBoldItalic.otf")
     format("opentype");
   font-weight: 600;
   font-style: italic;
@@ -120,14 +120,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftThin.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftThin.otf")
     format("opentype");
   font-weight: 100;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftThinItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftThinItalic.otf")
     format("opentype");
   font-weight: 100;
   font-style: italic;
@@ -135,14 +135,14 @@
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftUltraLight.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftUltraLight.otf")
     format("opentype");
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: "Qanelas Soft", "Open Sans", sans-serif;
-  src: url("https://layer5.io/fonts/qanelas-soft/QanelasSoftUltraLightItalic.otf")
+  src: url("https://khulnasoft.com/fonts/qanelas-soft/QanelasSoftUltraLightItalic.otf")
     format("opentype");
   font-weight: 200;
   font-style: italic;
@@ -163,7 +163,7 @@ body {
   color: var(--header-primary);
 }
 .custom-header-links .headerLink a:hover {
-  color: var(--layer5_green);
+  color: var(--khulnasoft_green);
 }
 @media only screen and (max-width: 1150px) {
   .headerLink {
@@ -188,7 +188,7 @@ body {
 }
 .custom-search-banner {
   margin: -1em 0 2em 0;
-  background-color: var(--layer5_green);
+  background-color: var(--khulnasoft_green);
 }
 .custom-search-banner .custom-search-banner-wrap {
   max-height: 250px;
@@ -329,7 +329,7 @@ body {
   color: inherit;
 }
 .footer-sections a:hover {
-  color: var(--layer5_green);
+  color: var(--khulnasoft_green);
 }
 .footer-icons {
   justify-content: flex-end;
@@ -386,7 +386,7 @@ input.footer-input:focus {
 }
 .footer-button {
   height: 3.5rem;
-  background: var(--layer5_green);
+  background: var(--khulnasoft_green);
   width: 160px;
   border-radius: 0.25rem;
   border: none;

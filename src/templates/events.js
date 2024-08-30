@@ -189,5 +189,5 @@ const Events = ({ data, pageContext }) => {
 export default Events;
 
 export const Head = () => {
-  return <SEO title="Events" description="Join Layer5 at upcoming events." />;
+  return <SEO title="Events" description="Join KhulnaSoft at upcoming events." />;
 };

@@ -16,12 +16,12 @@ export const tools_data = [
     desc: "A simple HTTP request & response service.",
   },
   {
-    tool: "Meshery",
-    link: "https://github.com/layer5io/meshery",
+    tool: "Meshplay",
+    link: "https://github.com/khulnasoft/meshplay",
     language: "Golang",
     written_for: "Istio, Linkerd, Consul, Cilium Service Mesh, Network Service Mesh, App Mesh",
-    supported_by: "Layer5",
-    desc: "A service mesh playground to facilitate learning about functionality and performance of different service meshes. Meshery incorporates the collection and display of metrics from applications running in the playground.",
+    supported_by: "KhulnaSoft",
+    desc: "A service mesh playground to facilitate learning about functionality and performance of different service meshes. Meshplay incorporates the collection and display of metrics from applications running in the playground.",
   },
   {
     tool: "iago",

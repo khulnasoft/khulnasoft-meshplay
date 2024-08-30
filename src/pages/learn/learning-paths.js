@@ -1,7 +1,7 @@
 import React from "react";
 
 import SEO from "../../components/seo";
-import LearnPathsPage from "../../sections/Learn-Layer5";
+import LearnPathsPage from "../../sections/Learn-KhulnaSoft";
 
 const LearningPathsPage = () => {
   return (

@@ -3,7 +3,7 @@ import Button from "../../../../reusecore/Button";
 import axios from "axios";
 import { Field, Form, Formik } from "formik";
 import ContentFormWrapper from "./content-form.style";
-import layer5_img from "../../../../assets/images/layer5/layer5-only/svg/layer5-white-no-trim.svg";
+import khulnasoft_img from "../../../../assets/images/khulnasoft/khulnasoft-only/svg/khulnasoft-white-no-trim.svg";
 
 const ContentForm = () => {
   const [memberFormOne, setMemberFormOne] = useState({});
@@ -84,7 +84,7 @@ const ContentForm = () => {
             <label htmlFor="name" className="form-name">Name <span className="required-sign">*</span></label>
             <Field type="text" className="text-field" id="name" name="name" required />
 
-            <label id="slack-member" className="form-name">Are you a member of the Layer5 Slack Community?<span className="required-sign">*</span></label>
+            <label id="slack-member" className="form-name">Are you a member of the KhulnaSoft Slack Community?<span className="required-sign">*</span></label>
             {validateSlack && <p className="validation">Please fill in this field</p>}
             <div role="group" aria-labelledby="slack-member">
               <label>
@@ -97,7 +97,7 @@ const ContentForm = () => {
               </label>
             </div>
 
-            <label htmlFor="slackName" className="form-name">If yes, please mention your username on Slack. If no, you are welcome to join - https://slack.layer5.io/</label>
+            <label htmlFor="slackName" className="form-name">If yes, please mention your username on Slack. If no, you are welcome to join - https://slack.khulnasoft.com/</label>
             <Field type="text" className="text-field" id="slackName" name="slackName" maxLength="32" />
 
             <label id="content-type" className="form-name">Choose the type of content<span className="required-sign">*</span></label>
@@ -156,10 +156,10 @@ const ContentForm = () => {
 const ThankYou = () => {
   return (
     <div className="thank-you-box">
-      <h2>Thank you for your interest in the Layer5 Writing Program!</h2>
+      <h2>Thank you for your interest in the KhulnaSoft Writing Program!</h2>
       <p>You will soon receive detailed guidance from our content team. We'll get back to you as soon as we can.</p>
-      <p>In the meantime, please visit our <a href="https://discuss.layer5.io">community forum</a> or join us in our <a href="https://slack.layer5.io">community Slack</a>.</p>
-      <h3 className="white">- Team <img src={layer5_img} alt="Layer5" width="125" /></h3>
+      <p>In the meantime, please visit our <a href="https://discuss.khulnasoft.com">community forum</a> or join us in our <a href="https://slack.khulnasoft.com">community Slack</a>.</p>
+      <h3 className="white">- Team <img src={khulnasoft_img} alt="KhulnaSoft" width="125" /></h3>
     </div>
   );
 };

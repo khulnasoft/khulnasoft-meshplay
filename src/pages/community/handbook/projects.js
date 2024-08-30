@@ -15,6 +15,6 @@ export default CommunityProjects;
 export const Head = () => {
   return <SEO
     title="Projects"
-    description="Layer5 Projects: Layer5, Meshery, Cloud Native Performance and NightHawk"
+    description="KhulnaSoft Projects: KhulnaSoft, Meshplay, Cloud Native Performance and NightHawk"
   />;
 };

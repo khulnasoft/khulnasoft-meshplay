@@ -4,7 +4,7 @@ import SectionTitle from "../../reusecore/SectionTitle";
 import Button from "../../reusecore/Button";
 import SubscribeWrapper from "./subscribe.style";
 
-const subscribe = ({ msg = "Layer5" }) => {
+const subscribe = ({ msg = "KhulnaSoft" }) => {
   return (
     <SubscribeWrapper>
       <div className="parentcard">

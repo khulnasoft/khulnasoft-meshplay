@@ -13,5 +13,5 @@ const Recognition = () => {
 };
 export default Recognition;
 export const Head = () => {
-  return <SEO title="Recognizing and Appreciating Open Source Community Members" description="Layer5 readily recognizes and publicly appreciates its community members." />;
+  return <SEO title="Recognizing and Appreciating Open Source Community Members" description="KhulnaSoft readily recognizes and publicly appreciates its community members." />;
 };

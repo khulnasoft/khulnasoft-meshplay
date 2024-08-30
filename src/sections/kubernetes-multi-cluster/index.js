@@ -13,7 +13,7 @@ const KubernetesMultiCluster = () => {
   let data = {
     heading: "Kubernetes Multi-cluster Operation",
     sub_heading:
-      "Manage all of your Kubernetes clusters with the cloud native management plane, Meshery.",
+      "Manage all of your Kubernetes clusters with the cloud native management plane, Meshplay.",
     image: cluster_img,
   };
 
@@ -21,19 +21,19 @@ const KubernetesMultiCluster = () => {
     {
       heading: "Streamlined Multi-Cluster Operations",
       subtitle:
-        "Empower your workflow with Meshery's multi-context feature, enabling seamless deployment and operations across clusters while simplifying visualization for efficient management.",
+        "Empower your workflow with Meshplay's multi-context feature, enabling seamless deployment and operations across clusters while simplifying visualization for efficient management.",
       image: deploy_img,
     },
     {
       heading: "Uniform Cluster Management Made Easy",
       subtitle:
-        "Meshery's intuitive context switcher allows swift selection and execution of tasks, enhancing productivity in cluster management.",
+        "Meshplay's intuitive context switcher allows swift selection and execution of tasks, enhancing productivity in cluster management.",
       image: cluster_img,
     },
     {
-      heading: "Seamless Meshery Configuration",
+      heading: "Seamless Meshplay Configuration",
       subtitle:
-        "Effortlessly manage Meshery across multiple clusters through the Settings page. Add, remove, or modify clusters with ease, and fine-tune configurations to tailor Meshery's awareness to your infrastructure needs.",
+        "Effortlessly manage Meshplay across multiple clusters through the Settings page. Add, remove, or modify clusters with ease, and fine-tune configurations to tailor Meshplay's awareness to your infrastructure needs.",
       image: config_img,
     },
   ];

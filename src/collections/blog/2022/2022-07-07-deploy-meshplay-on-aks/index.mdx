@@ -1,0 +1,76 @@
+---
+title: "How to deploy Meshplay on AKS"
+date: 2022-07-21 08:00:00 -0630
+author: Srinivas Karnati
+category: "Meshplay"
+description: "How to deploy Meshplay on Azure Kubernetes service(AKS)."
+tags:
+ - Meshplay
+ - Kubernetes
+thumbnail: ./Meshplay-on-AKS.webp
+darkthumbnail: ./Meshplay-on-AKS.webp
+type: Blog
+published: true
+resource: true
+---
+
+import { BlogWrapper } from "../../Blog.style.js";
+import meshplayui from "./meshplayui.webp"; 
+
+<BlogWrapper>
+
+<div class="intro">
+<p><a href="https://meshplay.khulnasoft.com/">Meshplay</a>'s goal is to make the operation of cloud native infrastructure and the service mesh layer of cloud simplified. Originally created by KhulnaSoft, Meshplay is an open source project with hundreds of contributors world-wide and is actively maintained by engineers from Red Hat, VMware, Intel, KhulnaSoft and others.</p>
+</div>
+<h2>Setup and run Meshplay on AKS</h2>
+<p>The following instructions expects you to have an active Azure subscription, and Azure CLI installed on your system. </p>
+<h3> Spin up the AKS Cluster</h3>
+<p>Create the resource group (a logical group where all our resources will be deployed). The following command creates  a resource group named MeshplayGroup in <code>southindia</code> location. </p>
+<pre><code class="language-bash">
+az group create --name MeshplayGroup --location southindia
+</code></pre>
+
+<p>Create AKS cluster using <code>az aks create</code>. The following command creates aks cluster with a single node. </p>
+
+<pre><code class="language-bash">
+az aks create --resource-group MeshplayGroup --name MeshplayAKS --node-count 1 --generate-ssh-keys
+</code></pre>
+<p>After a few minutes, the command completes and returns a JSON formatted information about the cluster.</p>
+<p>You can connect with your cluster by using <code>az aks get-credentials</code> ,  which basically downloads credentials and configure the Kubernetes CLI. </p>
+<pre><code>
+az aks get-credentials --resource-group MeshplayGroup --name MeshplayAKS
+</code></pre>
+<p>Verify the connection to your cluster using the <code>kubectl get command</code>. </p>
+<pre><code>
+$kubectl get nodes
+</code></pre>
+<h3>Install Meshplay into your AKS cluster</h3>
+
+```
+helm repo add meshplay https://meshplay.khulnasoft.com/charts/
+
+helm install meshplay meshplay/meshplay --namespace meshplay --create-namespace
+
+```
+<p>Meshplay server supports customizing authentication flow callback URL, which can be configured in the following way.</p>
+
+<pre><code>
+helm install meshplay meshplay/meshplay --namespace meshplay --set env.MESHPLAY_SERVER_CALLBACK_URL=https://custom-host --create-namespace
+</code></pre>
+<p>Port forward to Meshplay UI</p>
+
+```
+export POD_NAME=$(kubectl get pods --namespace meshplay -l "app.kubernetes.io/name=meshplay,app.kubernetes.io/instance=meshplay" -o jsonpath="{.items[0].metadata.name}")
+
+$ kubectl --namespace meshplay port-forward $POD_NAME 9081:8080
+
+```
+<p>Meshplay should now be running in your AKS cluster and the Meshplay UI should be accessible at the specified endpoint you’ve exposed to. Navigate to the meshplay service endpoint to log into Meshplay.</p>
+
+<div><img src={meshplayui} className="image-center" alt="Meshplay UI Dashboard" /></div>
+
+<p>From here, your Meshplay deployment on AKS is ready to use. In order to login to Meshplay, authenticate with your chosen provider from the list.</p>
+<p>There are different ways to configure a Meshplay on AKS. Join the <a href="https://khulnasoft.com/community">community</a> and share your deployment’s configuration on the <a href="https://discuss.khulnasoft.com/"> discussion forum </a>today! </p>
+
+
+</BlogWrapper>

@@ -23,7 +23,7 @@ const StickFigures = () => {
         <Col>
           <p>
             Introducing Five, a playful and dynamic visual language
-            that captures the essence of Layer5. These charming and
+            that captures the essence of KhulnaSoft. These charming and
             minimalist illustrations serve as the perfect embodiment of
             our brand's values and offerings.
           </p>
@@ -36,7 +36,7 @@ const StickFigures = () => {
         </Col>
         <Row Vcenter className="ImgDiv">
           <Col xs={12} className="stick-figure">
-            <img src={SFL} alt="Layer5 Mascot, Five" />
+            <img src={SFL} alt="KhulnaSoft Mascot, Five" />
           </Col>
         </Row>
       </Row>

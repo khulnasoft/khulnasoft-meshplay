@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="hero-text">
                 {/* <StaticImage src={icon} alt="Nighthawk Text Logo" /> */}
                 <h1>Unlock distributed systems behavioral performance analysis</h1>
-                <p>Meshery is the easiest way to get started with Nighthawk on any cloud or platform.</p>
+                <p>Meshplay is the easiest way to get started with Nighthawk on any cloud or platform.</p>
               </div>
             </Col>
           </Row>
@@ -54,7 +54,7 @@ const Projects = () => {
             </Col>
             <Col lg={3} md={3} sm={6}>
               <h3><Counter duration={6} end={performanceCount} separator="," /></h3>
-              <p>Meshery Tests</p>
+              <p>Meshplay Tests</p>
             </Col>
             <Col lg={3} md={3} sm={6}>
               <h3><Counter duration={3} end={2} suffix=" modes" /></h3>
@@ -69,8 +69,8 @@ const Projects = () => {
 
         <div className="explain-1">
           <h1>What is Nighthawk?</h1>
-          <p>Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. Layer5 offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment.
-          As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshery's (and Envoy's) load generator and is written in C++.</p>
+          <p>Nighthawk is a versatile HTTP load testing tool built out of a need to drill HTTP services with a constant request rate or with an adaptive request rate. KhulnaSoft offers a custom distribution of Nighthawk with intelligent adaptive load controllers to automatically identify optimal configurations for your service mesh deployment.
+          As a Layer 7 performance characterization tool supporting HTTP/HTTPS/HTTP2, Nighthawk is Meshplay's (and Envoy's) load generator and is written in C++.</p>
           <StaticImage src={explain1} alt="explanation"/>
         </div>
 
@@ -78,8 +78,8 @@ const Projects = () => {
           <Row className="align">
             <Col lg={6} md={6} sm={12}>
               <div className="text">
-                <h2>Nighthawk and Meshery</h2>
-                <p>Meshery integrates Nighthawk as one of (currently) three choices of load generator for characterizing and managing the performance of service meshes and their workloads. </p>
+                <h2>Nighthawk and Meshplay</h2>
+                <p>Meshplay integrates Nighthawk as one of (currently) three choices of load generator for characterizing and managing the performance of service meshes and their workloads. </p>
               </div>
             </Col>
             <Col lg={6} md={6} sm={12}>
@@ -106,7 +106,7 @@ const Projects = () => {
         <div className="explain-1">
           <h1>Distributed Performance Management</h1>
           <p>Distributed load testing offers insight into system behaviors that arguably more accurately represent real world behaviors of services under load as that load comes from any number of sources.</p>
-          <p>Engineers need multi-variate load generation and analysis techniques offered through distributed performance analysis. Nighthawk is being improved so that it can be horizontally scalable - such that multiple instances will be cognizant of one another and able to coordinate amongst each other. Nighthawk is growing in popularity with Layer5, Google, Red Hat, and AWS investing into it.</p>
+          <p>Engineers need multi-variate load generation and analysis techniques offered through distributed performance analysis. Nighthawk is being improved so that it can be horizontally scalable - such that multiple instances will be cognizant of one another and able to coordinate amongst each other. Nighthawk is growing in popularity with KhulnaSoft, Google, Red Hat, and AWS investing into it.</p>
           <div className="cards">
             <Row>
               <CardsContainer>
@@ -115,7 +115,7 @@ const Projects = () => {
                     <SmpIcon className="smp" alt="smp logo" />
                   </div>
                   <h2>SERVICE MESH PERFORMANCE COMPATIBILITY</h2>
-                  <p>Enabling Standards-based, Distributed Performance Management - Nighthawk integrates Meshery and Nighthawk. Through this integration Meshery facilitates <Link to="/projects/cloud-native-performance">Service Mesh Performance (SMP)</Link> compatibility for Nighthawk.</p>
+                  <p>Enabling Standards-based, Distributed Performance Management - Nighthawk integrates Meshplay and Nighthawk. Through this integration Meshplay facilitates <Link to="/projects/cloud-native-performance">Service Mesh Performance (SMP)</Link> compatibility for Nighthawk.</p>
                 </div>
                 <div className="card">
                   <div className="circle">
@@ -141,8 +141,8 @@ const Projects = () => {
                     <img src={cpu} alt="cpu image" />
                   </div>
                   <h2>SCHEDULING AND ANALYSIS</h2>
-                  <p>Nighthawk integrates with <Link to="/meshery">Meshery</Link> and provides you with the ability to schedule performance tests or insert them into your CI pipeline.</p>
-                  <p>Adaptive analysis in which you may run multi-stage performance tests and persist their results in a historical archive is also enabled through integration with Meshery.</p>
+                  <p>Nighthawk integrates with <Link to="/meshplay">Meshplay</Link> and provides you with the ability to schedule performance tests or insert them into your CI pipeline.</p>
+                  <p>Adaptive analysis in which you may run multi-stage performance tests and persist their results in a historical archive is also enabled through integration with Meshplay.</p>
                 </div>
               </CardsContainer>
             </Row>
@@ -155,7 +155,7 @@ const Projects = () => {
               <div className="text">
                 <img src={distributedPerf} className="distributedPerf" alt="Cloud Native Distributed Performance Management" />
                 <h2>Standards-based, distributed performance management</h2>
-                <p>Nighthawk will provide generally-available distributions of Nighthawk under different architectures and platforms and easy-to-use tooling for installation and operation. This will include creating distributions of Nighthawk as well as augmenting existing tooling, Meshery, to retrieve these arch-specific packages and update their deployments.</p>
+                <p>Nighthawk will provide generally-available distributions of Nighthawk under different architectures and platforms and easy-to-use tooling for installation and operation. This will include creating distributions of Nighthawk as well as augmenting existing tooling, Meshplay, to retrieve these arch-specific packages and update their deployments.</p>
               </div>
 
             </Col>
@@ -179,7 +179,7 @@ const Projects = () => {
                         <h4>
                         Facilitate Nighthawk adoption.
                         </h4>
-                      Deliver trusted, certified builds, distributed via the most popular package managers: apt, yum, Homebrew, and platforms: Docker and Meshery.
+                      Deliver trusted, certified builds, distributed via the most popular package managers: apt, yum, Homebrew, and platforms: Docker and Meshplay.
                       Bridge Nighthawk’s C++ with the lingua franca of Cloud Native: Golang.
                       </td>
                     </tr>

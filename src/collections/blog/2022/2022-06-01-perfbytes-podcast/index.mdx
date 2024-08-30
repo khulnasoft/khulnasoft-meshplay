@@ -3,17 +3,17 @@ title: "Perfbytes Podcast"
 subtitle: "Ask Me Anything"
 date: 2022-06-01 09:10:00 +0000
 author: Debopriya Bhattacharjee
-thumbnail: ./perfbytes-layer5.svg
-darkthumbnail: ./perfbytes-layer5.svg
+thumbnail: ./perfbytes-khulnasoft.svg
+darkthumbnail: ./perfbytes-khulnasoft.svg
 category: Events
 tags:
   - Events
   - Service Mesh Performance
-  - Meshery
+  - Meshplay
 published: true
 resource: true
 type: Blog
-product: Meshery
+product: Meshplay
 ---
 
 import { BlogWrapper } from "../../Blog.style.js";
@@ -27,7 +27,7 @@ import ConsulDemo from "./consul-docker-extension-demo.webp"
 <PerfbytesPodcast>
 
 <h2>Podcast Insights</h2>
-<p>Many questions were asked, answered, and a variety of topics were discussed. The story just gets better. This podcast goes deep into service meshes, load generators, circuit breaker, service mesh patterns in addition to a live demo of <Link to="/cloud-native-management/meshery">Meshery</Link> and more. Hosted by Henrik from Perfbytes and joined by Mark, <Link to="/community/members/lee-calcote">Lee Calcote</Link> from Layer5 and Mrittika Ganguli from Intel. Tune in to find out more. Get answers to all community questions as a bonus.</p>
+<p>Many questions were asked, answered, and a variety of topics were discussed. The story just gets better. This podcast goes deep into service meshes, load generators, circuit breaker, service mesh patterns in addition to a live demo of <Link to="/cloud-native-management/meshplay">Meshplay</Link> and more. Hosted by Henrik from Perfbytes and joined by Mark, <Link to="/community/members/lee-calcote">Lee Calcote</Link> from KhulnaSoft and Mrittika Ganguli from Intel. Tune in to find out more. Get answers to all community questions as a bonus.</p>
 
 <h3>What is a service mesh?</h3>
 <div className="answer">
@@ -36,7 +36,7 @@ import ConsulDemo from "./consul-docker-extension-demo.webp"
 
 In general, service meshes arose from the concept of proxies such as the NGINX proxy. Then Envoy was introduced by Lyft. Lyft had the architecture, and Google came along and created it. That gave us Istio, which is now part of CNCF. 
 <Blockquote
-  quote="We were slugging it out in our labs trying to figure out how to do performance benchmarking with a service mesh. Instead of ten tools, if we had just one, it would be nice. Then we see Meshery come into the field"
+  quote="We were slugging it out in our labs trying to figure out how to do performance benchmarking with a service mesh. Instead of ten tools, if we had just one, it would be nice. Then we see Meshplay come into the field"
   person="Mrittika"
 />
 
@@ -54,24 +54,24 @@ kind of vertical scaling,  you'd probably, end up putting at least a virtual IP 
 
 Henrik goes on to elaborate that in service mesh we can do a lot of things to make sure that the communication is reliable. 
 When you design microservice architecture, there is a need of implementing retry logic. So if a service A needs to introduce another service B, then the service mesh will manage the retry logic such that if we reach at one time and the service B is not responding then the service mesh will try to reach out several times. Therefore a service mesh offers a variety of features like this to manage the certificates within the cluster and and circle them in a regular pace. You can also have traffic splitting if you do canary releases. In your service to service communication, there are a plethora of scenarios that the service mesh can handle.
-Henrik recalled that it's normally difficult to obtain a full view of what rules we've applied in the cluster, and when he first saw Meshery, his immediate thought was, "Wow, this is exactly what is missing in the market at the moment."
+Henrik recalled that it's normally difficult to obtain a full view of what rules we've applied in the cluster, and when he first saw Meshplay, his immediate thought was, "Wow, this is exactly what is missing in the market at the moment."
 
 
-Lets dig deeper into this tool we've been alluding to for a while now: <Link to="/cloud-native-management/meshery">Meshery</Link>.
+Lets dig deeper into this tool we've been alluding to for a while now: <Link to="/cloud-native-management/meshplay">Meshplay</Link>.
 
-<h3>Meshery</h3>
-If you were on a pager and were managing a large service mesh deployment with a number of rules and configurations around how security is enforced and identities are managed, and things like uniform observability and how metrics and logs are collected and enforced, and then the different traffic writing rules and stuff. You might soil myself if you had to go make a change in that sea of yaml. That's in part what we're working towards. There's a capability within Meshery for solving this challenge. As a cloud native management plane, Meshery presides over top of 10 different types of service meshes and it also presides over kubernetes. You can run it outside of kubernetes or inside of kubernetes.
+<h3>Meshplay</h3>
+If you were on a pager and were managing a large service mesh deployment with a number of rules and configurations around how security is enforced and identities are managed, and things like uniform observability and how metrics and logs are collected and enforced, and then the different traffic writing rules and stuff. You might soil myself if you had to go make a change in that sea of yaml. That's in part what we're working towards. There's a capability within Meshplay for solving this challenge. As a cloud native management plane, Meshplay presides over top of 10 different types of service meshes and it also presides over kubernetes. You can run it outside of kubernetes or inside of kubernetes.
 <p>
-Meshery has a number of components to its architecture. There is Meshery UI. It has a Mesheryctl, which is a CLI component. We have a number of service mesh adapters for each service mesh that Meshery supports.
+Meshplay has a number of components to its architecture. There is Meshplay UI. It has a Meshplayctl, which is a CLI component. We have a number of service mesh adapters for each service mesh that Meshplay supports.
 </p>
 
 <h5>What is the need for different adapters?</h5>
 <div className="answer">
-Meshery, as the multi-mesh manager, supports couple of different adapters. Adapters are used by Meshery to manage the numerous service meshes. Different service mesh adapters are written to expose the unique value of each service mesh. Consequently, they are not equally capable just as each service mesh is not equally capable as the other. Some of them work in a similar way. Some of the service meshes have their own differentiated value, which is why there are individual adapters. Some of them work slightly differently depending on whether they're running as a managed service or not.
+Meshplay, as the multi-mesh manager, supports couple of different adapters. Adapters are used by Meshplay to manage the numerous service meshes. Different service mesh adapters are written to expose the unique value of each service mesh. Consequently, they are not equally capable just as each service mesh is not equally capable as the other. Some of them work in a similar way. Some of the service meshes have their own differentiated value, which is why there are individual adapters. Some of them work slightly differently depending on whether they're running as a managed service or not.
 </div>
 
 
-We have a plug-in for Meshery it's called <Link to="/meshmap">MeshMap</Link>, it is what you might consider a visual topology. It has a lot of use cases for observing in kind of a read-only mode. There's a second mode to this tool: The Designer Mode. It's a visual configurator of not only the specific settings within any of those service meshes that it supports like a circuit breaker and adjusting the sensor video
+We have a plug-in for Meshplay it's called <Link to="/meshmap">MeshMap</Link>, it is what you might consider a visual topology. It has a lot of use cases for observing in kind of a read-only mode. There's a second mode to this tool: The Designer Mode. It's a visual configurator of not only the specific settings within any of those service meshes that it supports like a circuit breaker and adjusting the sensor video
 but also end up being a visual designer for your kubernetes deployments. When users drop in, they're able to go over and grab the specific capabilities of any of those service mesh adapters that are loaded for any of the versions of that mesh that they might want to design. The concept here is that they drag and drop these capabilities over and there's a bit of discoverability that's afforded through this ui rather than parsing through yaml, trying to understand what's going on.
 
 <img src={ConsulDemo} alt="Consul MeshMap Demo" className="slides-right" />
@@ -79,20 +79,20 @@ but also end up being a visual designer for your kubernetes deployments. When us
 I like to pretend that I know a lot about service meshes, but when it comes to having to keep track of all of them, I don't know what the gateway tls sds config is, and so this type of inline help is quite useful to design your deployments. The deployments may or may not use a mesh; in fact, you can use this to create your Kubernetes configuration and deployment as well.  You can even save and recall those designs.
 
 Taking this example of consul, produced by hashicorp, is a little more of an
-intriguing deployment and a simple two-tier deck.  We announced the <Link to="/docker-extension-meshery">Meshery Docker Extension</Link> recently. So if you're using docker desktop, Meshery will be a first class app that's available inside of market and part of what it does as it integrates with docker desktop is it will import docker compose apps convert them to kubernetes manifests or kubernetes apps and they'll let you deploy those formerly docker compose apps onto a mesh which is why I'm talking about a two-tiered service.
+intriguing deployment and a simple two-tier deck.  We announced the <Link to="/docker-extension-meshplay">Meshplay Docker Extension</Link> recently. So if you're using docker desktop, Meshplay will be a first class app that's available inside of market and part of what it does as it integrates with docker desktop is it will import docker compose apps convert them to kubernetes manifests or kubernetes apps and they'll let you deploy those formerly docker compose apps onto a mesh which is why I'm talking about a two-tiered service.
 
 <h5>Does MeshMap allow you to load the current configuration that is has been applied in the current cluster?
 </h5>
 <div className="answer">
 Currently, there are two modes: the one we were looking at before was the designer mode, and the one we'll be looking at now is the visualizer mode, which is probably a little more of an it's not entirely read-only to the extent that you could grab a pod and start an interactive session with the containers in that pod or you could you start a logging session. You could also initiate a performance test against  that particular service or that particular endpoint. 
-Meshery supports three different types of load generators, which is a nighthawk, fortio and wrk2. 
+Meshplay supports three different types of load generators, which is a nighthawk, fortio and wrk2. 
 </div>
 
 <h5>What are the capabilities of these three load generators? When you speak about service mesh testing or performance testing, what is actually the process behind the scene? What should users think about when they're starting a gig and need to configure and optimize the service mesh?</h5>
 <div className="answer">
 <p>Lee expounds on that for our benefit. 
 It takes weeks to months that you've got to dedicate for performance engineers to go over and like pull together various tools and scripts around them to then get into a spreadsheet or into some database that you then generate results. 
-The genesis of Meshery part was to help people comprehend what a service mesh is, when to use one and which one to use?  As you go to explain these common questions, the real answer is a totally disappointing, which is, it just depends on what you're asking to do.  </p>
+The genesis of Meshplay part was to help people comprehend what a service mesh is, when to use one and which one to use?  As you go to explain these common questions, the real answer is a totally disappointing, which is, it just depends on what you're asking to do.  </p>
 <p>
 People want to measure it in cold hard quantitative metrics but if you're asking to do 100 percent sampling then also consider the distributed tracing implementation you had somewhere else and the fact that you're getting it
 in a uniform way here. Maybe you're likely to consider the overhead that you would have over there. It's frustrating to be trying to explain stuff to folks and get them excited about the tech and and to give them a vague response. Instead we give them a tool that says "Hey look here's a tool that will deploy any of the service meshes that you want to test out." 
@@ -110,7 +110,7 @@ That load is generated on demand or on schedule against one or more endpoints, 
 
 <h5>If I say I have never scripted or built any scenarios for fortio or nighthawk. Let's say I'm a loadrunner, a neoload, or a k6 user, and I want to accomplish the same thing with them. So what is the journey on those load generator? is it the same thing you have to build a workflow of requests that you want to send in that scenario?</h5>
 <div className="answer">
-<p>That leads us to probably talk about one of our other projects which is called <Link to="/projects/cloud-native-performance"> Performance</Link> which is a specification. It's another one of the projects that we've donated to the CNCF. Service Mesh Performance is the spec while Meshery is an implementation of the spec. 
+<p>That leads us to probably talk about one of our other projects which is called <Link to="/projects/cloud-native-performance"> Performance</Link> which is a specification. It's another one of the projects that we've donated to the CNCF. Service Mesh Performance is the spec while Meshplay is an implementation of the spec. 
 At a high level, if those other load generators were to adhere to how we standardize and describe the test that you want to run and then hand off that configuration to generate the performance profiles that are created here  you're not gonna down download them but the descriptor is important.
 </p>
 This implements a standard for the industry on what is the actual

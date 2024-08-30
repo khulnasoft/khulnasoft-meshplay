@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import SEO from "../components/seo";
 
 
-import CoursesList from "../sections/Learn-Layer5/Courses-List";
+import CoursesList from "../sections/Learn-KhulnaSoft/Courses-List";
 
 
 export const query = graphql`
@@ -83,6 +83,6 @@ export const Head = ({  pageContext }) => {
   return <SEO
     title={`${learnpath}`}
     description="Learn Cloud Native Infrastructure: Kubernetes, Prometheus, Fluentd, Envoy, Istio, GitHub, Linkerd, Open Policy Agent..."
-    canonical="https://layer5.io/learn/learning-paths"
+    canonical="https://khulnasoft.com/learn/learning-paths"
   />;
 };

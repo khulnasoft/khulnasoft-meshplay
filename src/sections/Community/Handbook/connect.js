@@ -45,11 +45,11 @@ const Connect = () => {
             </p>
             <ul>
               <li>
-                <a href="https://meshery.io/subscribe">Meshery mailing list</a>
+                <a href="https://meshplay.khulnasoft.com/subscribe">Meshplay mailing list</a>
               </li>
               <li>
-                <a href="https://layer5.io/subscribe">
-                  Layer5 mailing list
+                <a href="https://khulnasoft.com/subscribe">
+                  KhulnaSoft mailing list
                 </a>
               </li>
               <li>
@@ -64,34 +64,34 @@ const Connect = () => {
             </a>
             <ul>
               <li>
-                <a href="mailto:maintainers@layer5.io">Layer5 Maintainers</a>
+                <a href="mailto:maintainers@khulnasoft.com">KhulnaSoft Maintainers</a>
               </li>
               <li>
-                <a href="mailto:discuss-moderators@layer5.io">
+                <a href="mailto:discuss-moderators@khulnasoft.com">
                   Discussion Forum Moderators
                 </a>
               </li>
               <li>
-                <a href="mailto:dev-group@meshery.io">Meshery Developers</a>
+                <a href="mailto:dev-group@meshplay.khulnasoft.com">Meshplay Developers</a>
               </li>
               <li>
-                <a href="mailto:user-group@meshery.io">Meshery Users</a>
+                <a href="mailto:user-group@meshplay.khulnasoft.com">Meshplay Users</a>
               </li>
               <li>
-                <a href="http://meshery-dev@meshery.dev">
-                  Meshery Contributors
+                <a href="http://meshplay-dev@meshplay.dev">
+                  Meshplay Contributors
                 </a>
               </li>
               <li>
-                <a href="mailto:maintainers@meshery.io">Meshery Maintainers</a>
+                <a href="mailto:maintainers@meshplay.khulnasoft.com">Meshplay Maintainers</a>
               </li>
               <li>
-                <a href="http://meshery-security-vulns-reports@meshery.dev">
-                  Meshery Security and Vulnerability Reports
+                <a href="http://meshplay-security-vulns-reports@meshplay.dev">
+                  Meshplay Security and Vulnerability Reports
                 </a>
               </li>
               <li>
-                <a href="mailto:community@meshery.io">Meshery Community</a>
+                <a href="mailto:community@meshplay.khulnasoft.com">Meshplay Community</a>
               </li>
               <li>
                 <a href="https://groups.google.com/a/getnighthawk.dev/g/developers">
@@ -124,8 +124,8 @@ const Connect = () => {
                 </a>
               </li>
               <li>
-                <a href="mailto:community-managers@layer5.io">
-                  Layer5 Community Managers
+                <a href="mailto:community-managers@khulnasoft.com">
+                  KhulnaSoft Community Managers
                 </a>
               </li>
             </ul>
@@ -136,7 +136,7 @@ const Connect = () => {
             <p>
               Don’t miss out on any of the activities in the community. Join any
               or all of the weekly meetings subscribing to the{" "}
-              <a href="https://layer5.io/community/calendar#meetings">
+              <a href="https://khulnasoft.com/community/calendar#meetings">
                 community calendar .
               </a>
             </p>{" "}
@@ -149,71 +149,71 @@ const Connect = () => {
               members.
             </p>
             <p>
-              Join our <a href="https://slack.layer5.io/">Slack Workspace</a>{" "}
+              Join our <a href="https://slack.khulnasoft.com/">Slack Workspace</a>{" "}
               introduce yourself and interact with the community. There are
               different channels in the workspace to engage within.
             </p>
             <div className="channels-list">
               <p>
-                <a href="https://layer5io.slack.com/archives/CDM0ACDM5">
+                <a href="https://khulnasoft.slack.com/archives/CDM0ACDM5">
                   #general
                 </a>{" "}
                 - For workspace-wide communication and announcements.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/CFGG6U10E">
-                  #meshery
+                <a href="https://khulnasoft.slack.com/archives/CFGG6U10E">
+                  #meshplay
                 </a>{" "}
-                - For discussion on topics in and around Meshery.
+                - For discussion on topics in and around Meshplay.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C017NA80S66">
-                  #meshery-adapters
+                <a href="https://khulnasoft.slack.com/archives/C017NA80S66">
+                  #meshplay-adapters
                 </a>{" "}
-                - Discuss topics related to meshery-adapters.
+                - Discuss topics related to meshplay-adapters.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C011VPREG2Z">
-                  #meshery-ci
+                <a href="https://khulnasoft.slack.com/archives/C011VPREG2Z">
+                  #meshplay-ci
                 </a>{" "}
-                - For discussion on topics related to Meshery Build, Release, Workflows, DevOps.
+                - For discussion on topics related to Meshplay Build, Release, Workflows, DevOps.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C010LFFGFFA">
-                  #meshery-meshsync
+                <a href="https://khulnasoft.slack.com/archives/C010LFFGFFA">
+                  #meshplay-meshsync
                 </a>{" "}
                 - For discussions on issues related to MeshSync.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C0130BQ4L3T">
-                  #mesheryctl
+                <a href="https://khulnasoft.slack.com/archives/C0130BQ4L3T">
+                  #meshplayctl
                 </a>{" "}
-                - For discussions on Meshery’s CLI
+                - For discussions on Meshplay’s CLI
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C019426UBNY">
+                <a href="https://khulnasoft.slack.com/archives/C019426UBNY">
                   #newcomers
                 </a>{" "}
                 - For welcoming first-time contributors and community newcomers.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/CVBGPTFJN">
+                <a href="https://khulnasoft.slack.com/archives/CVBGPTFJN">
                   #performance
                 </a>{" "}
                 - For discussions related to measuring and evaluating cloud native performance.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C012UMS2MCM">
+                <a href="https://khulnasoft.slack.com/archives/C012UMS2MCM">
                   #wasm
                 </a>{" "}
                 - For discussions on webassembly, rust, envoy filters.
               </p>
               <p>
-                <a href="https://layer5io.slack.com/archives/C015QJKUMPU">
+                <a href="https://khulnasoft.slack.com/archives/C015QJKUMPU">
                   #websites
                 </a>{" "}
                 - For discussions related to the UI/UX of{" "}
-                <a href="http://layer5.io/">Layer 5</a> project sites.
+                <a href="http://khulnasoft.com/">Layer 5</a> project sites.
               </p>
             </div>
             <a id="Discussion Forum">
@@ -222,11 +222,11 @@ const Connect = () => {
             </a>
             <p>
               Join us on our cloud native community's{" "}
-              <a href="https://discuss.layer5.io">Discussion Forum</a>
+              <a href="https://discuss.khulnasoft.com">Discussion Forum</a>
             </p>
             <div className="channels-list">
               <ul>
-                <li><a href="https://discuss.layer5.io/c/community/12">Community Topic</a></li>
+                <li><a href="https://discuss.khulnasoft.com/c/community/12">Community Topic</a></li>
               </ul>
             </div>
             <a id="Social Media">
@@ -234,8 +234,8 @@ const Connect = () => {
               <h2>Social Media</h2>{" "}
             </a>
             <p>
-              Layer5 is dedicated to empowering engineers and supporting the
-              open source community that create them. Learn more about Layer5
+              KhulnaSoft is dedicated to empowering engineers and supporting the
+              open source community that create them. Learn more about KhulnaSoft
               and connect with the community by following and engaging with us
               on our social media accounts.
             </p>
@@ -243,15 +243,15 @@ const Connect = () => {
               <p className="channels-para">
                 <TwitterIcon className="twitter" />
                 &nbsp;&nbsp;
-                <a href="https://twitter.com/layer5">@layer5</a>,&nbsp;
-                <a href="https://twitter.com/mesheryio">@mesheryio</a>
+                <a href="https://twitter.com/khulnasoft">@khulnasoft</a>,&nbsp;
+                <a href="https://twitter.com/meshplayio">@meshplayio</a>
                 &nbsp;and&nbsp;
                 <a href="https://twitter.com/smp_spec">@smp_spec</a>
               </p>
               <p className="channels-para">
                 <img className="channels-img" src={mail_icon} alt="mail" />
                 &nbsp;&nbsp;
-                <a href="mailto:community-managers@layer5.io">
+                <a href="mailto:community-managers@khulnasoft.com">
                   Connect with our community managers for any inquiries or
                   support!
                 </a>
@@ -263,14 +263,14 @@ const Connect = () => {
                   alt="youtube"
                 />
                 &nbsp;&nbsp;
-                <a href="https://www.youtube.com/c/Layer5io?sub_confirmation=1">
+                <a href="https://www.youtube.com/c/KhulnaSoft?sub_confirmation=1">
                   Subscribe on Youtube
                 </a>
               </p>
               <p className="channels-para">
                 <img className="channels-img" src={github_icon} alt="github" />
                 &nbsp;&nbsp;
-                <a href="https://github.com/layer5io">
+                <a href="https://github.com/khulnasoft">
                   Discover our projects on GitHub
                 </a>
               </p>
@@ -281,21 +281,21 @@ const Connect = () => {
                   alt="linkedin"
                 />
                 &nbsp;&nbsp;
-                <a href="https://www.linkedin.com/company/layer5">
+                <a href="https://www.linkedin.com/company/khulnasoft">
                   Join our professional network on LinkedIn
                 </a>
               </p>
               <p className="channels-para">
                 <img className="channels-img" src={docker_icon} alt="docker" />
                 &nbsp;&nbsp;
-                <a href="https://hub.docker.com/u/layer5/">
+                <a href="https://hub.docker.com/u/khulnasoft/">
                   Take control with Docker deployment
                 </a>
               </p>
               <p className="channels-para">
                 <img className="channels-img" src={slack_icon} alt="slack" />
                 &nbsp;&nbsp;
-                <a href="https://slack.layer5.io/">
+                <a href="https://slack.khulnasoft.com/">
                   Communicate and collaborate with us on Slack
                 </a>
               </p>

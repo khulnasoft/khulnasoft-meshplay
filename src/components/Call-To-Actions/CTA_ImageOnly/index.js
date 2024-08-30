@@ -29,7 +29,7 @@ const CTA_ImageOnlyWrapper = styled.div`
     }
 `;
 
-const defaultURL = "https://slack.layer5.io";
+const defaultURL = "https://slack.khulnasoft.com";
 
 const CTA_ImageOnly = ({ alt, category, image, url, blend }, props) => {
   return (

@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Exposing services through Istio Ingress Gateway"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 3
@@ -96,7 +96,7 @@ kubectl get service istio-ingressgateway -n istio-system --template='{{(index .s
 
 Modify you local `/etc/hosts` file to add an entry for your sample application.
 
-`127.0.0.1. bookinfo.meshery.io`
+`127.0.0.1. bookinfo.meshplay.khulnasoft.com`
 
 The HTTP port is usually 31380.
 
@@ -116,7 +116,7 @@ In case you are using a managed kubernetes cluster like AKS, EKS, or GCE please 
   kubectl get service istio-ingressgateway -n istio-system
   ```
 
-- Using Meshery, navigate to the Custom yaml page, and apply the manifest given below to allow all hosts instead of allowing bookinfo.meshery.io only and you are good to access the page using the following url `http://<external-ip of istio-ingressgateway>/productpage`.
+- Using Meshplay, navigate to the Custom yaml page, and apply the manifest given below to allow all hosts instead of allowing bookinfo.meshplay.khulnasoft.com only and you are good to access the page using the following url `http://<external-ip of istio-ingressgateway>/productpage`.
 
 ```yaml
 apiVersion: networking.istio.io/v1beta1
@@ -151,7 +151,7 @@ spec:
 
 Before we start playing with Istio's traffic management capabilities we need to define the available versions of the deployed services. They are called subsets, in destination rules.
 
-Using Meshery, navigate to the Custom yaml page, and apply the below to create the subsets for BookInfo:
+Using Meshplay, navigate to the Custom yaml page, and apply the below to create the subsets for BookInfo:
 
 ```sh
 apiVersion: networking.istio.io/v1alpha3

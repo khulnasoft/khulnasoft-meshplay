@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Deploy a sample application"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Meshplay, collaborative Kubernetes manager"
 videos: 4
 lectures: 12
 order: 2
@@ -24,9 +24,9 @@ A sidecar injector is used for automating the injection of the Linkerd proxy int
 sending a webhook request the the sidecar injector every time a pod is to be scheduled. This injector inspects resources for a Linkerd-specific annotation (linkerd.io/inject: enabled).
 When that annotation exists, the injector mutates the pod's specification and adds both an init container as well as a sidecar containing the proxy itself.
 
-The Linkerd sidecar proxy can be either manually or automatically injected into your application's pods. This can be done from the meshery dashboard for namespace globally by,
+The Linkerd sidecar proxy can be either manually or automatically injected into your application's pods. This can be done from the meshplay dashboard for namespace globally by,
 
-1. Using Meshery, navigate to the Linkerd management page.
+1. Using Meshplay, navigate to the Linkerd management page.
 1. Click the (+) icon on the `Configure Application` card and select `Annotate Namespace` from the list.
 
 As part of Linkerd deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
@@ -66,7 +66,7 @@ No LimitRange resource.
 
 <h3 class="chapter-sub-heading"> Deploy the application</h3>
 
-Using Meshery, navigate to the Linkerd management page.
+Using Meshplay, navigate to the Linkerd management page.
 
 1. Enter `default` in the `Namespace` field.
 1. Click the (+) icon on the `Sample Application` card and select `Emojivoto Application` from the list.

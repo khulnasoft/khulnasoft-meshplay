@@ -81,32 +81,32 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/meshery",
-    toPath: "/cloud-native-management/meshery",
+    fromPath: "/meshplay",
+    toPath: "/cloud-native-management/meshplay",
     redirectInBrowser: true,
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/service-mesh-management/meshery",
-    toPath: "/cloud-native-management/meshery",
+    fromPath: "/service-mesh-management/meshplay",
+    toPath: "/cloud-native-management/meshplay",
     redirectInBrowser: true,
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/service-mesh-management/meshery/operating-service-meshes",
-    toPath: "/cloud-native-management/meshery/operating-cloud-native-infra",
+    fromPath: "/service-mesh-management/meshplay/operating-service-meshes",
+    toPath: "/cloud-native-management/meshplay/operating-cloud-native-infra",
     redirectInBrowser: true,
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/cloud-native-management/meshery/operating-service-meshes",
-    toPath: "/cloud-native-management/meshery/operating-cloud-native-infra",
+    fromPath: "/cloud-native-management/meshplay/operating-service-meshes",
+    toPath: "/cloud-native-management/meshplay/operating-cloud-native-infra",
     redirectInBrowser: true,
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/service-mesh-management/meshery/getting-started",
-    toPath: "/cloud-native-management/meshery/getting-started",
+    fromPath: "/service-mesh-management/meshplay/getting-started",
+    toPath: "/cloud-native-management/meshplay/getting-started",
     redirectInBrowser: true,
     isPermanent: true,
   });
@@ -213,14 +213,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/cloud-native-management/meshery/integrations/argocd-operator",
-    toPath: "/cloud-native-management/meshery/integrations/argo-cd-operator",
+    fromPath: "/cloud-native-management/meshplay/integrations/argocd-operator",
+    toPath: "/cloud-native-management/meshplay/integrations/argo-cd-operator",
     redirectInBrowser: true,
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/cloud-native-management/meshery/integrations/argocd-operator/",
-    toPath: "/cloud-native-management/meshery/integrations/argo-cd-operator",
+    fromPath: "/cloud-native-management/meshplay/integrations/argocd-operator/",
+    toPath: "/cloud-native-management/meshplay/integrations/argo-cd-operator",
     redirectInBrowser: true,
     isPermanent: true,
   });
@@ -267,8 +267,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/blog/announcements/meshery-5000-star-milestone",
-    toPath: "/blog/announcements/mesherys-5000-star-milestone",
+    fromPath: "/blog/announcements/meshplay-5000-star-milestone",
+    toPath: "/blog/announcements/meshplays-5000-star-milestone",
     redirectInBrowser: true,
     isPermanent: true,
   });
@@ -297,8 +297,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     isPermanent: true,
   });
   createRedirect({
-    fromPath: "/resources/cloud-native/hpes-adoption-of-meshery-and-meshmap",
-    toPath: "/resources/case-study/hpes-adoption-of-meshery-and-meshmap",
+    fromPath: "/resources/cloud-native/hpes-adoption-of-meshplay-and-meshmap",
+    toPath: "/resources/case-study/hpes-adoption-of-meshplay-and-meshmap",
     redirectInBrowser: true,
     isPermanent: true,
   });
@@ -637,7 +637,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   integrations.forEach((integration) => {
     envCreatePage({
-      path: `/cloud-native-management/meshery${integration.fields.slug}`,
+      path: `/cloud-native-management/meshplay${integration.fields.slug}`,
       component: integrationTemplate,
       context: {
         slug: integration.fields.slug,
@@ -650,7 +650,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   programs.forEach((program) => {
     if (
       programsArray.indexOf(program.frontmatter.program) >= 0 &&
-      program.frontmatter.program === "Layer5"
+      program.frontmatter.program === "KhulnaSoft"
     ) {
       return false;
     } else {
@@ -905,7 +905,7 @@ const createSectionPage = ({ envCreatePage, node }) => {
 
   envCreatePage({
     path: `${slug}`,
-    component: path.resolve("src/sections/Learn-Layer5/Section/index.js"),
+    component: path.resolve("src/sections/Learn-KhulnaSoft/Section/index.js"),
     context: {
       learnpath,
       slug,
@@ -940,7 +940,7 @@ exports.createSchemaCustomization = ({ actions }) => {
        eurl: String,
        twitter: String,
        github: String,
-       layer5: String,
+       khulnasoft: String,
        meshmate: String,
        maintainer:String,
        emeritus: String,

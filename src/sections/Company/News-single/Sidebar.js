@@ -101,14 +101,14 @@ const NewsSidebar = (props) => {
           </Button>
         </a> : ""}
       <Link to="/brand">
-        <Button secondary title="Layer5 brand kit" external={true} />
+        <Button secondary title="KhulnaSoft brand kit" external={true} />
       </Link>
-      <a href="mailto:press@layer5.io" target="_blank" rel="noreferrer">
+      <a href="mailto:press@khulnasoft.com" target="_blank" rel="noreferrer">
         <div className="media_block">
           <h5>Media Contacts</h5>
           <p>Kate Suttons</p>
           <FiMail size={40} className="icon" />
-          <p>press@layer5.io</p>
+          <p>press@khulnasoft.com</p>
         </div>
       </a>
       <Link to="/meshmap">

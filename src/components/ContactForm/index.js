@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../../reusecore/Button";
 import axios from "axios";
 import { Field, Form, Formik } from "formik";
-import logo from "../../assets/images/app/layer5.svg";
+import logo from "../../assets/images/app/khulnasoft.svg";
 import ContactFormWrapper from "./contact-form.style";
 
 const ContactForm = () => {
@@ -52,7 +52,7 @@ const ContactForm = () => {
         >
           <Form className="form" method="post">
             <div className="title">
-              <img className="layer5-logo" src={logo} alt="Layer5 Logo" />
+              <img className="khulnasoft-logo" src={logo} alt="KhulnaSoft Logo" />
             </div>
             <label htmlFor="firstname" className="form-name">
               First Name <span className="required-sign">*</span>
@@ -140,9 +140,9 @@ const ContactForm = () => {
                   className="radio-field"
                   type="radio"
                   name="scope"
-                  value="Meshery"
+                  value="Meshplay"
                 />
-                Meshery
+                Meshplay
               </label>
               <br></br>
               <label>

@@ -4,7 +4,7 @@ import { Col } from "../../reusecore/Layout";
 import SectionTitle from "../../reusecore/SectionTitle";
 import DiscussWrapper from "./discuss.style";
 
-const Discuss = "../../assets/images/discuss/layer5-discuss-white.webp";
+const Discuss = "../../assets/images/discuss/khulnasoft-discuss-white.webp";
 
 const DiscussCallout = () => {
   return (
@@ -14,7 +14,7 @@ const DiscussCallout = () => {
           <Col lg={12} md={12} sm={12}>
             <a
               target="_blank"
-              href="https://discuss.layer5.io/"
+              href="https://discuss.khulnasoft.com/"
               rel="noreferrer"
             >
               <div className="card">

@@ -43,7 +43,7 @@ import { Link } from "gatsby";
 
 As the ubiquity of service meshes unfolds and they become a commonplace for any cloud native or edge environment, so does the need for vendor and technology-agnostic interfaces to interact with them. The Service Mesh Interface (SMI), the Service Mesh Performance (SMP), and Multi-Vendor Service Mesh Interoperation (Hamlet) are three open specifications solving the challenge of interoperability, workload and performance management between service meshes. 
 
-Learn what makes each of them unique and why they are much needed. See each of these three specifications in action as we use Meshery, the open-source service mesh management plane to demonstrate the value and functionality of each service mesh abstraction, and the adherence of these specifications by Istio, Linkerd, Consul and other popular service meshes.
+Learn what makes each of them unique and why they are much needed. See each of these three specifications in action as we use Meshplay, the open-source service mesh management plane to demonstrate the value and functionality of each service mesh abstraction, and the adherence of these specifications by Istio, Linkerd, Consul and other popular service meshes.
 
 ### Cloud native Journey to service meshes:
 
@@ -66,23 +66,23 @@ There are a number of service meshes out there. One of the community projects is
     <li>There are seven service meshes that claim compatibility with SMI. There's been a community effort, open-source effort to create service mesh conformance tests to assert whether or not a given service mesh is compatible with SMI</li>
     <li> In order to facilitate those types of tests, you need to have a tool to provision a sample application on those services which will generate load and test whether traffic splitting behaves as expected or works with that service mesh implementation properly.</li>
     <li>Then you need to be able to collect the results, guarantee the provenance of those results and publish them.</li>
-    <li> As a community, we turned to Meshery as the tool to implement <Link to="/projects/service-mesh-interface-conformance">SMI conformance</Link> and we have been working with the individual service meshes to validate their conformance. </li>
+    <li> As a community, we turned to Meshplay as the tool to implement <Link to="/projects/service-mesh-interface-conformance">SMI conformance</Link> and we have been working with the individual service meshes to validate their conformance. </li>
 </ul>    
-<b>Meshery</b>
+<b>Meshplay</b>
 <ul>
-  <li> We work on an open-source project called <Link to="/cloud-native-management/meshery">Meshery</Link>.</li>
-  <li> Meshery, the cloud native management plane, is the canonical implementation of the service mesh performance.</li>
+  <li> We work on an open-source project called <Link to="/cloud-native-management/meshplay">Meshplay</Link>.</li>
+  <li> Meshplay, the cloud native management plane, is the canonical implementation of the service mesh performance.</li>
   <li>The management planes can do a number of things to help bridge the divide between other back-end systems and service meshes. They also help performance management, configuration management, making sure you are following best practices in your implementations by taking common patterns and applying them to your environment </li>
 </ul>
-Let's take a moment to demo what it looks like to validate conformance in SMI using Meshery.
+Let's take a moment to demo what it looks like to validate conformance in SMI using Meshplay.
 
 <img src={Graph} className="slides-left" align="left" alt="graph" />
 <ul>
-   <li> We need to spin up Meshery locally</li>
-   <li> We use mesheryctl as the command line interface to work with Meshery.</li>
+   <li> We need to spin up Meshplay locally</li>
+   <li> We use meshplayctl as the command line interface to work with Meshplay.</li>
    <li> We can interact with a number of different service mesh. The service mesh we’re going to work with today is an Open service mesh (one of those 7 that is compatible with SMI). Let’s put it to the test.</li>
    <li> We'll initiate <Link to="/projects/service-mesh-interface-conformance">SMI conformance</Link></li>
-   <li>These tests go and do assertions across these different specifications. We’re looking at traffic access, traffic splitting, traffic specification. Meshery then collects these results and will eventually be publishing them in combination with the SMI project.</li>
+   <li>These tests go and do assertions across these different specifications. We’re looking at traffic access, traffic splitting, traffic specification. Meshplay then collects these results and will eventually be publishing them in combination with the SMI project.</li>
 </ul>
 
 ### Service Mesh Performance
@@ -105,16 +105,16 @@ Demonstration of the implementation of service mesh Performance:
 
 <img src={Flowchart} className="slides-left" align="left" alt="flowchart" />
 <ul>
-  <li> On the terminal, we have a local deployment of Meshery running. You can also deploy on Kubernetes as well as the vendor Kubernetes platforms like AKS, EKS and GCP or you can use a dockerized container to run Meshery. You can also have your Kubernetes on Docker desktop.</li>
+  <li> On the terminal, we have a local deployment of Meshplay running. You can also deploy on Kubernetes as well as the vendor Kubernetes platforms like AKS, EKS and GCP or you can use a dockerized container to run Meshplay. You can also have your Kubernetes on Docker desktop.</li>
   <li>We have the Open service mesh deployed.</li>
-  <li> The Meshery UI is exposed at 9081 port. This is the UI which is used to instantiate a Load test.</li>
+  <li> The Meshplay UI is exposed at 9081 port. This is the UI which is used to instantiate a Load test.</li>
   <li> Over here you can see we have 3 load generators fortio, wrk2, nighthawk.</li>
   <li> All of these load generators have their own set of attributes which they record correctly and each of its attributes have their own significance. We begin with fortio.</li>
   <img src={Bucket} className="slides-right" align="right" alt="graph" />
 
   <li> You can actually download the test results or you can just browse into the Results Tab and see all of the tests which you have run until now.</li>
   <li>Next, we used nighthawk to generate the load and benchmark the service for the same. Nighthawk is a load generator which is maintained by the Envoy community and is relatively new. It still hasn't got its 1.0 release but right now Nighthawk has sufficient features to compete with different generators which are still in the play. It can generate a gRPC service on its own and it has some more attributes which you can expose using their CLI tools.</li>
-  <li> You can also see that Meshery has the capability to search your environment, see what specifications are being used and what's the load on your Kubernetes.</li>
+  <li> You can also see that Meshplay has the capability to search your environment, see what specifications are being used and what's the load on your Kubernetes.</li>
   <li>Jump into the results Tab and see how we compare with these results.</li>
   <li>You can click on the download. You will see that a yaml gets downloaded in which you can browse and see that the start time, load time, the performance latencies, the metrics are being captured.</li>
 </ul>  
@@ -140,6 +140,6 @@ In addition to SMI, SMP and Hamlet there has been an emergence of service mesh p
 Something that isn’t always obvious to folks is this piece of value that people get from a service mesh and actually from the specifications that we were just mentioning. It is the fact that teams are decoupled when you’re running a mesh. Developers get to iterate a bit independently of operators, and so do operators get to make changes to implement infrastructure to the way that applications behave independent of developers in the presence of a mesh.  Both of these teams are significantly empowered. Everybody gets a piece of power when they deploy a mesh.
 
 
-_**P.S.: If these topics excite  come and say "Hi" on our [Slack Channel](http://slack.layer5.io) and one of us will reach out to you!**_
+_**P.S.: If these topics excite  come and say "Hi" on our [Slack Channel](http://slack.khulnasoft.com) and one of us will reach out to you!**_
 
 </BlogWrapper>

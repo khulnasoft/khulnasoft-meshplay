@@ -53,7 +53,7 @@ const AboutTheAuthorWrapper = styled.div`
             color: ${props => props.theme.greyB1B6B8ToBlue477E96}; 
             transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); 
         }
-        .authors-info-meshery{
+        .authors-info-meshplay{
             border-top: 1px solid ${props => props.theme.greyFiveToBlueFive};
             border-bottom: 1px solid ${props => props.theme.greyFiveToBlueFive};
             padding: 1.5rem 0;
